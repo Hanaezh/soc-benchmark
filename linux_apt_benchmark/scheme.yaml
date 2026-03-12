@@ -1,0 +1,424 @@
+database: linux_apt_2024_04_06_january.duckdb
+database_type: DuckDB
+description: Linux APT 2024-04-06 January dataset - 只包含有9206条记录的表及其依赖的主表
+tables:
+  host_assets:
+    columns:
+    - name: host_id
+      type: VARCHAR
+      nullable: false
+    - name: agent_ip
+      type: VARCHAR
+      nullable: true
+    - name: agent_name
+      type: VARCHAR
+      nullable: true
+    - name: agent_id
+      type: VARCHAR
+      nullable: true
+    - name: hostname
+      type: VARCHAR
+      nullable: true
+    - name: manager_name
+      type: VARCHAR
+      nullable: true
+    - name: first_seen
+      type: TIMESTAMP
+      nullable: true
+    - name: last_seen
+      type: TIMESTAMP
+      nullable: true
+    primary_key: host_id
+  audit_events:
+    columns:
+    - name: event_id
+      type: VARCHAR
+      nullable: false
+    - name: timestamp
+      type: TIMESTAMP
+      nullable: true
+    - name: host_id
+      type: VARCHAR
+      nullable: true
+    - name: syscall
+      type: VARCHAR
+      nullable: true
+    - name: audit_type
+      type: VARCHAR
+      nullable: true
+    - name: audit_id
+      type: VARCHAR
+      nullable: true
+    - name: audit_key
+      type: VARCHAR
+      nullable: true
+    - name: success
+      type: VARCHAR
+      nullable: true
+    - name: pid
+      type: INTEGER
+      nullable: true
+    - name: ppid
+      type: INTEGER
+      nullable: true
+    - name: exe
+      type: VARCHAR
+      nullable: true
+    - name: command
+      type: VARCHAR
+      nullable: true
+    - name: cwd
+      type: VARCHAR
+      nullable: true
+    - name: exit_code
+      type: VARCHAR
+      nullable: true
+    - name: uid
+      type: INTEGER
+      nullable: true
+    - name: gid
+      type: INTEGER
+      nullable: true
+    - name: auid
+      type: INTEGER
+      nullable: true
+    - name: euid
+      type: INTEGER
+      nullable: true
+    - name: suid
+      type: INTEGER
+      nullable: true
+    - name: egid
+      type: INTEGER
+      nullable: true
+    - name: fsgid
+      type: INTEGER
+      nullable: true
+    - name: fsuid
+      type: INTEGER
+      nullable: true
+    - name: sgid
+      type: INTEGER
+      nullable: true
+    - name: session
+      type: INTEGER
+      nullable: true
+    - name: tty
+      type: VARCHAR
+      nullable: true
+    - name: arch
+      type: VARCHAR
+      nullable: true
+    - name: file_inode
+      type: BIGINT
+      nullable: true
+    - name: file_mode
+      type: VARCHAR
+      nullable: true
+    - name: file_name
+      type: VARCHAR
+      nullable: true
+    - name: audit_res
+      type: VARCHAR
+      nullable: true
+    - name: location
+      type: VARCHAR
+      nullable: true
+    - name: input_type
+      type: VARCHAR
+      nullable: true
+    primary_key: event_id
+  process_executions:
+    columns:
+    - name: execution_id
+      type: VARCHAR
+      nullable: false
+    - name: event_id
+      type: VARCHAR
+      nullable: true
+    - name: timestamp
+      type: TIMESTAMP
+      nullable: true
+    - name: host_id
+      type: VARCHAR
+      nullable: true
+    - name: arg0
+      type: VARCHAR
+      nullable: true
+    - name: arg1
+      type: VARCHAR
+      nullable: true
+    - name: arg2
+      type: VARCHAR
+      nullable: true
+    - name: arg3
+      type: VARCHAR
+      nullable: true
+    - name: arg4
+      type: VARCHAR
+      nullable: true
+    - name: arg5
+      type: VARCHAR
+      nullable: true
+    - name: arg6
+      type: VARCHAR
+      nullable: true
+    - name: arg7
+      type: VARCHAR
+      nullable: true
+    primary_key: execution_id
+  file_integrity_events:
+    columns:
+    - name: fim_id
+      type: VARCHAR
+      nullable: false
+    - name: event_id
+      type: VARCHAR
+      nullable: true
+    - name: timestamp
+      type: TIMESTAMP
+      nullable: true
+    - name: host_id
+      type: VARCHAR
+      nullable: true
+    - name: file_path
+      type: VARCHAR
+      nullable: true
+    - name: event_type
+      type: VARCHAR
+      nullable: true
+    - name: mode
+      type: VARCHAR
+      nullable: true
+    - name: changed_attributes
+      type: VARCHAR
+      nullable: true
+    - name: md5_before
+      type: VARCHAR
+      nullable: true
+    - name: md5_after
+      type: VARCHAR
+      nullable: true
+    - name: sha1_before
+      type: VARCHAR
+      nullable: true
+    - name: sha1_after
+      type: VARCHAR
+      nullable: true
+    - name: sha256_before
+      type: VARCHAR
+      nullable: true
+    - name: sha256_after
+      type: VARCHAR
+      nullable: true
+    - name: size_before
+      type: BIGINT
+      nullable: true
+    - name: size_after
+      type: BIGINT
+      nullable: true
+    - name: mtime_before
+      type: TIMESTAMP
+      nullable: true
+    - name: mtime_after
+      type: TIMESTAMP
+      nullable: true
+    - name: inode_before
+      type: BIGINT
+      nullable: true
+    - name: inode_after
+      type: BIGINT
+      nullable: true
+    - name: perm_after
+      type: VARCHAR
+      nullable: true
+    - name: uid_after
+      type: INTEGER
+      nullable: true
+    - name: gid_after
+      type: INTEGER
+      nullable: true
+    - name: uname_after
+      type: VARCHAR
+      nullable: true
+    - name: gname_after
+      type: VARCHAR
+      nullable: true
+    primary_key: fim_id
+  network_activities:
+    columns:
+    - name: activity_id
+      type: VARCHAR
+      nullable: false
+    - name: event_id
+      type: VARCHAR
+      nullable: true
+    - name: timestamp
+      type: TIMESTAMP
+      nullable: true
+    - name: host_id
+      type: VARCHAR
+      nullable: true
+    - name: src_ip
+      type: VARCHAR
+      nullable: true
+    - name: src_port
+      type: INTEGER
+      nullable: true
+    - name: src_user
+      type: VARCHAR
+      nullable: true
+    - name: dst_user
+      type: VARCHAR
+      nullable: true
+    primary_key: activity_id
+  security_rules:
+    columns:
+    - name: rule_id
+      type: VARCHAR
+      nullable: false
+    - name: rule_level
+      type: INTEGER
+      nullable: true
+    - name: description
+      type: VARCHAR
+      nullable: true
+    - name: groups
+      type: VARCHAR
+      nullable: true
+    - name: mail
+      type: VARCHAR
+      nullable: true
+    - name: mitre_technique
+      type: VARCHAR
+      nullable: true
+    - name: mitre_id
+      type: VARCHAR
+      nullable: true
+    - name: mitre_tactic
+      type: VARCHAR
+      nullable: true
+    - name: gdpr
+      type: VARCHAR
+      nullable: true
+    - name: pci_dss
+      type: VARCHAR
+      nullable: true
+    - name: hipaa
+      type: VARCHAR
+      nullable: true
+    - name: tsc
+      type: VARCHAR
+      nullable: true
+    - name: nist_800_53
+      type: VARCHAR
+      nullable: true
+    - name: gpg13
+      type: VARCHAR
+      nullable: true
+    - name: decoder_parent
+      type: VARCHAR
+      nullable: true
+    - name: decoder_name
+      type: VARCHAR
+      nullable: true
+    primary_key: rule_id
+  security_alerts:
+    columns:
+    - name: alert_id
+      type: VARCHAR
+      nullable: false
+    - name: event_id
+      type: VARCHAR
+      nullable: true
+    - name: timestamp
+      type: TIMESTAMP
+      nullable: true
+    - name: host_id
+      type: VARCHAR
+      nullable: true
+    - name: rule_id
+      type: VARCHAR
+      nullable: true
+    - name: alert_level
+      type: INTEGER
+      nullable: true
+    - name: description
+      type: VARCHAR
+      nullable: true
+    - name: fired_times
+      type: INTEGER
+      nullable: true
+    - name: full_log
+      type: VARCHAR
+      nullable: true
+    - name: previous_output
+      type: VARCHAR
+      nullable: true
+    - name: previous_log
+      type: VARCHAR
+      nullable: true
+    - name: data_file
+      type: VARCHAR
+      nullable: true
+    - name: data_title
+      type: VARCHAR
+      nullable: true
+    - name: data_tty
+      type: VARCHAR
+      nullable: true
+    - name: data_pwd
+      type: VARCHAR
+      nullable: true
+    - name: data_command
+      type: VARCHAR
+      nullable: true
+    - name: data_uid
+      type: INTEGER
+      nullable: true
+    - name: extra_data
+      type: VARCHAR
+      nullable: true
+    primary_key: alert_id
+foreign_keys:
+- table: audit_events
+  column: host_id
+  references_table: host_assets
+  references_column: host_id
+- table: process_executions
+  column: event_id
+  references_table: audit_events
+  references_column: event_id
+- table: process_executions
+  column: host_id
+  references_table: host_assets
+  references_column: host_id
+- table: file_integrity_events
+  column: event_id
+  references_table: audit_events
+  references_column: event_id
+- table: file_integrity_events
+  column: host_id
+  references_table: host_assets
+  references_column: host_id
+- table: network_activities
+  column: event_id
+  references_table: audit_events
+  references_column: event_id
+- table: network_activities
+  column: host_id
+  references_table: host_assets
+  references_column: host_id
+- table: security_alerts
+  column: event_id
+  references_table: audit_events
+  references_column: event_id
+- table: security_alerts
+  column: host_id
+  references_table: host_assets
+  references_column: host_id
+- table: security_alerts
+  column: rule_id
+  references_table: security_rules
+  references_column: rule_id
+

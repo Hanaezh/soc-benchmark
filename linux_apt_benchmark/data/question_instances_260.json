@@ -1,0 +1,6202 @@
+[
+  {
+    "instance_id": "q1_inst0",
+    "question_id": 1,
+    "question": "主机004的敏感文件/etc/shadow被访问，请分析是哪个进程在什么时间访问的？该进程是否具有正常的业务需求？",
+    "dimension": "凭据访问",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.file_name"
+      ],
+      "related_fields": [
+        "audit_events.pid",
+        "audit_events.command",
+        "audit_events.uid",
+        "audit_events.timestamp",
+        "audit_events.exe",
+        "audit_events.success"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004"
+    }
+  },
+  {
+    "instance_id": "q1_inst1",
+    "question_id": 1,
+    "question": "主机000的敏感文件/etc/shadow被访问，请分析是哪个进程在什么时间访问的？该进程是否具有正常的业务需求？",
+    "dimension": "凭据访问",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.file_name"
+      ],
+      "related_fields": [
+        "audit_events.pid",
+        "audit_events.command",
+        "audit_events.uid",
+        "audit_events.timestamp",
+        "audit_events.exe",
+        "audit_events.success"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "000"
+    }
+  },
+  {
+    "instance_id": "q1_inst2",
+    "question_id": 1,
+    "question": "主机003的敏感文件/etc/shadow被访问，请分析是哪个进程在什么时间访问的？该进程是否具有正常的业务需求？",
+    "dimension": "凭据访问",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.file_name"
+      ],
+      "related_fields": [
+        "audit_events.pid",
+        "audit_events.command",
+        "audit_events.uid",
+        "audit_events.timestamp",
+        "audit_events.exe",
+        "audit_events.success"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "003"
+    }
+  },
+  {
+    "instance_id": "q1_inst3",
+    "question_id": 1,
+    "question": "主机004的敏感文件/etc/shadow被访问，请分析是哪个进程在什么时间访问的？该进程是否具有正常的业务需求？",
+    "dimension": "凭据访问",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.file_name"
+      ],
+      "related_fields": [
+        "audit_events.pid",
+        "audit_events.command",
+        "audit_events.uid",
+        "audit_events.timestamp",
+        "audit_events.exe",
+        "audit_events.success"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004"
+    }
+  },
+  {
+    "instance_id": "q1_inst4",
+    "question_id": 1,
+    "question": "主机000的敏感文件/etc/shadow被访问，请分析是哪个进程在什么时间访问的？该进程是否具有正常的业务需求？",
+    "dimension": "凭据访问",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.file_name"
+      ],
+      "related_fields": [
+        "audit_events.pid",
+        "audit_events.command",
+        "audit_events.uid",
+        "audit_events.timestamp",
+        "audit_events.exe",
+        "audit_events.success"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "000"
+    }
+  },
+  {
+    "instance_id": "q1_inst5",
+    "question_id": 1,
+    "question": "主机003的敏感文件/etc/shadow被访问，请分析是哪个进程在什么时间访问的？该进程是否具有正常的业务需求？",
+    "dimension": "凭据访问",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.file_name"
+      ],
+      "related_fields": [
+        "audit_events.pid",
+        "audit_events.command",
+        "audit_events.uid",
+        "audit_events.timestamp",
+        "audit_events.exe",
+        "audit_events.success"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "003"
+    }
+  },
+  {
+    "instance_id": "q1_inst6",
+    "question_id": 1,
+    "question": "主机004的敏感文件/etc/shadow被访问，请分析是哪个进程在什么时间访问的？该进程是否具有正常的业务需求？",
+    "dimension": "凭据访问",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.file_name"
+      ],
+      "related_fields": [
+        "audit_events.pid",
+        "audit_events.command",
+        "audit_events.uid",
+        "audit_events.timestamp",
+        "audit_events.exe",
+        "audit_events.success"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004"
+    }
+  },
+  {
+    "instance_id": "q1_inst7",
+    "question_id": 1,
+    "question": "主机000的敏感文件/etc/shadow被访问，请分析是哪个进程在什么时间访问的？该进程是否具有正常的业务需求？",
+    "dimension": "凭据访问",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.file_name"
+      ],
+      "related_fields": [
+        "audit_events.pid",
+        "audit_events.command",
+        "audit_events.uid",
+        "audit_events.timestamp",
+        "audit_events.exe",
+        "audit_events.success"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "000"
+    }
+  },
+  {
+    "instance_id": "q1_inst8",
+    "question_id": 1,
+    "question": "主机003的敏感文件/etc/shadow被访问，请分析是哪个进程在什么时间访问的？该进程是否具有正常的业务需求？",
+    "dimension": "凭据访问",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.file_name"
+      ],
+      "related_fields": [
+        "audit_events.pid",
+        "audit_events.command",
+        "audit_events.uid",
+        "audit_events.timestamp",
+        "audit_events.exe",
+        "audit_events.success"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "003"
+    }
+  },
+  {
+    "instance_id": "q1_inst9",
+    "question_id": 1,
+    "question": "主机004的敏感文件/etc/shadow被访问，请分析是哪个进程在什么时间访问的？该进程是否具有正常的业务需求？",
+    "dimension": "凭据访问",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.file_name"
+      ],
+      "related_fields": [
+        "audit_events.pid",
+        "audit_events.command",
+        "audit_events.uid",
+        "audit_events.timestamp",
+        "audit_events.exe",
+        "audit_events.success"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004"
+    }
+  },
+  {
+    "instance_id": "q2_inst0",
+    "question_id": 2,
+    "question": "主机004是否与外部IP地址建立了异常网络连接？如果是，请列出所有涉及的目标IP和通信时间，判断是否为C2通信？",
+    "dimension": "命令与控制",
+    "attack_stage": "Command and Control",
+    "metadata": {
+      "target": [
+        "network_activities.host_id"
+      ],
+      "related_fields": [
+        "network_activities.src_ip",
+        "network_activities.src_port",
+        "network_activities.timestamp",
+        "network_activities.dst_user",
+        "audit_events.command",
+        "audit_events.pid"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004"
+    }
+  },
+  {
+    "instance_id": "q2_inst1",
+    "question_id": 2,
+    "question": "主机000是否与外部IP地址建立了异常网络连接？如果是，请列出所有涉及的目标IP和通信时间，判断是否为C2通信？",
+    "dimension": "命令与控制",
+    "attack_stage": "Command and Control",
+    "metadata": {
+      "target": [
+        "network_activities.host_id"
+      ],
+      "related_fields": [
+        "network_activities.src_ip",
+        "network_activities.src_port",
+        "network_activities.timestamp",
+        "network_activities.dst_user",
+        "audit_events.command",
+        "audit_events.pid"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "000"
+    }
+  },
+  {
+    "instance_id": "q2_inst2",
+    "question_id": 2,
+    "question": "主机003是否与外部IP地址建立了异常网络连接？如果是，请列出所有涉及的目标IP和通信时间，判断是否为C2通信？",
+    "dimension": "命令与控制",
+    "attack_stage": "Command and Control",
+    "metadata": {
+      "target": [
+        "network_activities.host_id"
+      ],
+      "related_fields": [
+        "network_activities.src_ip",
+        "network_activities.src_port",
+        "network_activities.timestamp",
+        "network_activities.dst_user",
+        "audit_events.command",
+        "audit_events.pid"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "003"
+    }
+  },
+  {
+    "instance_id": "q2_inst3",
+    "question_id": 2,
+    "question": "主机004是否与外部IP地址建立了异常网络连接？如果是，请列出所有涉及的目标IP和通信时间，判断是否为C2通信？",
+    "dimension": "命令与控制",
+    "attack_stage": "Command and Control",
+    "metadata": {
+      "target": [
+        "network_activities.host_id"
+      ],
+      "related_fields": [
+        "network_activities.src_ip",
+        "network_activities.src_port",
+        "network_activities.timestamp",
+        "network_activities.dst_user",
+        "audit_events.command",
+        "audit_events.pid"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004"
+    }
+  },
+  {
+    "instance_id": "q2_inst4",
+    "question_id": 2,
+    "question": "主机000是否与外部IP地址建立了异常网络连接？如果是，请列出所有涉及的目标IP和通信时间，判断是否为C2通信？",
+    "dimension": "命令与控制",
+    "attack_stage": "Command and Control",
+    "metadata": {
+      "target": [
+        "network_activities.host_id"
+      ],
+      "related_fields": [
+        "network_activities.src_ip",
+        "network_activities.src_port",
+        "network_activities.timestamp",
+        "network_activities.dst_user",
+        "audit_events.command",
+        "audit_events.pid"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "000"
+    }
+  },
+  {
+    "instance_id": "q2_inst5",
+    "question_id": 2,
+    "question": "主机003是否与外部IP地址建立了异常网络连接？如果是，请列出所有涉及的目标IP和通信时间，判断是否为C2通信？",
+    "dimension": "命令与控制",
+    "attack_stage": "Command and Control",
+    "metadata": {
+      "target": [
+        "network_activities.host_id"
+      ],
+      "related_fields": [
+        "network_activities.src_ip",
+        "network_activities.src_port",
+        "network_activities.timestamp",
+        "network_activities.dst_user",
+        "audit_events.command",
+        "audit_events.pid"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "003"
+    }
+  },
+  {
+    "instance_id": "q2_inst6",
+    "question_id": 2,
+    "question": "主机004是否与外部IP地址建立了异常网络连接？如果是，请列出所有涉及的目标IP和通信时间，判断是否为C2通信？",
+    "dimension": "命令与控制",
+    "attack_stage": "Command and Control",
+    "metadata": {
+      "target": [
+        "network_activities.host_id"
+      ],
+      "related_fields": [
+        "network_activities.src_ip",
+        "network_activities.src_port",
+        "network_activities.timestamp",
+        "network_activities.dst_user",
+        "audit_events.command",
+        "audit_events.pid"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004"
+    }
+  },
+  {
+    "instance_id": "q2_inst7",
+    "question_id": 2,
+    "question": "主机000是否与外部IP地址建立了异常网络连接？如果是，请列出所有涉及的目标IP和通信时间，判断是否为C2通信？",
+    "dimension": "命令与控制",
+    "attack_stage": "Command and Control",
+    "metadata": {
+      "target": [
+        "network_activities.host_id"
+      ],
+      "related_fields": [
+        "network_activities.src_ip",
+        "network_activities.src_port",
+        "network_activities.timestamp",
+        "network_activities.dst_user",
+        "audit_events.command",
+        "audit_events.pid"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "000"
+    }
+  },
+  {
+    "instance_id": "q2_inst8",
+    "question_id": 2,
+    "question": "主机003是否与外部IP地址建立了异常网络连接？如果是，请列出所有涉及的目标IP和通信时间，判断是否为C2通信？",
+    "dimension": "命令与控制",
+    "attack_stage": "Command and Control",
+    "metadata": {
+      "target": [
+        "network_activities.host_id"
+      ],
+      "related_fields": [
+        "network_activities.src_ip",
+        "network_activities.src_port",
+        "network_activities.timestamp",
+        "network_activities.dst_user",
+        "audit_events.command",
+        "audit_events.pid"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "003"
+    }
+  },
+  {
+    "instance_id": "q2_inst9",
+    "question_id": 2,
+    "question": "主机004是否与外部IP地址建立了异常网络连接？如果是，请列出所有涉及的目标IP和通信时间，判断是否为C2通信？",
+    "dimension": "命令与控制",
+    "attack_stage": "Command and Control",
+    "metadata": {
+      "target": [
+        "network_activities.host_id"
+      ],
+      "related_fields": [
+        "network_activities.src_ip",
+        "network_activities.src_port",
+        "network_activities.timestamp",
+        "network_activities.dst_user",
+        "audit_events.command",
+        "audit_events.pid"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004"
+    }
+  },
+  {
+    "instance_id": "q3_inst0",
+    "question_id": 3,
+    "question": "主机004是否触发了高危告警（alert_level≥15）？请分析该告警关联的MITRE ATT&CK战术和技术，以及完整的攻击时间线。",
+    "dimension": "威胁检测",
+    "attack_stage": "Detection",
+    "metadata": {
+      "target": [
+        "security_alerts.host_id",
+        "security_alerts.alert_level",
+        "security_alerts.rule_id"
+      ],
+      "related_fields": [
+        "security_alerts.timestamp",
+        "security_alerts.description",
+        "security_rules.mitre_technique",
+        "security_rules.mitre_tactic",
+        "audit_events.command",
+        "audit_events.uid"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004",
+      "alert_level": 15
+    }
+  },
+  {
+    "instance_id": "q3_inst1",
+    "question_id": 3,
+    "question": "主机000是否触发了高危告警（alert_level≥15）？请分析该告警关联的MITRE ATT&CK战术和技术，以及完整的攻击时间线。",
+    "dimension": "威胁检测",
+    "attack_stage": "Detection",
+    "metadata": {
+      "target": [
+        "security_alerts.host_id",
+        "security_alerts.alert_level",
+        "security_alerts.rule_id"
+      ],
+      "related_fields": [
+        "security_alerts.timestamp",
+        "security_alerts.description",
+        "security_rules.mitre_technique",
+        "security_rules.mitre_tactic",
+        "audit_events.command",
+        "audit_events.uid"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "000",
+      "alert_level": 15
+    }
+  },
+  {
+    "instance_id": "q3_inst2",
+    "question_id": 3,
+    "question": "主机003是否触发了高危告警（alert_level≥15）？请分析该告警关联的MITRE ATT&CK战术和技术，以及完整的攻击时间线。",
+    "dimension": "威胁检测",
+    "attack_stage": "Detection",
+    "metadata": {
+      "target": [
+        "security_alerts.host_id",
+        "security_alerts.alert_level",
+        "security_alerts.rule_id"
+      ],
+      "related_fields": [
+        "security_alerts.timestamp",
+        "security_alerts.description",
+        "security_rules.mitre_technique",
+        "security_rules.mitre_tactic",
+        "audit_events.command",
+        "audit_events.uid"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "003",
+      "alert_level": 15
+    }
+  },
+  {
+    "instance_id": "q3_inst3",
+    "question_id": 3,
+    "question": "主机004是否触发了高危告警（alert_level≥15）？请分析该告警关联的MITRE ATT&CK战术和技术，以及完整的攻击时间线。",
+    "dimension": "威胁检测",
+    "attack_stage": "Detection",
+    "metadata": {
+      "target": [
+        "security_alerts.host_id",
+        "security_alerts.alert_level",
+        "security_alerts.rule_id"
+      ],
+      "related_fields": [
+        "security_alerts.timestamp",
+        "security_alerts.description",
+        "security_rules.mitre_technique",
+        "security_rules.mitre_tactic",
+        "audit_events.command",
+        "audit_events.uid"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004",
+      "alert_level": 15
+    }
+  },
+  {
+    "instance_id": "q3_inst4",
+    "question_id": 3,
+    "question": "主机000是否触发了高危告警（alert_level≥15）？请分析该告警关联的MITRE ATT&CK战术和技术，以及完整的攻击时间线。",
+    "dimension": "威胁检测",
+    "attack_stage": "Detection",
+    "metadata": {
+      "target": [
+        "security_alerts.host_id",
+        "security_alerts.alert_level",
+        "security_alerts.rule_id"
+      ],
+      "related_fields": [
+        "security_alerts.timestamp",
+        "security_alerts.description",
+        "security_rules.mitre_technique",
+        "security_rules.mitre_tactic",
+        "audit_events.command",
+        "audit_events.uid"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "000",
+      "alert_level": 15
+    }
+  },
+  {
+    "instance_id": "q3_inst5",
+    "question_id": 3,
+    "question": "主机003是否触发了高危告警（alert_level≥15）？请分析该告警关联的MITRE ATT&CK战术和技术，以及完整的攻击时间线。",
+    "dimension": "威胁检测",
+    "attack_stage": "Detection",
+    "metadata": {
+      "target": [
+        "security_alerts.host_id",
+        "security_alerts.alert_level",
+        "security_alerts.rule_id"
+      ],
+      "related_fields": [
+        "security_alerts.timestamp",
+        "security_alerts.description",
+        "security_rules.mitre_technique",
+        "security_rules.mitre_tactic",
+        "audit_events.command",
+        "audit_events.uid"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "003",
+      "alert_level": 15
+    }
+  },
+  {
+    "instance_id": "q3_inst6",
+    "question_id": 3,
+    "question": "主机004是否触发了高危告警（alert_level≥15）？请分析该告警关联的MITRE ATT&CK战术和技术，以及完整的攻击时间线。",
+    "dimension": "威胁检测",
+    "attack_stage": "Detection",
+    "metadata": {
+      "target": [
+        "security_alerts.host_id",
+        "security_alerts.alert_level",
+        "security_alerts.rule_id"
+      ],
+      "related_fields": [
+        "security_alerts.timestamp",
+        "security_alerts.description",
+        "security_rules.mitre_technique",
+        "security_rules.mitre_tactic",
+        "audit_events.command",
+        "audit_events.uid"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004",
+      "alert_level": 15
+    }
+  },
+  {
+    "instance_id": "q3_inst7",
+    "question_id": 3,
+    "question": "主机000是否触发了高危告警（alert_level≥15）？请分析该告警关联的MITRE ATT&CK战术和技术，以及完整的攻击时间线。",
+    "dimension": "威胁检测",
+    "attack_stage": "Detection",
+    "metadata": {
+      "target": [
+        "security_alerts.host_id",
+        "security_alerts.alert_level",
+        "security_alerts.rule_id"
+      ],
+      "related_fields": [
+        "security_alerts.timestamp",
+        "security_alerts.description",
+        "security_rules.mitre_technique",
+        "security_rules.mitre_tactic",
+        "audit_events.command",
+        "audit_events.uid"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "000",
+      "alert_level": 15
+    }
+  },
+  {
+    "instance_id": "q3_inst8",
+    "question_id": 3,
+    "question": "主机003是否触发了高危告警（alert_level≥15）？请分析该告警关联的MITRE ATT&CK战术和技术，以及完整的攻击时间线。",
+    "dimension": "威胁检测",
+    "attack_stage": "Detection",
+    "metadata": {
+      "target": [
+        "security_alerts.host_id",
+        "security_alerts.alert_level",
+        "security_alerts.rule_id"
+      ],
+      "related_fields": [
+        "security_alerts.timestamp",
+        "security_alerts.description",
+        "security_rules.mitre_technique",
+        "security_rules.mitre_tactic",
+        "audit_events.command",
+        "audit_events.uid"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "003",
+      "alert_level": 15
+    }
+  },
+  {
+    "instance_id": "q3_inst9",
+    "question_id": 3,
+    "question": "主机004是否触发了高危告警（alert_level≥15）？请分析该告警关联的MITRE ATT&CK战术和技术，以及完整的攻击时间线。",
+    "dimension": "威胁检测",
+    "attack_stage": "Detection",
+    "metadata": {
+      "target": [
+        "security_alerts.host_id",
+        "security_alerts.alert_level",
+        "security_alerts.rule_id"
+      ],
+      "related_fields": [
+        "security_alerts.timestamp",
+        "security_alerts.description",
+        "security_rules.mitre_technique",
+        "security_rules.mitre_tactic",
+        "audit_events.command",
+        "audit_events.uid"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004",
+      "alert_level": 15
+    }
+  },
+  {
+    "instance_id": "q4_inst0",
+    "question_id": 4,
+    "question": "主机004的SSH密钥文件（~/.ssh/authorized_keys）被修改。请分析修改时间、修改内容和修改者，判断是否为后门植入？",
+    "dimension": "持久化 + 凭据访问",
+    "attack_stage": "Persistence",
+    "metadata": {
+      "target": [
+        "file_integrity_events.host_id",
+        "file_integrity_events.file_path"
+      ],
+      "related_fields": [
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp",
+        "file_integrity_events.uid_after",
+        "file_integrity_events.uname_after",
+        "file_integrity_events.size_before",
+        "file_integrity_events.size_after"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004"
+    }
+  },
+  {
+    "instance_id": "q4_inst1",
+    "question_id": 4,
+    "question": "主机000的SSH密钥文件（~/.ssh/authorized_keys）被修改。请分析修改时间、修改内容和修改者，判断是否为后门植入？",
+    "dimension": "持久化 + 凭据访问",
+    "attack_stage": "Persistence",
+    "metadata": {
+      "target": [
+        "file_integrity_events.host_id",
+        "file_integrity_events.file_path"
+      ],
+      "related_fields": [
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp",
+        "file_integrity_events.uid_after",
+        "file_integrity_events.uname_after",
+        "file_integrity_events.size_before",
+        "file_integrity_events.size_after"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "000"
+    }
+  },
+  {
+    "instance_id": "q4_inst2",
+    "question_id": 4,
+    "question": "主机003的SSH密钥文件（~/.ssh/authorized_keys）被修改。请分析修改时间、修改内容和修改者，判断是否为后门植入？",
+    "dimension": "持久化 + 凭据访问",
+    "attack_stage": "Persistence",
+    "metadata": {
+      "target": [
+        "file_integrity_events.host_id",
+        "file_integrity_events.file_path"
+      ],
+      "related_fields": [
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp",
+        "file_integrity_events.uid_after",
+        "file_integrity_events.uname_after",
+        "file_integrity_events.size_before",
+        "file_integrity_events.size_after"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "003"
+    }
+  },
+  {
+    "instance_id": "q4_inst3",
+    "question_id": 4,
+    "question": "主机004的SSH密钥文件（~/.ssh/authorized_keys）被修改。请分析修改时间、修改内容和修改者，判断是否为后门植入？",
+    "dimension": "持久化 + 凭据访问",
+    "attack_stage": "Persistence",
+    "metadata": {
+      "target": [
+        "file_integrity_events.host_id",
+        "file_integrity_events.file_path"
+      ],
+      "related_fields": [
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp",
+        "file_integrity_events.uid_after",
+        "file_integrity_events.uname_after",
+        "file_integrity_events.size_before",
+        "file_integrity_events.size_after"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004"
+    }
+  },
+  {
+    "instance_id": "q4_inst4",
+    "question_id": 4,
+    "question": "主机000的SSH密钥文件（~/.ssh/authorized_keys）被修改。请分析修改时间、修改内容和修改者，判断是否为后门植入？",
+    "dimension": "持久化 + 凭据访问",
+    "attack_stage": "Persistence",
+    "metadata": {
+      "target": [
+        "file_integrity_events.host_id",
+        "file_integrity_events.file_path"
+      ],
+      "related_fields": [
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp",
+        "file_integrity_events.uid_after",
+        "file_integrity_events.uname_after",
+        "file_integrity_events.size_before",
+        "file_integrity_events.size_after"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "000"
+    }
+  },
+  {
+    "instance_id": "q4_inst5",
+    "question_id": 4,
+    "question": "主机003的SSH密钥文件（~/.ssh/authorized_keys）被修改。请分析修改时间、修改内容和修改者，判断是否为后门植入？",
+    "dimension": "持久化 + 凭据访问",
+    "attack_stage": "Persistence",
+    "metadata": {
+      "target": [
+        "file_integrity_events.host_id",
+        "file_integrity_events.file_path"
+      ],
+      "related_fields": [
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp",
+        "file_integrity_events.uid_after",
+        "file_integrity_events.uname_after",
+        "file_integrity_events.size_before",
+        "file_integrity_events.size_after"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "003"
+    }
+  },
+  {
+    "instance_id": "q4_inst6",
+    "question_id": 4,
+    "question": "主机004的SSH密钥文件（~/.ssh/authorized_keys）被修改。请分析修改时间、修改内容和修改者，判断是否为后门植入？",
+    "dimension": "持久化 + 凭据访问",
+    "attack_stage": "Persistence",
+    "metadata": {
+      "target": [
+        "file_integrity_events.host_id",
+        "file_integrity_events.file_path"
+      ],
+      "related_fields": [
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp",
+        "file_integrity_events.uid_after",
+        "file_integrity_events.uname_after",
+        "file_integrity_events.size_before",
+        "file_integrity_events.size_after"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004"
+    }
+  },
+  {
+    "instance_id": "q4_inst7",
+    "question_id": 4,
+    "question": "主机000的SSH密钥文件（~/.ssh/authorized_keys）被修改。请分析修改时间、修改内容和修改者，判断是否为后门植入？",
+    "dimension": "持久化 + 凭据访问",
+    "attack_stage": "Persistence",
+    "metadata": {
+      "target": [
+        "file_integrity_events.host_id",
+        "file_integrity_events.file_path"
+      ],
+      "related_fields": [
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp",
+        "file_integrity_events.uid_after",
+        "file_integrity_events.uname_after",
+        "file_integrity_events.size_before",
+        "file_integrity_events.size_after"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "000"
+    }
+  },
+  {
+    "instance_id": "q4_inst8",
+    "question_id": 4,
+    "question": "主机003的SSH密钥文件（~/.ssh/authorized_keys）被修改。请分析修改时间、修改内容和修改者，判断是否为后门植入？",
+    "dimension": "持久化 + 凭据访问",
+    "attack_stage": "Persistence",
+    "metadata": {
+      "target": [
+        "file_integrity_events.host_id",
+        "file_integrity_events.file_path"
+      ],
+      "related_fields": [
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp",
+        "file_integrity_events.uid_after",
+        "file_integrity_events.uname_after",
+        "file_integrity_events.size_before",
+        "file_integrity_events.size_after"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "003"
+    }
+  },
+  {
+    "instance_id": "q4_inst9",
+    "question_id": 4,
+    "question": "主机004的SSH密钥文件（~/.ssh/authorized_keys）被修改。请分析修改时间、修改内容和修改者，判断是否为后门植入？",
+    "dimension": "持久化 + 凭据访问",
+    "attack_stage": "Persistence",
+    "metadata": {
+      "target": [
+        "file_integrity_events.host_id",
+        "file_integrity_events.file_path"
+      ],
+      "related_fields": [
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp",
+        "file_integrity_events.uid_after",
+        "file_integrity_events.uname_after",
+        "file_integrity_events.size_before",
+        "file_integrity_events.size_after"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004"
+    }
+  },
+  {
+    "instance_id": "q5_inst0",
+    "question_id": 5,
+    "question": "主机004的用户0在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内是否在短时间内尝试访问多个敏感文件（/etc/passwd、/etc/shadow、密钥文件等）？请分析是否为凭据窃取行为？",
+    "dimension": "凭据访问 + 发现",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.file_name",
+        "audit_events.command",
+        "audit_events.success",
+        "audit_events.exe",
+        "audit_events.pid"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004",
+      "uid": 0,
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q5_inst1",
+    "question_id": 5,
+    "question": "主机000的用户1000在时间段2024-01-06到2024-01-06T23:59:59内是否在短时间内尝试访问多个敏感文件（/etc/passwd、/etc/shadow、密钥文件等）？请分析是否为凭据窃取行为？",
+    "dimension": "凭据访问 + 发现",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.file_name",
+        "audit_events.command",
+        "audit_events.success",
+        "audit_events.exe",
+        "audit_events.pid"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "000",
+      "uid": 1000,
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q5_inst2",
+    "question_id": 5,
+    "question": "主机003的用户128在时间段2024-01-05到2024-01-05T23:59:59内是否在短时间内尝试访问多个敏感文件（/etc/passwd、/etc/shadow、密钥文件等）？请分析是否为凭据窃取行为？",
+    "dimension": "凭据访问 + 发现",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.file_name",
+        "audit_events.command",
+        "audit_events.success",
+        "audit_events.exe",
+        "audit_events.pid"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "003",
+      "uid": 128,
+      "start_time": "2024-01-05",
+      "end_time": "2024-01-05T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q5_inst3",
+    "question_id": 5,
+    "question": "主机004的用户0在时间段2024-01-04到2024-01-04T23:59:59内是否在短时间内尝试访问多个敏感文件（/etc/passwd、/etc/shadow、密钥文件等）？请分析是否为凭据窃取行为？",
+    "dimension": "凭据访问 + 发现",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.file_name",
+        "audit_events.command",
+        "audit_events.success",
+        "audit_events.exe",
+        "audit_events.pid"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004",
+      "uid": 0,
+      "start_time": "2024-01-04",
+      "end_time": "2024-01-04T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q5_inst4",
+    "question_id": 5,
+    "question": "主机000的用户1000在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内是否在短时间内尝试访问多个敏感文件（/etc/passwd、/etc/shadow、密钥文件等）？请分析是否为凭据窃取行为？",
+    "dimension": "凭据访问 + 发现",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.file_name",
+        "audit_events.command",
+        "audit_events.success",
+        "audit_events.exe",
+        "audit_events.pid"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "000",
+      "uid": 1000,
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q5_inst5",
+    "question_id": 5,
+    "question": "主机003的用户128在时间段2024-01-06到2024-01-06T23:59:59内是否在短时间内尝试访问多个敏感文件（/etc/passwd、/etc/shadow、密钥文件等）？请分析是否为凭据窃取行为？",
+    "dimension": "凭据访问 + 发现",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.file_name",
+        "audit_events.command",
+        "audit_events.success",
+        "audit_events.exe",
+        "audit_events.pid"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "003",
+      "uid": 128,
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q5_inst6",
+    "question_id": 5,
+    "question": "主机004的用户0在时间段2024-01-05到2024-01-05T23:59:59内是否在短时间内尝试访问多个敏感文件（/etc/passwd、/etc/shadow、密钥文件等）？请分析是否为凭据窃取行为？",
+    "dimension": "凭据访问 + 发现",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.file_name",
+        "audit_events.command",
+        "audit_events.success",
+        "audit_events.exe",
+        "audit_events.pid"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004",
+      "uid": 0,
+      "start_time": "2024-01-05",
+      "end_time": "2024-01-05T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q5_inst7",
+    "question_id": 5,
+    "question": "主机000的用户1000在时间段2024-01-04到2024-01-04T23:59:59内是否在短时间内尝试访问多个敏感文件（/etc/passwd、/etc/shadow、密钥文件等）？请分析是否为凭据窃取行为？",
+    "dimension": "凭据访问 + 发现",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.file_name",
+        "audit_events.command",
+        "audit_events.success",
+        "audit_events.exe",
+        "audit_events.pid"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "000",
+      "uid": 1000,
+      "start_time": "2024-01-04",
+      "end_time": "2024-01-04T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q5_inst8",
+    "question_id": 5,
+    "question": "主机003的用户128在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内是否在短时间内尝试访问多个敏感文件（/etc/passwd、/etc/shadow、密钥文件等）？请分析是否为凭据窃取行为？",
+    "dimension": "凭据访问 + 发现",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.file_name",
+        "audit_events.command",
+        "audit_events.success",
+        "audit_events.exe",
+        "audit_events.pid"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "003",
+      "uid": 128,
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q5_inst9",
+    "question_id": 5,
+    "question": "主机004的用户0在时间段2024-01-06到2024-01-06T23:59:59内是否在短时间内尝试访问多个敏感文件（/etc/passwd、/etc/shadow、密钥文件等）？请分析是否为凭据窃取行为？",
+    "dimension": "凭据访问 + 发现",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.file_name",
+        "audit_events.command",
+        "audit_events.success",
+        "audit_events.exe",
+        "audit_events.pid"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004",
+      "uid": 0,
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q6_inst0",
+    "question_id": 6,
+    "question": "主机004是否执行了环境侦察命令？是否为攻击侦察阶段？",
+    "dimension": "发现",
+    "attack_stage": "Discovery",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.command"
+      ],
+      "related_fields": [
+        "audit_events.timestamp",
+        "audit_events.uid",
+        "audit_events.exe",
+        "audit_events.session",
+        "audit_events.tty"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004"
+    }
+  },
+  {
+    "instance_id": "q6_inst1",
+    "question_id": 6,
+    "question": "主机000是否执行了环境侦察命令？是否为攻击侦察阶段？",
+    "dimension": "发现",
+    "attack_stage": "Discovery",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.command"
+      ],
+      "related_fields": [
+        "audit_events.timestamp",
+        "audit_events.uid",
+        "audit_events.exe",
+        "audit_events.session",
+        "audit_events.tty"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "000"
+    }
+  },
+  {
+    "instance_id": "q6_inst2",
+    "question_id": 6,
+    "question": "主机003是否执行了环境侦察命令？是否为攻击侦察阶段？",
+    "dimension": "发现",
+    "attack_stage": "Discovery",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.command"
+      ],
+      "related_fields": [
+        "audit_events.timestamp",
+        "audit_events.uid",
+        "audit_events.exe",
+        "audit_events.session",
+        "audit_events.tty"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "003"
+    }
+  },
+  {
+    "instance_id": "q6_inst3",
+    "question_id": 6,
+    "question": "主机004是否执行了环境侦察命令？是否为攻击侦察阶段？",
+    "dimension": "发现",
+    "attack_stage": "Discovery",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.command"
+      ],
+      "related_fields": [
+        "audit_events.timestamp",
+        "audit_events.uid",
+        "audit_events.exe",
+        "audit_events.session",
+        "audit_events.tty"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004"
+    }
+  },
+  {
+    "instance_id": "q6_inst4",
+    "question_id": 6,
+    "question": "主机000是否执行了环境侦察命令？是否为攻击侦察阶段？",
+    "dimension": "发现",
+    "attack_stage": "Discovery",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.command"
+      ],
+      "related_fields": [
+        "audit_events.timestamp",
+        "audit_events.uid",
+        "audit_events.exe",
+        "audit_events.session",
+        "audit_events.tty"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "000"
+    }
+  },
+  {
+    "instance_id": "q6_inst5",
+    "question_id": 6,
+    "question": "主机003是否执行了环境侦察命令？是否为攻击侦察阶段？",
+    "dimension": "发现",
+    "attack_stage": "Discovery",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.command"
+      ],
+      "related_fields": [
+        "audit_events.timestamp",
+        "audit_events.uid",
+        "audit_events.exe",
+        "audit_events.session",
+        "audit_events.tty"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "003"
+    }
+  },
+  {
+    "instance_id": "q6_inst6",
+    "question_id": 6,
+    "question": "主机004是否执行了环境侦察命令？是否为攻击侦察阶段？",
+    "dimension": "发现",
+    "attack_stage": "Discovery",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.command"
+      ],
+      "related_fields": [
+        "audit_events.timestamp",
+        "audit_events.uid",
+        "audit_events.exe",
+        "audit_events.session",
+        "audit_events.tty"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004"
+    }
+  },
+  {
+    "instance_id": "q6_inst7",
+    "question_id": 6,
+    "question": "主机000是否执行了环境侦察命令？是否为攻击侦察阶段？",
+    "dimension": "发现",
+    "attack_stage": "Discovery",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.command"
+      ],
+      "related_fields": [
+        "audit_events.timestamp",
+        "audit_events.uid",
+        "audit_events.exe",
+        "audit_events.session",
+        "audit_events.tty"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "000"
+    }
+  },
+  {
+    "instance_id": "q6_inst8",
+    "question_id": 6,
+    "question": "主机003是否执行了环境侦察命令？是否为攻击侦察阶段？",
+    "dimension": "发现",
+    "attack_stage": "Discovery",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.command"
+      ],
+      "related_fields": [
+        "audit_events.timestamp",
+        "audit_events.uid",
+        "audit_events.exe",
+        "audit_events.session",
+        "audit_events.tty"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "003"
+    }
+  },
+  {
+    "instance_id": "q6_inst9",
+    "question_id": 6,
+    "question": "主机004是否执行了环境侦察命令？是否为攻击侦察阶段？",
+    "dimension": "发现",
+    "attack_stage": "Discovery",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.command"
+      ],
+      "related_fields": [
+        "audit_events.timestamp",
+        "audit_events.uid",
+        "audit_events.exe",
+        "audit_events.session",
+        "audit_events.tty"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004"
+    }
+  },
+  {
+    "instance_id": "q7_inst0",
+    "question_id": 7,
+    "question": "发现规则80792在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内是否在短时间内被多个主机同时触发？请分析是否为蠕虫传播或批量攻击？涉及哪些主机和攻击路径？",
+    "dimension": "横向移动 + 影响",
+    "attack_stage": "Lateral Movement",
+    "metadata": {
+      "target": [
+        "security_alerts.rule_id",
+        "security_alerts.timestamp"
+      ],
+      "related_fields": [
+        "security_alerts.host_id",
+        "security_alerts.description",
+        "network_activities.src_ip",
+        "network_activities.dst_user",
+        "audit_events.command"
+      ]
+    },
+    "recall_function": "recall_by_rule_id",
+    "recall_params": {
+      "rule_id": "80792",
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q7_inst1",
+    "question_id": 7,
+    "question": "发现规则110010在时间段2024-01-06到2024-01-06T23:59:59内是否在短时间内被多个主机同时触发？请分析是否为蠕虫传播或批量攻击？涉及哪些主机和攻击路径？",
+    "dimension": "横向移动 + 影响",
+    "attack_stage": "Lateral Movement",
+    "metadata": {
+      "target": [
+        "security_alerts.rule_id",
+        "security_alerts.timestamp"
+      ],
+      "related_fields": [
+        "security_alerts.host_id",
+        "security_alerts.description",
+        "network_activities.src_ip",
+        "network_activities.dst_user",
+        "audit_events.command"
+      ]
+    },
+    "recall_function": "recall_by_rule_id",
+    "recall_params": {
+      "rule_id": "110010",
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q7_inst2",
+    "question_id": 7,
+    "question": "发现规则510在时间段2024-01-05到2024-01-05T23:59:59内是否在短时间内被多个主机同时触发？请分析是否为蠕虫传播或批量攻击？涉及哪些主机和攻击路径？",
+    "dimension": "横向移动 + 影响",
+    "attack_stage": "Lateral Movement",
+    "metadata": {
+      "target": [
+        "security_alerts.rule_id",
+        "security_alerts.timestamp"
+      ],
+      "related_fields": [
+        "security_alerts.host_id",
+        "security_alerts.description",
+        "network_activities.src_ip",
+        "network_activities.dst_user",
+        "audit_events.command"
+      ]
+    },
+    "recall_function": "recall_by_rule_id",
+    "recall_params": {
+      "rule_id": "510",
+      "start_time": "2024-01-05",
+      "end_time": "2024-01-05T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q7_inst3",
+    "question_id": 7,
+    "question": "发现规则80730在时间段2024-01-04到2024-01-04T23:59:59内是否在短时间内被多个主机同时触发？请分析是否为蠕虫传播或批量攻击？涉及哪些主机和攻击路径？",
+    "dimension": "横向移动 + 影响",
+    "attack_stage": "Lateral Movement",
+    "metadata": {
+      "target": [
+        "security_alerts.rule_id",
+        "security_alerts.timestamp"
+      ],
+      "related_fields": [
+        "security_alerts.host_id",
+        "security_alerts.description",
+        "network_activities.src_ip",
+        "network_activities.dst_user",
+        "audit_events.command"
+      ]
+    },
+    "recall_function": "recall_by_rule_id",
+    "recall_params": {
+      "rule_id": "80730",
+      "start_time": "2024-01-04",
+      "end_time": "2024-01-04T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q7_inst4",
+    "question_id": 7,
+    "question": "发现规则533在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内是否在短时间内被多个主机同时触发？请分析是否为蠕虫传播或批量攻击？涉及哪些主机和攻击路径？",
+    "dimension": "横向移动 + 影响",
+    "attack_stage": "Lateral Movement",
+    "metadata": {
+      "target": [
+        "security_alerts.rule_id",
+        "security_alerts.timestamp"
+      ],
+      "related_fields": [
+        "security_alerts.host_id",
+        "security_alerts.description",
+        "network_activities.src_ip",
+        "network_activities.dst_user",
+        "audit_events.command"
+      ]
+    },
+    "recall_function": "recall_by_rule_id",
+    "recall_params": {
+      "rule_id": "533",
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q7_inst5",
+    "question_id": 7,
+    "question": "发现规则5501在时间段2024-01-06到2024-01-06T23:59:59内是否在短时间内被多个主机同时触发？请分析是否为蠕虫传播或批量攻击？涉及哪些主机和攻击路径？",
+    "dimension": "横向移动 + 影响",
+    "attack_stage": "Lateral Movement",
+    "metadata": {
+      "target": [
+        "security_alerts.rule_id",
+        "security_alerts.timestamp"
+      ],
+      "related_fields": [
+        "security_alerts.host_id",
+        "security_alerts.description",
+        "network_activities.src_ip",
+        "network_activities.dst_user",
+        "audit_events.command"
+      ]
+    },
+    "recall_function": "recall_by_rule_id",
+    "recall_params": {
+      "rule_id": "5501",
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q7_inst6",
+    "question_id": 7,
+    "question": "发现规则502在时间段2024-01-05到2024-01-05T23:59:59内是否在短时间内被多个主机同时触发？请分析是否为蠕虫传播或批量攻击？涉及哪些主机和攻击路径？",
+    "dimension": "横向移动 + 影响",
+    "attack_stage": "Lateral Movement",
+    "metadata": {
+      "target": [
+        "security_alerts.rule_id",
+        "security_alerts.timestamp"
+      ],
+      "related_fields": [
+        "security_alerts.host_id",
+        "security_alerts.description",
+        "network_activities.src_ip",
+        "network_activities.dst_user",
+        "audit_events.command"
+      ]
+    },
+    "recall_function": "recall_by_rule_id",
+    "recall_params": {
+      "rule_id": "502",
+      "start_time": "2024-01-05",
+      "end_time": "2024-01-05T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q7_inst7",
+    "question_id": 7,
+    "question": "发现规则5502在时间段2024-01-04到2024-01-04T23:59:59内是否在短时间内被多个主机同时触发？请分析是否为蠕虫传播或批量攻击？涉及哪些主机和攻击路径？",
+    "dimension": "横向移动 + 影响",
+    "attack_stage": "Lateral Movement",
+    "metadata": {
+      "target": [
+        "security_alerts.rule_id",
+        "security_alerts.timestamp"
+      ],
+      "related_fields": [
+        "security_alerts.host_id",
+        "security_alerts.description",
+        "network_activities.src_ip",
+        "network_activities.dst_user",
+        "audit_events.command"
+      ]
+    },
+    "recall_function": "recall_by_rule_id",
+    "recall_params": {
+      "rule_id": "5502",
+      "start_time": "2024-01-04",
+      "end_time": "2024-01-04T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q7_inst8",
+    "question_id": 7,
+    "question": "发现规则5402在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内是否在短时间内被多个主机同时触发？请分析是否为蠕虫传播或批量攻击？涉及哪些主机和攻击路径？",
+    "dimension": "横向移动 + 影响",
+    "attack_stage": "Lateral Movement",
+    "metadata": {
+      "target": [
+        "security_alerts.rule_id",
+        "security_alerts.timestamp"
+      ],
+      "related_fields": [
+        "security_alerts.host_id",
+        "security_alerts.description",
+        "network_activities.src_ip",
+        "network_activities.dst_user",
+        "audit_events.command"
+      ]
+    },
+    "recall_function": "recall_by_rule_id",
+    "recall_params": {
+      "rule_id": "5402",
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q7_inst9",
+    "question_id": 7,
+    "question": "发现规则80705在时间段2024-01-06到2024-01-06T23:59:59内是否在短时间内被多个主机同时触发？请分析是否为蠕虫传播或批量攻击？涉及哪些主机和攻击路径？",
+    "dimension": "横向移动 + 影响",
+    "attack_stage": "Lateral Movement",
+    "metadata": {
+      "target": [
+        "security_alerts.rule_id",
+        "security_alerts.timestamp"
+      ],
+      "related_fields": [
+        "security_alerts.host_id",
+        "security_alerts.description",
+        "network_activities.src_ip",
+        "network_activities.dst_user",
+        "audit_events.command"
+      ]
+    },
+    "recall_function": "recall_by_rule_id",
+    "recall_params": {
+      "rule_id": "80705",
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q8_inst0",
+    "question_id": 8,
+    "question": "检测到主机004上在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内出现大量文件访问行为，涉及用户0。请分析受影响的文件范围和时间线。",
+    "dimension": "影响",
+    "attack_stage": "Impact",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "file_integrity_events.file_path",
+        "file_integrity_events.event_type",
+        "file_integrity_events.size_before",
+        "file_integrity_events.size_after",
+        "audit_events.pid",
+        "audit_events.command"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004",
+      "uid": 0,
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q8_inst1",
+    "question_id": 8,
+    "question": "检测到主机000上在时间段2024-01-06到2024-01-06T23:59:59内出现大量文件访问行为，涉及用户1000。请分析受影响的文件范围和时间线。",
+    "dimension": "影响",
+    "attack_stage": "Impact",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "file_integrity_events.file_path",
+        "file_integrity_events.event_type",
+        "file_integrity_events.size_before",
+        "file_integrity_events.size_after",
+        "audit_events.pid",
+        "audit_events.command"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "000",
+      "uid": 1000,
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q8_inst2",
+    "question_id": 8,
+    "question": "检测到主机003上在时间段2024-01-05到2024-01-05T23:59:59内出现大量文件访问行为，涉及用户128。请分析受影响的文件范围和时间线。",
+    "dimension": "影响",
+    "attack_stage": "Impact",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "file_integrity_events.file_path",
+        "file_integrity_events.event_type",
+        "file_integrity_events.size_before",
+        "file_integrity_events.size_after",
+        "audit_events.pid",
+        "audit_events.command"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "003",
+      "uid": 128,
+      "start_time": "2024-01-05",
+      "end_time": "2024-01-05T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q8_inst3",
+    "question_id": 8,
+    "question": "检测到主机004上在时间段2024-01-04到2024-01-04T23:59:59内出现大量文件访问行为，涉及用户0。请分析受影响的文件范围和时间线。",
+    "dimension": "影响",
+    "attack_stage": "Impact",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "file_integrity_events.file_path",
+        "file_integrity_events.event_type",
+        "file_integrity_events.size_before",
+        "file_integrity_events.size_after",
+        "audit_events.pid",
+        "audit_events.command"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004",
+      "uid": 0,
+      "start_time": "2024-01-04",
+      "end_time": "2024-01-04T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q8_inst4",
+    "question_id": 8,
+    "question": "检测到主机000上在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内出现大量文件访问行为，涉及用户1000。请分析受影响的文件范围和时间线。",
+    "dimension": "影响",
+    "attack_stage": "Impact",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "file_integrity_events.file_path",
+        "file_integrity_events.event_type",
+        "file_integrity_events.size_before",
+        "file_integrity_events.size_after",
+        "audit_events.pid",
+        "audit_events.command"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "000",
+      "uid": 1000,
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q8_inst5",
+    "question_id": 8,
+    "question": "检测到主机003上在时间段2024-01-06到2024-01-06T23:59:59内出现大量文件访问行为，涉及用户128。请分析受影响的文件范围和时间线。",
+    "dimension": "影响",
+    "attack_stage": "Impact",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "file_integrity_events.file_path",
+        "file_integrity_events.event_type",
+        "file_integrity_events.size_before",
+        "file_integrity_events.size_after",
+        "audit_events.pid",
+        "audit_events.command"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "003",
+      "uid": 128,
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q8_inst6",
+    "question_id": 8,
+    "question": "检测到主机004上在时间段2024-01-05到2024-01-05T23:59:59内出现大量文件访问行为，涉及用户0。请分析受影响的文件范围和时间线。",
+    "dimension": "影响",
+    "attack_stage": "Impact",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "file_integrity_events.file_path",
+        "file_integrity_events.event_type",
+        "file_integrity_events.size_before",
+        "file_integrity_events.size_after",
+        "audit_events.pid",
+        "audit_events.command"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004",
+      "uid": 0,
+      "start_time": "2024-01-05",
+      "end_time": "2024-01-05T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q8_inst7",
+    "question_id": 8,
+    "question": "检测到主机000上在时间段2024-01-04到2024-01-04T23:59:59内出现大量文件访问行为，涉及用户1000。请分析受影响的文件范围和时间线。",
+    "dimension": "影响",
+    "attack_stage": "Impact",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "file_integrity_events.file_path",
+        "file_integrity_events.event_type",
+        "file_integrity_events.size_before",
+        "file_integrity_events.size_after",
+        "audit_events.pid",
+        "audit_events.command"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "000",
+      "uid": 1000,
+      "start_time": "2024-01-04",
+      "end_time": "2024-01-04T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q8_inst8",
+    "question_id": 8,
+    "question": "检测到主机003上在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内出现大量文件访问行为，涉及用户128。请分析受影响的文件范围和时间线。",
+    "dimension": "影响",
+    "attack_stage": "Impact",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "file_integrity_events.file_path",
+        "file_integrity_events.event_type",
+        "file_integrity_events.size_before",
+        "file_integrity_events.size_after",
+        "audit_events.pid",
+        "audit_events.command"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "003",
+      "uid": 128,
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q8_inst9",
+    "question_id": 8,
+    "question": "检测到主机004上在时间段2024-01-06到2024-01-06T23:59:59内出现大量文件访问行为，涉及用户0。请分析受影响的文件范围和时间线。",
+    "dimension": "影响",
+    "attack_stage": "Impact",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "file_integrity_events.file_path",
+        "file_integrity_events.event_type",
+        "file_integrity_events.size_before",
+        "file_integrity_events.size_after",
+        "audit_events.pid",
+        "audit_events.command"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004",
+      "uid": 0,
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q9_inst0",
+    "question_id": 9,
+    "question": "主机004上检测到mimikatz、procdump等凭据转储工具的执行特征。请分析工具的来源、执行者和窃取的凭据类型。",
+    "dimension": "凭据访问",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.command"
+      ],
+      "related_fields": [
+        "audit_events.exe",
+        "audit_events.timestamp",
+        "audit_events.uid",
+        "audit_events.file_name",
+        "security_alerts.description",
+        "security_alerts.rule_id"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004"
+    }
+  },
+  {
+    "instance_id": "q9_inst1",
+    "question_id": 9,
+    "question": "主机000上检测到mimikatz、procdump等凭据转储工具的执行特征。请分析工具的来源、执行者和窃取的凭据类型。",
+    "dimension": "凭据访问",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.command"
+      ],
+      "related_fields": [
+        "audit_events.exe",
+        "audit_events.timestamp",
+        "audit_events.uid",
+        "audit_events.file_name",
+        "security_alerts.description",
+        "security_alerts.rule_id"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "000"
+    }
+  },
+  {
+    "instance_id": "q9_inst2",
+    "question_id": 9,
+    "question": "主机003上检测到mimikatz、procdump等凭据转储工具的执行特征。请分析工具的来源、执行者和窃取的凭据类型。",
+    "dimension": "凭据访问",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.command"
+      ],
+      "related_fields": [
+        "audit_events.exe",
+        "audit_events.timestamp",
+        "audit_events.uid",
+        "audit_events.file_name",
+        "security_alerts.description",
+        "security_alerts.rule_id"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "003"
+    }
+  },
+  {
+    "instance_id": "q9_inst3",
+    "question_id": 9,
+    "question": "主机004上检测到mimikatz、procdump等凭据转储工具的执行特征。请分析工具的来源、执行者和窃取的凭据类型。",
+    "dimension": "凭据访问",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.command"
+      ],
+      "related_fields": [
+        "audit_events.exe",
+        "audit_events.timestamp",
+        "audit_events.uid",
+        "audit_events.file_name",
+        "security_alerts.description",
+        "security_alerts.rule_id"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004"
+    }
+  },
+  {
+    "instance_id": "q9_inst4",
+    "question_id": 9,
+    "question": "主机000上检测到mimikatz、procdump等凭据转储工具的执行特征。请分析工具的来源、执行者和窃取的凭据类型。",
+    "dimension": "凭据访问",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.command"
+      ],
+      "related_fields": [
+        "audit_events.exe",
+        "audit_events.timestamp",
+        "audit_events.uid",
+        "audit_events.file_name",
+        "security_alerts.description",
+        "security_alerts.rule_id"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "000"
+    }
+  },
+  {
+    "instance_id": "q9_inst5",
+    "question_id": 9,
+    "question": "主机003上检测到mimikatz、procdump等凭据转储工具的执行特征。请分析工具的来源、执行者和窃取的凭据类型。",
+    "dimension": "凭据访问",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.command"
+      ],
+      "related_fields": [
+        "audit_events.exe",
+        "audit_events.timestamp",
+        "audit_events.uid",
+        "audit_events.file_name",
+        "security_alerts.description",
+        "security_alerts.rule_id"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "003"
+    }
+  },
+  {
+    "instance_id": "q9_inst6",
+    "question_id": 9,
+    "question": "主机004上检测到mimikatz、procdump等凭据转储工具的执行特征。请分析工具的来源、执行者和窃取的凭据类型。",
+    "dimension": "凭据访问",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.command"
+      ],
+      "related_fields": [
+        "audit_events.exe",
+        "audit_events.timestamp",
+        "audit_events.uid",
+        "audit_events.file_name",
+        "security_alerts.description",
+        "security_alerts.rule_id"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004"
+    }
+  },
+  {
+    "instance_id": "q9_inst7",
+    "question_id": 9,
+    "question": "主机000上检测到mimikatz、procdump等凭据转储工具的执行特征。请分析工具的来源、执行者和窃取的凭据类型。",
+    "dimension": "凭据访问",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.command"
+      ],
+      "related_fields": [
+        "audit_events.exe",
+        "audit_events.timestamp",
+        "audit_events.uid",
+        "audit_events.file_name",
+        "security_alerts.description",
+        "security_alerts.rule_id"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "000"
+    }
+  },
+  {
+    "instance_id": "q9_inst8",
+    "question_id": 9,
+    "question": "主机003上检测到mimikatz、procdump等凭据转储工具的执行特征。请分析工具的来源、执行者和窃取的凭据类型。",
+    "dimension": "凭据访问",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.command"
+      ],
+      "related_fields": [
+        "audit_events.exe",
+        "audit_events.timestamp",
+        "audit_events.uid",
+        "audit_events.file_name",
+        "security_alerts.description",
+        "security_alerts.rule_id"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "003"
+    }
+  },
+  {
+    "instance_id": "q9_inst9",
+    "question_id": 9,
+    "question": "主机004上检测到mimikatz、procdump等凭据转储工具的执行特征。请分析工具的来源、执行者和窃取的凭据类型。",
+    "dimension": "凭据访问",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.command"
+      ],
+      "related_fields": [
+        "audit_events.exe",
+        "audit_events.timestamp",
+        "audit_events.uid",
+        "audit_events.file_name",
+        "security_alerts.description",
+        "security_alerts.rule_id"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004"
+    }
+  },
+  {
+    "instance_id": "q10_inst0",
+    "question_id": 10,
+    "question": "主机004上在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内检测到批量SSH暴力破解失败记录。请分析攻击来源、尝试的用户名和最终是否成功？",
+    "dimension": "初始访问",
+    "attack_stage": "Initial Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "network_activities.src_ip",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.success",
+        "network_activities.dst_user",
+        "audit_events.session",
+        "audit_events.tty",
+        "security_alerts.description"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004",
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q10_inst1",
+    "question_id": 10,
+    "question": "主机000上在时间段2024-01-06到2024-01-06T23:59:59内检测到批量SSH暴力破解失败记录。请分析攻击来源、尝试的用户名和最终是否成功？",
+    "dimension": "初始访问",
+    "attack_stage": "Initial Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "network_activities.src_ip",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.success",
+        "network_activities.dst_user",
+        "audit_events.session",
+        "audit_events.tty",
+        "security_alerts.description"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "000",
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q10_inst2",
+    "question_id": 10,
+    "question": "主机003上在时间段2024-01-05到2024-01-05T23:59:59内检测到批量SSH暴力破解失败记录。请分析攻击来源、尝试的用户名和最终是否成功？",
+    "dimension": "初始访问",
+    "attack_stage": "Initial Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "network_activities.src_ip",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.success",
+        "network_activities.dst_user",
+        "audit_events.session",
+        "audit_events.tty",
+        "security_alerts.description"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "003",
+      "start_time": "2024-01-05",
+      "end_time": "2024-01-05T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q10_inst3",
+    "question_id": 10,
+    "question": "主机004上在时间段2024-01-04到2024-01-04T23:59:59内检测到批量SSH暴力破解失败记录。请分析攻击来源、尝试的用户名和最终是否成功？",
+    "dimension": "初始访问",
+    "attack_stage": "Initial Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "network_activities.src_ip",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.success",
+        "network_activities.dst_user",
+        "audit_events.session",
+        "audit_events.tty",
+        "security_alerts.description"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004",
+      "start_time": "2024-01-04",
+      "end_time": "2024-01-04T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q10_inst4",
+    "question_id": 10,
+    "question": "主机000上在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内检测到批量SSH暴力破解失败记录。请分析攻击来源、尝试的用户名和最终是否成功？",
+    "dimension": "初始访问",
+    "attack_stage": "Initial Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "network_activities.src_ip",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.success",
+        "network_activities.dst_user",
+        "audit_events.session",
+        "audit_events.tty",
+        "security_alerts.description"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "000",
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q10_inst5",
+    "question_id": 10,
+    "question": "主机003上在时间段2024-01-06到2024-01-06T23:59:59内检测到批量SSH暴力破解失败记录。请分析攻击来源、尝试的用户名和最终是否成功？",
+    "dimension": "初始访问",
+    "attack_stage": "Initial Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "network_activities.src_ip",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.success",
+        "network_activities.dst_user",
+        "audit_events.session",
+        "audit_events.tty",
+        "security_alerts.description"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "003",
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q10_inst6",
+    "question_id": 10,
+    "question": "主机004上在时间段2024-01-05到2024-01-05T23:59:59内检测到批量SSH暴力破解失败记录。请分析攻击来源、尝试的用户名和最终是否成功？",
+    "dimension": "初始访问",
+    "attack_stage": "Initial Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "network_activities.src_ip",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.success",
+        "network_activities.dst_user",
+        "audit_events.session",
+        "audit_events.tty",
+        "security_alerts.description"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004",
+      "start_time": "2024-01-05",
+      "end_time": "2024-01-05T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q10_inst7",
+    "question_id": 10,
+    "question": "主机000上在时间段2024-01-04到2024-01-04T23:59:59内检测到批量SSH暴力破解失败记录。请分析攻击来源、尝试的用户名和最终是否成功？",
+    "dimension": "初始访问",
+    "attack_stage": "Initial Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "network_activities.src_ip",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.success",
+        "network_activities.dst_user",
+        "audit_events.session",
+        "audit_events.tty",
+        "security_alerts.description"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "000",
+      "start_time": "2024-01-04",
+      "end_time": "2024-01-04T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q10_inst8",
+    "question_id": 10,
+    "question": "主机003上在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内检测到批量SSH暴力破解失败记录。请分析攻击来源、尝试的用户名和最终是否成功？",
+    "dimension": "初始访问",
+    "attack_stage": "Initial Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "network_activities.src_ip",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.success",
+        "network_activities.dst_user",
+        "audit_events.session",
+        "audit_events.tty",
+        "security_alerts.description"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "003",
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q10_inst9",
+    "question_id": 10,
+    "question": "主机004上在时间段2024-01-06到2024-01-06T23:59:59内检测到批量SSH暴力破解失败记录。请分析攻击来源、尝试的用户名和最终是否成功？",
+    "dimension": "初始访问",
+    "attack_stage": "Initial Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "network_activities.src_ip",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.success",
+        "network_activities.dst_user",
+        "audit_events.session",
+        "audit_events.tty",
+        "security_alerts.description"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004",
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q11_inst0",
+    "question_id": 11,
+    "question": "主机004是否执行了数据库凭据窃取命令？请分析窃取的时间、方法和后续数据访问行为。",
+    "dimension": "凭据访问 + 收集",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.file_name"
+      ],
+      "related_fields": [
+        "audit_events.command",
+        "audit_events.timestamp",
+        "audit_events.uid",
+        "audit_events.success",
+        "file_integrity_events.file_path",
+        "audit_events.cwd"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004"
+    }
+  },
+  {
+    "instance_id": "q11_inst1",
+    "question_id": 11,
+    "question": "主机000是否执行了数据库凭据窃取命令？请分析窃取的时间、方法和后续数据访问行为。",
+    "dimension": "凭据访问 + 收集",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.file_name"
+      ],
+      "related_fields": [
+        "audit_events.command",
+        "audit_events.timestamp",
+        "audit_events.uid",
+        "audit_events.success",
+        "file_integrity_events.file_path",
+        "audit_events.cwd"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "000"
+    }
+  },
+  {
+    "instance_id": "q11_inst2",
+    "question_id": 11,
+    "question": "主机003是否执行了数据库凭据窃取命令？请分析窃取的时间、方法和后续数据访问行为。",
+    "dimension": "凭据访问 + 收集",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.file_name"
+      ],
+      "related_fields": [
+        "audit_events.command",
+        "audit_events.timestamp",
+        "audit_events.uid",
+        "audit_events.success",
+        "file_integrity_events.file_path",
+        "audit_events.cwd"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "003"
+    }
+  },
+  {
+    "instance_id": "q11_inst3",
+    "question_id": 11,
+    "question": "主机004是否执行了数据库凭据窃取命令？请分析窃取的时间、方法和后续数据访问行为。",
+    "dimension": "凭据访问 + 收集",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.file_name"
+      ],
+      "related_fields": [
+        "audit_events.command",
+        "audit_events.timestamp",
+        "audit_events.uid",
+        "audit_events.success",
+        "file_integrity_events.file_path",
+        "audit_events.cwd"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004"
+    }
+  },
+  {
+    "instance_id": "q11_inst4",
+    "question_id": 11,
+    "question": "主机000是否执行了数据库凭据窃取命令？请分析窃取的时间、方法和后续数据访问行为。",
+    "dimension": "凭据访问 + 收集",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.file_name"
+      ],
+      "related_fields": [
+        "audit_events.command",
+        "audit_events.timestamp",
+        "audit_events.uid",
+        "audit_events.success",
+        "file_integrity_events.file_path",
+        "audit_events.cwd"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "000"
+    }
+  },
+  {
+    "instance_id": "q11_inst5",
+    "question_id": 11,
+    "question": "主机003是否执行了数据库凭据窃取命令？请分析窃取的时间、方法和后续数据访问行为。",
+    "dimension": "凭据访问 + 收集",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.file_name"
+      ],
+      "related_fields": [
+        "audit_events.command",
+        "audit_events.timestamp",
+        "audit_events.uid",
+        "audit_events.success",
+        "file_integrity_events.file_path",
+        "audit_events.cwd"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "003"
+    }
+  },
+  {
+    "instance_id": "q11_inst6",
+    "question_id": 11,
+    "question": "主机004是否执行了数据库凭据窃取命令？请分析窃取的时间、方法和后续数据访问行为。",
+    "dimension": "凭据访问 + 收集",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.file_name"
+      ],
+      "related_fields": [
+        "audit_events.command",
+        "audit_events.timestamp",
+        "audit_events.uid",
+        "audit_events.success",
+        "file_integrity_events.file_path",
+        "audit_events.cwd"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004"
+    }
+  },
+  {
+    "instance_id": "q11_inst7",
+    "question_id": 11,
+    "question": "主机000是否执行了数据库凭据窃取命令？请分析窃取的时间、方法和后续数据访问行为。",
+    "dimension": "凭据访问 + 收集",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.file_name"
+      ],
+      "related_fields": [
+        "audit_events.command",
+        "audit_events.timestamp",
+        "audit_events.uid",
+        "audit_events.success",
+        "file_integrity_events.file_path",
+        "audit_events.cwd"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "000"
+    }
+  },
+  {
+    "instance_id": "q11_inst8",
+    "question_id": 11,
+    "question": "主机003是否执行了数据库凭据窃取命令？请分析窃取的时间、方法和后续数据访问行为。",
+    "dimension": "凭据访问 + 收集",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.file_name"
+      ],
+      "related_fields": [
+        "audit_events.command",
+        "audit_events.timestamp",
+        "audit_events.uid",
+        "audit_events.success",
+        "file_integrity_events.file_path",
+        "audit_events.cwd"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "003"
+    }
+  },
+  {
+    "instance_id": "q11_inst9",
+    "question_id": 11,
+    "question": "主机004是否执行了数据库凭据窃取命令？请分析窃取的时间、方法和后续数据访问行为。",
+    "dimension": "凭据访问 + 收集",
+    "attack_stage": "Credential Access",
+    "metadata": {
+      "target": [
+        "audit_events.host_id",
+        "audit_events.file_name"
+      ],
+      "related_fields": [
+        "audit_events.command",
+        "audit_events.timestamp",
+        "audit_events.uid",
+        "audit_events.success",
+        "file_integrity_events.file_path",
+        "audit_events.cwd"
+      ]
+    },
+    "recall_function": "recall_host_scope",
+    "recall_params": {
+      "host_id": "004"
+    }
+  },
+  {
+    "instance_id": "q12_inst0",
+    "question_id": 12,
+    "question": "源IP地址192.168.217.1在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内发起了多少次网络连接？请统计连接次数和涉及的不同目标端口。",
+    "dimension": "网络行为统计",
+    "attack_stage": "Discovery",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.src_port",
+        "network_activities.dst_user"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1",
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q12_inst1",
+    "question_id": 12,
+    "question": "源IP地址192.168.217.1在时间段2024-01-06到2024-01-06T23:59:59内发起了多少次网络连接？请统计连接次数和涉及的不同目标端口。",
+    "dimension": "网络行为统计",
+    "attack_stage": "Discovery",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.src_port",
+        "network_activities.dst_user"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1",
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q12_inst2",
+    "question_id": 12,
+    "question": "源IP地址192.168.217.1在时间段2024-01-05到2024-01-05T23:59:59内发起了多少次网络连接？请统计连接次数和涉及的不同目标端口。",
+    "dimension": "网络行为统计",
+    "attack_stage": "Discovery",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.src_port",
+        "network_activities.dst_user"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1",
+      "start_time": "2024-01-05",
+      "end_time": "2024-01-05T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q12_inst3",
+    "question_id": 12,
+    "question": "源IP地址192.168.217.1在时间段2024-01-04到2024-01-04T23:59:59内发起了多少次网络连接？请统计连接次数和涉及的不同目标端口。",
+    "dimension": "网络行为统计",
+    "attack_stage": "Discovery",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.src_port",
+        "network_activities.dst_user"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1",
+      "start_time": "2024-01-04",
+      "end_time": "2024-01-04T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q12_inst4",
+    "question_id": 12,
+    "question": "源IP地址192.168.217.1在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内发起了多少次网络连接？请统计连接次数和涉及的不同目标端口。",
+    "dimension": "网络行为统计",
+    "attack_stage": "Discovery",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.src_port",
+        "network_activities.dst_user"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1",
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q12_inst5",
+    "question_id": 12,
+    "question": "源IP地址192.168.217.1在时间段2024-01-06到2024-01-06T23:59:59内发起了多少次网络连接？请统计连接次数和涉及的不同目标端口。",
+    "dimension": "网络行为统计",
+    "attack_stage": "Discovery",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.src_port",
+        "network_activities.dst_user"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1",
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q12_inst6",
+    "question_id": 12,
+    "question": "源IP地址192.168.217.1在时间段2024-01-05到2024-01-05T23:59:59内发起了多少次网络连接？请统计连接次数和涉及的不同目标端口。",
+    "dimension": "网络行为统计",
+    "attack_stage": "Discovery",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.src_port",
+        "network_activities.dst_user"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1",
+      "start_time": "2024-01-05",
+      "end_time": "2024-01-05T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q12_inst7",
+    "question_id": 12,
+    "question": "源IP地址192.168.217.1在时间段2024-01-04到2024-01-04T23:59:59内发起了多少次网络连接？请统计连接次数和涉及的不同目标端口。",
+    "dimension": "网络行为统计",
+    "attack_stage": "Discovery",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.src_port",
+        "network_activities.dst_user"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1",
+      "start_time": "2024-01-04",
+      "end_time": "2024-01-04T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q12_inst8",
+    "question_id": 12,
+    "question": "源IP地址192.168.217.1在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内发起了多少次网络连接？请统计连接次数和涉及的不同目标端口。",
+    "dimension": "网络行为统计",
+    "attack_stage": "Discovery",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.src_port",
+        "network_activities.dst_user"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1",
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q12_inst9",
+    "question_id": 12,
+    "question": "源IP地址192.168.217.1在时间段2024-01-06到2024-01-06T23:59:59内发起了多少次网络连接？请统计连接次数和涉及的不同目标端口。",
+    "dimension": "网络行为统计",
+    "attack_stage": "Discovery",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.src_port",
+        "network_activities.dst_user"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1",
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q13_inst0",
+    "question_id": 13,
+    "question": "哪些用户从IP地址192.168.217.1发起过网络连接？请列出用户名和首次连接时间。",
+    "dimension": "用户行为关联",
+    "attack_stage": "Initial Access",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip"
+      ],
+      "related_fields": [
+        "network_activities.src_user",
+        "network_activities.dst_user",
+        "network_activities.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1"
+    }
+  },
+  {
+    "instance_id": "q13_inst1",
+    "question_id": 13,
+    "question": "哪些用户从IP地址192.168.217.1发起过网络连接？请列出用户名和首次连接时间。",
+    "dimension": "用户行为关联",
+    "attack_stage": "Initial Access",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip"
+      ],
+      "related_fields": [
+        "network_activities.src_user",
+        "network_activities.dst_user",
+        "network_activities.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1"
+    }
+  },
+  {
+    "instance_id": "q13_inst2",
+    "question_id": 13,
+    "question": "哪些用户从IP地址192.168.217.1发起过网络连接？请列出用户名和首次连接时间。",
+    "dimension": "用户行为关联",
+    "attack_stage": "Initial Access",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip"
+      ],
+      "related_fields": [
+        "network_activities.src_user",
+        "network_activities.dst_user",
+        "network_activities.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1"
+    }
+  },
+  {
+    "instance_id": "q13_inst3",
+    "question_id": 13,
+    "question": "哪些用户从IP地址192.168.217.1发起过网络连接？请列出用户名和首次连接时间。",
+    "dimension": "用户行为关联",
+    "attack_stage": "Initial Access",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip"
+      ],
+      "related_fields": [
+        "network_activities.src_user",
+        "network_activities.dst_user",
+        "network_activities.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1"
+    }
+  },
+  {
+    "instance_id": "q13_inst4",
+    "question_id": 13,
+    "question": "哪些用户从IP地址192.168.217.1发起过网络连接？请列出用户名和首次连接时间。",
+    "dimension": "用户行为关联",
+    "attack_stage": "Initial Access",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip"
+      ],
+      "related_fields": [
+        "network_activities.src_user",
+        "network_activities.dst_user",
+        "network_activities.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1"
+    }
+  },
+  {
+    "instance_id": "q13_inst5",
+    "question_id": 13,
+    "question": "哪些用户从IP地址192.168.217.1发起过网络连接？请列出用户名和首次连接时间。",
+    "dimension": "用户行为关联",
+    "attack_stage": "Initial Access",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip"
+      ],
+      "related_fields": [
+        "network_activities.src_user",
+        "network_activities.dst_user",
+        "network_activities.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1"
+    }
+  },
+  {
+    "instance_id": "q13_inst6",
+    "question_id": 13,
+    "question": "哪些用户从IP地址192.168.217.1发起过网络连接？请列出用户名和首次连接时间。",
+    "dimension": "用户行为关联",
+    "attack_stage": "Initial Access",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip"
+      ],
+      "related_fields": [
+        "network_activities.src_user",
+        "network_activities.dst_user",
+        "network_activities.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1"
+    }
+  },
+  {
+    "instance_id": "q13_inst7",
+    "question_id": 13,
+    "question": "哪些用户从IP地址192.168.217.1发起过网络连接？请列出用户名和首次连接时间。",
+    "dimension": "用户行为关联",
+    "attack_stage": "Initial Access",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip"
+      ],
+      "related_fields": [
+        "network_activities.src_user",
+        "network_activities.dst_user",
+        "network_activities.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1"
+    }
+  },
+  {
+    "instance_id": "q13_inst8",
+    "question_id": 13,
+    "question": "哪些用户从IP地址192.168.217.1发起过网络连接？请列出用户名和首次连接时间。",
+    "dimension": "用户行为关联",
+    "attack_stage": "Initial Access",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip"
+      ],
+      "related_fields": [
+        "network_activities.src_user",
+        "network_activities.dst_user",
+        "network_activities.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1"
+    }
+  },
+  {
+    "instance_id": "q13_inst9",
+    "question_id": 13,
+    "question": "哪些用户从IP地址192.168.217.1发起过网络连接？请列出用户名和首次连接时间。",
+    "dimension": "用户行为关联",
+    "attack_stage": "Initial Access",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip"
+      ],
+      "related_fields": [
+        "network_activities.src_user",
+        "network_activities.dst_user",
+        "network_activities.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1"
+    }
+  },
+  {
+    "instance_id": "q14_inst0",
+    "question_id": 14,
+    "question": "IP地址192.168.217.1在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内的网络活动模式是什么？请分析连接频率和活跃时段。",
+    "dimension": "时序行为分析",
+    "attack_stage": "Command and Control",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.src_port",
+        "network_activities.dst_user",
+        "network_activities.src_user"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1",
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q14_inst1",
+    "question_id": 14,
+    "question": "IP地址192.168.217.1在时间段2024-01-06到2024-01-06T23:59:59内的网络活动模式是什么？请分析连接频率和活跃时段。",
+    "dimension": "时序行为分析",
+    "attack_stage": "Command and Control",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.src_port",
+        "network_activities.dst_user",
+        "network_activities.src_user"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1",
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q14_inst2",
+    "question_id": 14,
+    "question": "IP地址192.168.217.1在时间段2024-01-05到2024-01-05T23:59:59内的网络活动模式是什么？请分析连接频率和活跃时段。",
+    "dimension": "时序行为分析",
+    "attack_stage": "Command and Control",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.src_port",
+        "network_activities.dst_user",
+        "network_activities.src_user"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1",
+      "start_time": "2024-01-05",
+      "end_time": "2024-01-05T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q14_inst3",
+    "question_id": 14,
+    "question": "IP地址192.168.217.1在时间段2024-01-04到2024-01-04T23:59:59内的网络活动模式是什么？请分析连接频率和活跃时段。",
+    "dimension": "时序行为分析",
+    "attack_stage": "Command and Control",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.src_port",
+        "network_activities.dst_user",
+        "network_activities.src_user"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1",
+      "start_time": "2024-01-04",
+      "end_time": "2024-01-04T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q14_inst4",
+    "question_id": 14,
+    "question": "IP地址192.168.217.1在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内的网络活动模式是什么？请分析连接频率和活跃时段。",
+    "dimension": "时序行为分析",
+    "attack_stage": "Command and Control",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.src_port",
+        "network_activities.dst_user",
+        "network_activities.src_user"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1",
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q14_inst5",
+    "question_id": 14,
+    "question": "IP地址192.168.217.1在时间段2024-01-06到2024-01-06T23:59:59内的网络活动模式是什么？请分析连接频率和活跃时段。",
+    "dimension": "时序行为分析",
+    "attack_stage": "Command and Control",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.src_port",
+        "network_activities.dst_user",
+        "network_activities.src_user"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1",
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q14_inst6",
+    "question_id": 14,
+    "question": "IP地址192.168.217.1在时间段2024-01-05到2024-01-05T23:59:59内的网络活动模式是什么？请分析连接频率和活跃时段。",
+    "dimension": "时序行为分析",
+    "attack_stage": "Command and Control",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.src_port",
+        "network_activities.dst_user",
+        "network_activities.src_user"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1",
+      "start_time": "2024-01-05",
+      "end_time": "2024-01-05T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q14_inst7",
+    "question_id": 14,
+    "question": "IP地址192.168.217.1在时间段2024-01-04到2024-01-04T23:59:59内的网络活动模式是什么？请分析连接频率和活跃时段。",
+    "dimension": "时序行为分析",
+    "attack_stage": "Command and Control",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.src_port",
+        "network_activities.dst_user",
+        "network_activities.src_user"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1",
+      "start_time": "2024-01-04",
+      "end_time": "2024-01-04T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q14_inst8",
+    "question_id": 14,
+    "question": "IP地址192.168.217.1在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内的网络活动模式是什么？请分析连接频率和活跃时段。",
+    "dimension": "时序行为分析",
+    "attack_stage": "Command and Control",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.src_port",
+        "network_activities.dst_user",
+        "network_activities.src_user"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1",
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q14_inst9",
+    "question_id": 14,
+    "question": "IP地址192.168.217.1在时间段2024-01-06到2024-01-06T23:59:59内的网络活动模式是什么？请分析连接频率和活跃时段。",
+    "dimension": "时序行为分析",
+    "attack_stage": "Command and Control",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.src_port",
+        "network_activities.dst_user",
+        "network_activities.src_user"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1",
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q15_inst0",
+    "question_id": 15,
+    "question": "IP地址192.168.217.1是否与多个不同的目标用户建立过连接？请列出涉及的所有用户。",
+    "dimension": "横向扩散检测",
+    "attack_stage": "Lateral Movement",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip"
+      ],
+      "related_fields": [
+        "network_activities.dst_user",
+        "network_activities.src_user",
+        "network_activities.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1"
+    }
+  },
+  {
+    "instance_id": "q15_inst1",
+    "question_id": 15,
+    "question": "IP地址192.168.217.1是否与多个不同的目标用户建立过连接？请列出涉及的所有用户。",
+    "dimension": "横向扩散检测",
+    "attack_stage": "Lateral Movement",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip"
+      ],
+      "related_fields": [
+        "network_activities.dst_user",
+        "network_activities.src_user",
+        "network_activities.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1"
+    }
+  },
+  {
+    "instance_id": "q15_inst2",
+    "question_id": 15,
+    "question": "IP地址192.168.217.1是否与多个不同的目标用户建立过连接？请列出涉及的所有用户。",
+    "dimension": "横向扩散检测",
+    "attack_stage": "Lateral Movement",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip"
+      ],
+      "related_fields": [
+        "network_activities.dst_user",
+        "network_activities.src_user",
+        "network_activities.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1"
+    }
+  },
+  {
+    "instance_id": "q15_inst3",
+    "question_id": 15,
+    "question": "IP地址192.168.217.1是否与多个不同的目标用户建立过连接？请列出涉及的所有用户。",
+    "dimension": "横向扩散检测",
+    "attack_stage": "Lateral Movement",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip"
+      ],
+      "related_fields": [
+        "network_activities.dst_user",
+        "network_activities.src_user",
+        "network_activities.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1"
+    }
+  },
+  {
+    "instance_id": "q15_inst4",
+    "question_id": 15,
+    "question": "IP地址192.168.217.1是否与多个不同的目标用户建立过连接？请列出涉及的所有用户。",
+    "dimension": "横向扩散检测",
+    "attack_stage": "Lateral Movement",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip"
+      ],
+      "related_fields": [
+        "network_activities.dst_user",
+        "network_activities.src_user",
+        "network_activities.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1"
+    }
+  },
+  {
+    "instance_id": "q15_inst5",
+    "question_id": 15,
+    "question": "IP地址192.168.217.1是否与多个不同的目标用户建立过连接？请列出涉及的所有用户。",
+    "dimension": "横向扩散检测",
+    "attack_stage": "Lateral Movement",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip"
+      ],
+      "related_fields": [
+        "network_activities.dst_user",
+        "network_activities.src_user",
+        "network_activities.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1"
+    }
+  },
+  {
+    "instance_id": "q15_inst6",
+    "question_id": 15,
+    "question": "IP地址192.168.217.1是否与多个不同的目标用户建立过连接？请列出涉及的所有用户。",
+    "dimension": "横向扩散检测",
+    "attack_stage": "Lateral Movement",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip"
+      ],
+      "related_fields": [
+        "network_activities.dst_user",
+        "network_activities.src_user",
+        "network_activities.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1"
+    }
+  },
+  {
+    "instance_id": "q15_inst7",
+    "question_id": 15,
+    "question": "IP地址192.168.217.1是否与多个不同的目标用户建立过连接？请列出涉及的所有用户。",
+    "dimension": "横向扩散检测",
+    "attack_stage": "Lateral Movement",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip"
+      ],
+      "related_fields": [
+        "network_activities.dst_user",
+        "network_activities.src_user",
+        "network_activities.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1"
+    }
+  },
+  {
+    "instance_id": "q15_inst8",
+    "question_id": 15,
+    "question": "IP地址192.168.217.1是否与多个不同的目标用户建立过连接？请列出涉及的所有用户。",
+    "dimension": "横向扩散检测",
+    "attack_stage": "Lateral Movement",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip"
+      ],
+      "related_fields": [
+        "network_activities.dst_user",
+        "network_activities.src_user",
+        "network_activities.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1"
+    }
+  },
+  {
+    "instance_id": "q15_inst9",
+    "question_id": 15,
+    "question": "IP地址192.168.217.1是否与多个不同的目标用户建立过连接？请列出涉及的所有用户。",
+    "dimension": "横向扩散检测",
+    "attack_stage": "Lateral Movement",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip"
+      ],
+      "related_fields": [
+        "network_activities.dst_user",
+        "network_activities.src_user",
+        "network_activities.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1"
+    }
+  },
+  {
+    "instance_id": "q16_inst0",
+    "question_id": 16,
+    "question": "从IP192.168.217.1在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内发起的连接中，使用了哪些源端口？是否存在端口扫描特征？",
+    "dimension": "扫描行为识别",
+    "attack_stage": "Reconnaissance",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.src_port"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1",
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q16_inst1",
+    "question_id": 16,
+    "question": "从IP192.168.217.1在时间段2024-01-06到2024-01-06T23:59:59内发起的连接中，使用了哪些源端口？是否存在端口扫描特征？",
+    "dimension": "扫描行为识别",
+    "attack_stage": "Reconnaissance",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.src_port"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1",
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q16_inst2",
+    "question_id": 16,
+    "question": "从IP192.168.217.1在时间段2024-01-05到2024-01-05T23:59:59内发起的连接中，使用了哪些源端口？是否存在端口扫描特征？",
+    "dimension": "扫描行为识别",
+    "attack_stage": "Reconnaissance",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.src_port"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1",
+      "start_time": "2024-01-05",
+      "end_time": "2024-01-05T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q16_inst3",
+    "question_id": 16,
+    "question": "从IP192.168.217.1在时间段2024-01-04到2024-01-04T23:59:59内发起的连接中，使用了哪些源端口？是否存在端口扫描特征？",
+    "dimension": "扫描行为识别",
+    "attack_stage": "Reconnaissance",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.src_port"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1",
+      "start_time": "2024-01-04",
+      "end_time": "2024-01-04T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q16_inst4",
+    "question_id": 16,
+    "question": "从IP192.168.217.1在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内发起的连接中，使用了哪些源端口？是否存在端口扫描特征？",
+    "dimension": "扫描行为识别",
+    "attack_stage": "Reconnaissance",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.src_port"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1",
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q16_inst5",
+    "question_id": 16,
+    "question": "从IP192.168.217.1在时间段2024-01-06到2024-01-06T23:59:59内发起的连接中，使用了哪些源端口？是否存在端口扫描特征？",
+    "dimension": "扫描行为识别",
+    "attack_stage": "Reconnaissance",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.src_port"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1",
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q16_inst6",
+    "question_id": 16,
+    "question": "从IP192.168.217.1在时间段2024-01-05到2024-01-05T23:59:59内发起的连接中，使用了哪些源端口？是否存在端口扫描特征？",
+    "dimension": "扫描行为识别",
+    "attack_stage": "Reconnaissance",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.src_port"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1",
+      "start_time": "2024-01-05",
+      "end_time": "2024-01-05T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q16_inst7",
+    "question_id": 16,
+    "question": "从IP192.168.217.1在时间段2024-01-04到2024-01-04T23:59:59内发起的连接中，使用了哪些源端口？是否存在端口扫描特征？",
+    "dimension": "扫描行为识别",
+    "attack_stage": "Reconnaissance",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.src_port"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1",
+      "start_time": "2024-01-04",
+      "end_time": "2024-01-04T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q16_inst8",
+    "question_id": 16,
+    "question": "从IP192.168.217.1在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内发起的连接中，使用了哪些源端口？是否存在端口扫描特征？",
+    "dimension": "扫描行为识别",
+    "attack_stage": "Reconnaissance",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.src_port"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1",
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q16_inst9",
+    "question_id": 16,
+    "question": "从IP192.168.217.1在时间段2024-01-06到2024-01-06T23:59:59内发起的连接中，使用了哪些源端口？是否存在端口扫描特征？",
+    "dimension": "扫描行为识别",
+    "attack_stage": "Reconnaissance",
+    "metadata": {
+      "target": [
+        "network_activities.src_ip",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.src_port"
+      ]
+    },
+    "recall_function": "recall_by_src_ip",
+    "recall_params": {
+      "src_ip": "192.168.217.1",
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q17_inst0",
+    "question_id": 17,
+    "question": "文件哈希d41d8cd98f00b204e9800998ecf8427e在系统中出现在哪些路径下？请列出所有文件路径和事件类型。",
+    "dimension": "恶意文件传播分析",
+    "attack_stage": "Execution",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.file_path",
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "d41d8cd98f00b204e9800998ecf8427e"
+    }
+  },
+  {
+    "instance_id": "q17_inst1",
+    "question_id": 17,
+    "question": "文件哈希5c621c8e2dc3074c6fda923ebb4afed2在系统中出现在哪些路径下？请列出所有文件路径和事件类型。",
+    "dimension": "恶意文件传播分析",
+    "attack_stage": "Execution",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.file_path",
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "5c621c8e2dc3074c6fda923ebb4afed2"
+    }
+  },
+  {
+    "instance_id": "q17_inst2",
+    "question_id": 17,
+    "question": "文件哈希c1300af005717746bad01e345a7e9e0a在系统中出现在哪些路径下？请列出所有文件路径和事件类型。",
+    "dimension": "恶意文件传播分析",
+    "attack_stage": "Execution",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.file_path",
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "c1300af005717746bad01e345a7e9e0a"
+    }
+  },
+  {
+    "instance_id": "q17_inst3",
+    "question_id": 17,
+    "question": "文件哈希d96c2ebf20cfe119c4695d0a67832ccf在系统中出现在哪些路径下？请列出所有文件路径和事件类型。",
+    "dimension": "恶意文件传播分析",
+    "attack_stage": "Execution",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.file_path",
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "d96c2ebf20cfe119c4695d0a67832ccf"
+    }
+  },
+  {
+    "instance_id": "q17_inst4",
+    "question_id": 17,
+    "question": "文件哈希4cb08e1fd2ee23751bc3c96c43625c60在系统中出现在哪些路径下？请列出所有文件路径和事件类型。",
+    "dimension": "恶意文件传播分析",
+    "attack_stage": "Execution",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.file_path",
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "4cb08e1fd2ee23751bc3c96c43625c60"
+    }
+  },
+  {
+    "instance_id": "q17_inst5",
+    "question_id": 17,
+    "question": "文件哈希4aeccea27dd316d2b5991bd161a8d764在系统中出现在哪些路径下？请列出所有文件路径和事件类型。",
+    "dimension": "恶意文件传播分析",
+    "attack_stage": "Execution",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.file_path",
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "4aeccea27dd316d2b5991bd161a8d764"
+    }
+  },
+  {
+    "instance_id": "q17_inst6",
+    "question_id": 17,
+    "question": "文件哈希d41d8cd98f00b204e9800998ecf8427e在系统中出现在哪些路径下？请列出所有文件路径和事件类型。",
+    "dimension": "恶意文件传播分析",
+    "attack_stage": "Execution",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.file_path",
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "d41d8cd98f00b204e9800998ecf8427e"
+    }
+  },
+  {
+    "instance_id": "q17_inst7",
+    "question_id": 17,
+    "question": "文件哈希5c621c8e2dc3074c6fda923ebb4afed2在系统中出现在哪些路径下？请列出所有文件路径和事件类型。",
+    "dimension": "恶意文件传播分析",
+    "attack_stage": "Execution",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.file_path",
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "5c621c8e2dc3074c6fda923ebb4afed2"
+    }
+  },
+  {
+    "instance_id": "q17_inst8",
+    "question_id": 17,
+    "question": "文件哈希c1300af005717746bad01e345a7e9e0a在系统中出现在哪些路径下？请列出所有文件路径和事件类型。",
+    "dimension": "恶意文件传播分析",
+    "attack_stage": "Execution",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.file_path",
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "c1300af005717746bad01e345a7e9e0a"
+    }
+  },
+  {
+    "instance_id": "q17_inst9",
+    "question_id": 17,
+    "question": "文件哈希d96c2ebf20cfe119c4695d0a67832ccf在系统中出现在哪些路径下？请列出所有文件路径和事件类型。",
+    "dimension": "恶意文件传播分析",
+    "attack_stage": "Execution",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.file_path",
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "d96c2ebf20cfe119c4695d0a67832ccf"
+    }
+  },
+  {
+    "instance_id": "q18_inst0",
+    "question_id": 18,
+    "question": "文件哈希d41d8cd98f00b204e9800998ecf8427e首次出现是在什么时间？最近一次修改是什么时候？",
+    "dimension": "文件生命周期追踪",
+    "attack_stage": "Impact",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.timestamp",
+        "file_integrity_events.event_type",
+        "file_integrity_events.file_path"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "d41d8cd98f00b204e9800998ecf8427e"
+    }
+  },
+  {
+    "instance_id": "q18_inst1",
+    "question_id": 18,
+    "question": "文件哈希5c621c8e2dc3074c6fda923ebb4afed2首次出现是在什么时间？最近一次修改是什么时候？",
+    "dimension": "文件生命周期追踪",
+    "attack_stage": "Impact",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.timestamp",
+        "file_integrity_events.event_type",
+        "file_integrity_events.file_path"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "5c621c8e2dc3074c6fda923ebb4afed2"
+    }
+  },
+  {
+    "instance_id": "q18_inst2",
+    "question_id": 18,
+    "question": "文件哈希c1300af005717746bad01e345a7e9e0a首次出现是在什么时间？最近一次修改是什么时候？",
+    "dimension": "文件生命周期追踪",
+    "attack_stage": "Impact",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.timestamp",
+        "file_integrity_events.event_type",
+        "file_integrity_events.file_path"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "c1300af005717746bad01e345a7e9e0a"
+    }
+  },
+  {
+    "instance_id": "q18_inst3",
+    "question_id": 18,
+    "question": "文件哈希d96c2ebf20cfe119c4695d0a67832ccf首次出现是在什么时间？最近一次修改是什么时候？",
+    "dimension": "文件生命周期追踪",
+    "attack_stage": "Impact",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.timestamp",
+        "file_integrity_events.event_type",
+        "file_integrity_events.file_path"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "d96c2ebf20cfe119c4695d0a67832ccf"
+    }
+  },
+  {
+    "instance_id": "q18_inst4",
+    "question_id": 18,
+    "question": "文件哈希4cb08e1fd2ee23751bc3c96c43625c60首次出现是在什么时间？最近一次修改是什么时候？",
+    "dimension": "文件生命周期追踪",
+    "attack_stage": "Impact",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.timestamp",
+        "file_integrity_events.event_type",
+        "file_integrity_events.file_path"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "4cb08e1fd2ee23751bc3c96c43625c60"
+    }
+  },
+  {
+    "instance_id": "q18_inst5",
+    "question_id": 18,
+    "question": "文件哈希4aeccea27dd316d2b5991bd161a8d764首次出现是在什么时间？最近一次修改是什么时候？",
+    "dimension": "文件生命周期追踪",
+    "attack_stage": "Impact",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.timestamp",
+        "file_integrity_events.event_type",
+        "file_integrity_events.file_path"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "4aeccea27dd316d2b5991bd161a8d764"
+    }
+  },
+  {
+    "instance_id": "q18_inst6",
+    "question_id": 18,
+    "question": "文件哈希d41d8cd98f00b204e9800998ecf8427e首次出现是在什么时间？最近一次修改是什么时候？",
+    "dimension": "文件生命周期追踪",
+    "attack_stage": "Impact",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.timestamp",
+        "file_integrity_events.event_type",
+        "file_integrity_events.file_path"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "d41d8cd98f00b204e9800998ecf8427e"
+    }
+  },
+  {
+    "instance_id": "q18_inst7",
+    "question_id": 18,
+    "question": "文件哈希5c621c8e2dc3074c6fda923ebb4afed2首次出现是在什么时间？最近一次修改是什么时候？",
+    "dimension": "文件生命周期追踪",
+    "attack_stage": "Impact",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.timestamp",
+        "file_integrity_events.event_type",
+        "file_integrity_events.file_path"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "5c621c8e2dc3074c6fda923ebb4afed2"
+    }
+  },
+  {
+    "instance_id": "q18_inst8",
+    "question_id": 18,
+    "question": "文件哈希c1300af005717746bad01e345a7e9e0a首次出现是在什么时间？最近一次修改是什么时候？",
+    "dimension": "文件生命周期追踪",
+    "attack_stage": "Impact",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.timestamp",
+        "file_integrity_events.event_type",
+        "file_integrity_events.file_path"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "c1300af005717746bad01e345a7e9e0a"
+    }
+  },
+  {
+    "instance_id": "q18_inst9",
+    "question_id": 18,
+    "question": "文件哈希d96c2ebf20cfe119c4695d0a67832ccf首次出现是在什么时间？最近一次修改是什么时候？",
+    "dimension": "文件生命周期追踪",
+    "attack_stage": "Impact",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.timestamp",
+        "file_integrity_events.event_type",
+        "file_integrity_events.file_path"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "d96c2ebf20cfe119c4695d0a67832ccf"
+    }
+  },
+  {
+    "instance_id": "q19_inst0",
+    "question_id": 19,
+    "question": "文件哈希d41d8cd98f00b204e9800998ecf8427e对应的文件权限发生过哪些变化？请列出权限变更记录。",
+    "dimension": "权限篡改检测",
+    "attack_stage": "Defense Evasion",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.perm_before",
+        "file_integrity_events.perm_after",
+        "file_integrity_events.file_path",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "d41d8cd98f00b204e9800998ecf8427e"
+    }
+  },
+  {
+    "instance_id": "q19_inst1",
+    "question_id": 19,
+    "question": "文件哈希5c621c8e2dc3074c6fda923ebb4afed2对应的文件权限发生过哪些变化？请列出权限变更记录。",
+    "dimension": "权限篡改检测",
+    "attack_stage": "Defense Evasion",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.perm_before",
+        "file_integrity_events.perm_after",
+        "file_integrity_events.file_path",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "5c621c8e2dc3074c6fda923ebb4afed2"
+    }
+  },
+  {
+    "instance_id": "q19_inst2",
+    "question_id": 19,
+    "question": "文件哈希c1300af005717746bad01e345a7e9e0a对应的文件权限发生过哪些变化？请列出权限变更记录。",
+    "dimension": "权限篡改检测",
+    "attack_stage": "Defense Evasion",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.perm_before",
+        "file_integrity_events.perm_after",
+        "file_integrity_events.file_path",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "c1300af005717746bad01e345a7e9e0a"
+    }
+  },
+  {
+    "instance_id": "q19_inst3",
+    "question_id": 19,
+    "question": "文件哈希d96c2ebf20cfe119c4695d0a67832ccf对应的文件权限发生过哪些变化？请列出权限变更记录。",
+    "dimension": "权限篡改检测",
+    "attack_stage": "Defense Evasion",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.perm_before",
+        "file_integrity_events.perm_after",
+        "file_integrity_events.file_path",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "d96c2ebf20cfe119c4695d0a67832ccf"
+    }
+  },
+  {
+    "instance_id": "q19_inst4",
+    "question_id": 19,
+    "question": "文件哈希4cb08e1fd2ee23751bc3c96c43625c60对应的文件权限发生过哪些变化？请列出权限变更记录。",
+    "dimension": "权限篡改检测",
+    "attack_stage": "Defense Evasion",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.perm_before",
+        "file_integrity_events.perm_after",
+        "file_integrity_events.file_path",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "4cb08e1fd2ee23751bc3c96c43625c60"
+    }
+  },
+  {
+    "instance_id": "q19_inst5",
+    "question_id": 19,
+    "question": "文件哈希4aeccea27dd316d2b5991bd161a8d764对应的文件权限发生过哪些变化？请列出权限变更记录。",
+    "dimension": "权限篡改检测",
+    "attack_stage": "Defense Evasion",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.perm_before",
+        "file_integrity_events.perm_after",
+        "file_integrity_events.file_path",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "4aeccea27dd316d2b5991bd161a8d764"
+    }
+  },
+  {
+    "instance_id": "q19_inst6",
+    "question_id": 19,
+    "question": "文件哈希d41d8cd98f00b204e9800998ecf8427e对应的文件权限发生过哪些变化？请列出权限变更记录。",
+    "dimension": "权限篡改检测",
+    "attack_stage": "Defense Evasion",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.perm_before",
+        "file_integrity_events.perm_after",
+        "file_integrity_events.file_path",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "d41d8cd98f00b204e9800998ecf8427e"
+    }
+  },
+  {
+    "instance_id": "q19_inst7",
+    "question_id": 19,
+    "question": "文件哈希5c621c8e2dc3074c6fda923ebb4afed2对应的文件权限发生过哪些变化？请列出权限变更记录。",
+    "dimension": "权限篡改检测",
+    "attack_stage": "Defense Evasion",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.perm_before",
+        "file_integrity_events.perm_after",
+        "file_integrity_events.file_path",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "5c621c8e2dc3074c6fda923ebb4afed2"
+    }
+  },
+  {
+    "instance_id": "q19_inst8",
+    "question_id": 19,
+    "question": "文件哈希c1300af005717746bad01e345a7e9e0a对应的文件权限发生过哪些变化？请列出权限变更记录。",
+    "dimension": "权限篡改检测",
+    "attack_stage": "Defense Evasion",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.perm_before",
+        "file_integrity_events.perm_after",
+        "file_integrity_events.file_path",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "c1300af005717746bad01e345a7e9e0a"
+    }
+  },
+  {
+    "instance_id": "q19_inst9",
+    "question_id": 19,
+    "question": "文件哈希d96c2ebf20cfe119c4695d0a67832ccf对应的文件权限发生过哪些变化？请列出权限变更记录。",
+    "dimension": "权限篡改检测",
+    "attack_stage": "Defense Evasion",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.perm_before",
+        "file_integrity_events.perm_after",
+        "file_integrity_events.file_path",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "d96c2ebf20cfe119c4695d0a67832ccf"
+    }
+  },
+  {
+    "instance_id": "q20_inst0",
+    "question_id": 20,
+    "question": "哪些文件的哈希值从cb2a18156aea17e1317014424f85f331变更为5c621c8e2dc3074c6fda923ebb4afed2？请分析是否为篡改行为。",
+    "dimension": "文件完整性监控",
+    "attack_stage": "Impact",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_before",
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.file_path",
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_before": "cb2a18156aea17e1317014424f85f331",
+      "md5_after": "5c621c8e2dc3074c6fda923ebb4afed2"
+    }
+  },
+  {
+    "instance_id": "q20_inst1",
+    "question_id": 20,
+    "question": "哪些文件的哈希值从95de1295f0bc2ace832e5238f4fad12a变更为4aeccea27dd316d2b5991bd161a8d764？请分析是否为篡改行为。",
+    "dimension": "文件完整性监控",
+    "attack_stage": "Impact",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_before",
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.file_path",
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_before": "95de1295f0bc2ace832e5238f4fad12a",
+      "md5_after": "4aeccea27dd316d2b5991bd161a8d764"
+    }
+  },
+  {
+    "instance_id": "q20_inst2",
+    "question_id": 20,
+    "question": "哪些文件的哈希值从b3b341c0094c01349944bf0d20727fc9变更为d96c2ebf20cfe119c4695d0a67832ccf？请分析是否为篡改行为。",
+    "dimension": "文件完整性监控",
+    "attack_stage": "Impact",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_before",
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.file_path",
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_before": "b3b341c0094c01349944bf0d20727fc9",
+      "md5_after": "d96c2ebf20cfe119c4695d0a67832ccf"
+    }
+  },
+  {
+    "instance_id": "q20_inst3",
+    "question_id": 20,
+    "question": "哪些文件的哈希值从cb2a18156aea17e1317014424f85f331变更为5c621c8e2dc3074c6fda923ebb4afed2？请分析是否为篡改行为。",
+    "dimension": "文件完整性监控",
+    "attack_stage": "Impact",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_before",
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.file_path",
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_before": "cb2a18156aea17e1317014424f85f331",
+      "md5_after": "5c621c8e2dc3074c6fda923ebb4afed2"
+    }
+  },
+  {
+    "instance_id": "q20_inst4",
+    "question_id": 20,
+    "question": "哪些文件的哈希值从95de1295f0bc2ace832e5238f4fad12a变更为4aeccea27dd316d2b5991bd161a8d764？请分析是否为篡改行为。",
+    "dimension": "文件完整性监控",
+    "attack_stage": "Impact",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_before",
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.file_path",
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_before": "95de1295f0bc2ace832e5238f4fad12a",
+      "md5_after": "4aeccea27dd316d2b5991bd161a8d764"
+    }
+  },
+  {
+    "instance_id": "q20_inst5",
+    "question_id": 20,
+    "question": "哪些文件的哈希值从b3b341c0094c01349944bf0d20727fc9变更为d96c2ebf20cfe119c4695d0a67832ccf？请分析是否为篡改行为。",
+    "dimension": "文件完整性监控",
+    "attack_stage": "Impact",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_before",
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.file_path",
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_before": "b3b341c0094c01349944bf0d20727fc9",
+      "md5_after": "d96c2ebf20cfe119c4695d0a67832ccf"
+    }
+  },
+  {
+    "instance_id": "q20_inst6",
+    "question_id": 20,
+    "question": "哪些文件的哈希值从cb2a18156aea17e1317014424f85f331变更为5c621c8e2dc3074c6fda923ebb4afed2？请分析是否为篡改行为。",
+    "dimension": "文件完整性监控",
+    "attack_stage": "Impact",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_before",
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.file_path",
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_before": "cb2a18156aea17e1317014424f85f331",
+      "md5_after": "5c621c8e2dc3074c6fda923ebb4afed2"
+    }
+  },
+  {
+    "instance_id": "q20_inst7",
+    "question_id": 20,
+    "question": "哪些文件的哈希值从95de1295f0bc2ace832e5238f4fad12a变更为4aeccea27dd316d2b5991bd161a8d764？请分析是否为篡改行为。",
+    "dimension": "文件完整性监控",
+    "attack_stage": "Impact",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_before",
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.file_path",
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_before": "95de1295f0bc2ace832e5238f4fad12a",
+      "md5_after": "4aeccea27dd316d2b5991bd161a8d764"
+    }
+  },
+  {
+    "instance_id": "q20_inst8",
+    "question_id": 20,
+    "question": "哪些文件的哈希值从b3b341c0094c01349944bf0d20727fc9变更为d96c2ebf20cfe119c4695d0a67832ccf？请分析是否为篡改行为。",
+    "dimension": "文件完整性监控",
+    "attack_stage": "Impact",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_before",
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.file_path",
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_before": "b3b341c0094c01349944bf0d20727fc9",
+      "md5_after": "d96c2ebf20cfe119c4695d0a67832ccf"
+    }
+  },
+  {
+    "instance_id": "q20_inst9",
+    "question_id": 20,
+    "question": "哪些文件的哈希值从cb2a18156aea17e1317014424f85f331变更为5c621c8e2dc3074c6fda923ebb4afed2？请分析是否为篡改行为。",
+    "dimension": "文件完整性监控",
+    "attack_stage": "Impact",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_before",
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.file_path",
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_before": "cb2a18156aea17e1317014424f85f331",
+      "md5_after": "5c621c8e2dc3074c6fda923ebb4afed2"
+    }
+  },
+  {
+    "instance_id": "q21_inst0",
+    "question_id": 21,
+    "question": "文件哈希d41d8cd98f00b204e9800998ecf8427e关联的事件类型有哪些？请统计created、modified、deleted等操作的次数。",
+    "dimension": "文件操作模式分析",
+    "attack_stage": "Collection",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "d41d8cd98f00b204e9800998ecf8427e"
+    }
+  },
+  {
+    "instance_id": "q21_inst1",
+    "question_id": 21,
+    "question": "文件哈希5c621c8e2dc3074c6fda923ebb4afed2关联的事件类型有哪些？请统计created、modified、deleted等操作的次数。",
+    "dimension": "文件操作模式分析",
+    "attack_stage": "Collection",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "5c621c8e2dc3074c6fda923ebb4afed2"
+    }
+  },
+  {
+    "instance_id": "q21_inst2",
+    "question_id": 21,
+    "question": "文件哈希c1300af005717746bad01e345a7e9e0a关联的事件类型有哪些？请统计created、modified、deleted等操作的次数。",
+    "dimension": "文件操作模式分析",
+    "attack_stage": "Collection",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "c1300af005717746bad01e345a7e9e0a"
+    }
+  },
+  {
+    "instance_id": "q21_inst3",
+    "question_id": 21,
+    "question": "文件哈希d96c2ebf20cfe119c4695d0a67832ccf关联的事件类型有哪些？请统计created、modified、deleted等操作的次数。",
+    "dimension": "文件操作模式分析",
+    "attack_stage": "Collection",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "d96c2ebf20cfe119c4695d0a67832ccf"
+    }
+  },
+  {
+    "instance_id": "q21_inst4",
+    "question_id": 21,
+    "question": "文件哈希4cb08e1fd2ee23751bc3c96c43625c60关联的事件类型有哪些？请统计created、modified、deleted等操作的次数。",
+    "dimension": "文件操作模式分析",
+    "attack_stage": "Collection",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "4cb08e1fd2ee23751bc3c96c43625c60"
+    }
+  },
+  {
+    "instance_id": "q21_inst5",
+    "question_id": 21,
+    "question": "文件哈希4aeccea27dd316d2b5991bd161a8d764关联的事件类型有哪些？请统计created、modified、deleted等操作的次数。",
+    "dimension": "文件操作模式分析",
+    "attack_stage": "Collection",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "4aeccea27dd316d2b5991bd161a8d764"
+    }
+  },
+  {
+    "instance_id": "q21_inst6",
+    "question_id": 21,
+    "question": "文件哈希d41d8cd98f00b204e9800998ecf8427e关联的事件类型有哪些？请统计created、modified、deleted等操作的次数。",
+    "dimension": "文件操作模式分析",
+    "attack_stage": "Collection",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "d41d8cd98f00b204e9800998ecf8427e"
+    }
+  },
+  {
+    "instance_id": "q21_inst7",
+    "question_id": 21,
+    "question": "文件哈希5c621c8e2dc3074c6fda923ebb4afed2关联的事件类型有哪些？请统计created、modified、deleted等操作的次数。",
+    "dimension": "文件操作模式分析",
+    "attack_stage": "Collection",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "5c621c8e2dc3074c6fda923ebb4afed2"
+    }
+  },
+  {
+    "instance_id": "q21_inst8",
+    "question_id": 21,
+    "question": "文件哈希c1300af005717746bad01e345a7e9e0a关联的事件类型有哪些？请统计created、modified、deleted等操作的次数。",
+    "dimension": "文件操作模式分析",
+    "attack_stage": "Collection",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "c1300af005717746bad01e345a7e9e0a"
+    }
+  },
+  {
+    "instance_id": "q21_inst9",
+    "question_id": 21,
+    "question": "文件哈希d96c2ebf20cfe119c4695d0a67832ccf关联的事件类型有哪些？请统计created、modified、deleted等操作的次数。",
+    "dimension": "文件操作模式分析",
+    "attack_stage": "Collection",
+    "metadata": {
+      "target": [
+        "file_integrity_events.md5_after"
+      ],
+      "related_fields": [
+        "file_integrity_events.event_type",
+        "file_integrity_events.timestamp"
+      ]
+    },
+    "recall_function": "recall_by_file_hash",
+    "recall_params": {
+      "md5_after": "d96c2ebf20cfe119c4695d0a67832ccf"
+    }
+  },
+  {
+    "instance_id": "q22_inst0",
+    "question_id": 22,
+    "question": "用户ID0在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内执行了哪些命令？请列出所有执行的命令及其时间。",
+    "dimension": "用户行为审计",
+    "attack_stage": "Execution",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.command",
+        "audit_events.exe"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 0,
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q22_inst1",
+    "question_id": 22,
+    "question": "用户ID1000在时间段2024-01-06到2024-01-06T23:59:59内执行了哪些命令？请列出所有执行的命令及其时间。",
+    "dimension": "用户行为审计",
+    "attack_stage": "Execution",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.command",
+        "audit_events.exe"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 1000,
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q22_inst2",
+    "question_id": 22,
+    "question": "用户ID128在时间段2024-01-05到2024-01-05T23:59:59内执行了哪些命令？请列出所有执行的命令及其时间。",
+    "dimension": "用户行为审计",
+    "attack_stage": "Execution",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.command",
+        "audit_events.exe"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 128,
+      "start_time": "2024-01-05",
+      "end_time": "2024-01-05T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q22_inst3",
+    "question_id": 22,
+    "question": "用户ID0在时间段2024-01-04到2024-01-04T23:59:59内执行了哪些命令？请列出所有执行的命令及其时间。",
+    "dimension": "用户行为审计",
+    "attack_stage": "Execution",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.command",
+        "audit_events.exe"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 0,
+      "start_time": "2024-01-04",
+      "end_time": "2024-01-04T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q22_inst4",
+    "question_id": 22,
+    "question": "用户ID1000在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内执行了哪些命令？请列出所有执行的命令及其时间。",
+    "dimension": "用户行为审计",
+    "attack_stage": "Execution",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.command",
+        "audit_events.exe"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 1000,
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q22_inst5",
+    "question_id": 22,
+    "question": "用户ID128在时间段2024-01-06到2024-01-06T23:59:59内执行了哪些命令？请列出所有执行的命令及其时间。",
+    "dimension": "用户行为审计",
+    "attack_stage": "Execution",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.command",
+        "audit_events.exe"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 128,
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q22_inst6",
+    "question_id": 22,
+    "question": "用户ID0在时间段2024-01-05到2024-01-05T23:59:59内执行了哪些命令？请列出所有执行的命令及其时间。",
+    "dimension": "用户行为审计",
+    "attack_stage": "Execution",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.command",
+        "audit_events.exe"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 0,
+      "start_time": "2024-01-05",
+      "end_time": "2024-01-05T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q22_inst7",
+    "question_id": 22,
+    "question": "用户ID1000在时间段2024-01-04到2024-01-04T23:59:59内执行了哪些命令？请列出所有执行的命令及其时间。",
+    "dimension": "用户行为审计",
+    "attack_stage": "Execution",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.command",
+        "audit_events.exe"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 1000,
+      "start_time": "2024-01-04",
+      "end_time": "2024-01-04T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q22_inst8",
+    "question_id": 22,
+    "question": "用户ID128在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内执行了哪些命令？请列出所有执行的命令及其时间。",
+    "dimension": "用户行为审计",
+    "attack_stage": "Execution",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.command",
+        "audit_events.exe"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 128,
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q22_inst9",
+    "question_id": 22,
+    "question": "用户ID0在时间段2024-01-06到2024-01-06T23:59:59内执行了哪些命令？请列出所有执行的命令及其时间。",
+    "dimension": "用户行为审计",
+    "attack_stage": "Execution",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.command",
+        "audit_events.exe"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 0,
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q23_inst0",
+    "question_id": 23,
+    "question": "用户0在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内是否访问过敏感文件？请列出文件路径。",
+    "dimension": "敏感数据访问监控",
+    "attack_stage": "Collection",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.file_name",
+        "audit_events.command",
+        "audit_events.success"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 0,
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q23_inst1",
+    "question_id": 23,
+    "question": "用户1000在时间段2024-01-06到2024-01-06T23:59:59内是否访问过敏感文件？请列出文件路径。",
+    "dimension": "敏感数据访问监控",
+    "attack_stage": "Collection",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.file_name",
+        "audit_events.command",
+        "audit_events.success"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 1000,
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q23_inst2",
+    "question_id": 23,
+    "question": "用户128在时间段2024-01-05到2024-01-05T23:59:59内是否访问过敏感文件？请列出文件路径。",
+    "dimension": "敏感数据访问监控",
+    "attack_stage": "Collection",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.file_name",
+        "audit_events.command",
+        "audit_events.success"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 128,
+      "start_time": "2024-01-05",
+      "end_time": "2024-01-05T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q23_inst3",
+    "question_id": 23,
+    "question": "用户0在时间段2024-01-04到2024-01-04T23:59:59内是否访问过敏感文件？请列出文件路径。",
+    "dimension": "敏感数据访问监控",
+    "attack_stage": "Collection",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.file_name",
+        "audit_events.command",
+        "audit_events.success"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 0,
+      "start_time": "2024-01-04",
+      "end_time": "2024-01-04T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q23_inst4",
+    "question_id": 23,
+    "question": "用户1000在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内是否访问过敏感文件？请列出文件路径。",
+    "dimension": "敏感数据访问监控",
+    "attack_stage": "Collection",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.file_name",
+        "audit_events.command",
+        "audit_events.success"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 1000,
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q23_inst5",
+    "question_id": 23,
+    "question": "用户128在时间段2024-01-06到2024-01-06T23:59:59内是否访问过敏感文件？请列出文件路径。",
+    "dimension": "敏感数据访问监控",
+    "attack_stage": "Collection",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.file_name",
+        "audit_events.command",
+        "audit_events.success"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 128,
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q23_inst6",
+    "question_id": 23,
+    "question": "用户0在时间段2024-01-05到2024-01-05T23:59:59内是否访问过敏感文件？请列出文件路径。",
+    "dimension": "敏感数据访问监控",
+    "attack_stage": "Collection",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.file_name",
+        "audit_events.command",
+        "audit_events.success"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 0,
+      "start_time": "2024-01-05",
+      "end_time": "2024-01-05T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q23_inst7",
+    "question_id": 23,
+    "question": "用户1000在时间段2024-01-04到2024-01-04T23:59:59内是否访问过敏感文件？请列出文件路径。",
+    "dimension": "敏感数据访问监控",
+    "attack_stage": "Collection",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.file_name",
+        "audit_events.command",
+        "audit_events.success"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 1000,
+      "start_time": "2024-01-04",
+      "end_time": "2024-01-04T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q23_inst8",
+    "question_id": 23,
+    "question": "用户128在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内是否访问过敏感文件？请列出文件路径。",
+    "dimension": "敏感数据访问监控",
+    "attack_stage": "Collection",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.file_name",
+        "audit_events.command",
+        "audit_events.success"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 128,
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q23_inst9",
+    "question_id": 23,
+    "question": "用户0在时间段2024-01-06到2024-01-06T23:59:59内是否访问过敏感文件？请列出文件路径。",
+    "dimension": "敏感数据访问监控",
+    "attack_stage": "Collection",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.file_name",
+        "audit_events.command",
+        "audit_events.success"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 0,
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q24_inst0",
+    "question_id": 24,
+    "question": "用户ID0在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内启动了多少个进程？请统计进程数量和主要执行的程序。",
+    "dimension": "进程行为统计",
+    "attack_stage": "Execution",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.pid",
+        "audit_events.exe"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 0,
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q24_inst1",
+    "question_id": 24,
+    "question": "用户ID1000在时间段2024-01-06到2024-01-06T23:59:59内启动了多少个进程？请统计进程数量和主要执行的程序。",
+    "dimension": "进程行为统计",
+    "attack_stage": "Execution",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.pid",
+        "audit_events.exe"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 1000,
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q24_inst2",
+    "question_id": 24,
+    "question": "用户ID128在时间段2024-01-05到2024-01-05T23:59:59内启动了多少个进程？请统计进程数量和主要执行的程序。",
+    "dimension": "进程行为统计",
+    "attack_stage": "Execution",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.pid",
+        "audit_events.exe"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 128,
+      "start_time": "2024-01-05",
+      "end_time": "2024-01-05T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q24_inst3",
+    "question_id": 24,
+    "question": "用户ID0在时间段2024-01-04到2024-01-04T23:59:59内启动了多少个进程？请统计进程数量和主要执行的程序。",
+    "dimension": "进程行为统计",
+    "attack_stage": "Execution",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.pid",
+        "audit_events.exe"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 0,
+      "start_time": "2024-01-04",
+      "end_time": "2024-01-04T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q24_inst4",
+    "question_id": 24,
+    "question": "用户ID1000在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内启动了多少个进程？请统计进程数量和主要执行的程序。",
+    "dimension": "进程行为统计",
+    "attack_stage": "Execution",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.pid",
+        "audit_events.exe"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 1000,
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q24_inst5",
+    "question_id": 24,
+    "question": "用户ID128在时间段2024-01-06到2024-01-06T23:59:59内启动了多少个进程？请统计进程数量和主要执行的程序。",
+    "dimension": "进程行为统计",
+    "attack_stage": "Execution",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.pid",
+        "audit_events.exe"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 128,
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q24_inst6",
+    "question_id": 24,
+    "question": "用户ID0在时间段2024-01-05到2024-01-05T23:59:59内启动了多少个进程？请统计进程数量和主要执行的程序。",
+    "dimension": "进程行为统计",
+    "attack_stage": "Execution",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.pid",
+        "audit_events.exe"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 0,
+      "start_time": "2024-01-05",
+      "end_time": "2024-01-05T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q24_inst7",
+    "question_id": 24,
+    "question": "用户ID1000在时间段2024-01-04到2024-01-04T23:59:59内启动了多少个进程？请统计进程数量和主要执行的程序。",
+    "dimension": "进程行为统计",
+    "attack_stage": "Execution",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.pid",
+        "audit_events.exe"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 1000,
+      "start_time": "2024-01-04",
+      "end_time": "2024-01-04T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q24_inst8",
+    "question_id": 24,
+    "question": "用户ID128在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内启动了多少个进程？请统计进程数量和主要执行的程序。",
+    "dimension": "进程行为统计",
+    "attack_stage": "Execution",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.pid",
+        "audit_events.exe"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 128,
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q24_inst9",
+    "question_id": 24,
+    "question": "用户ID0在时间段2024-01-06到2024-01-06T23:59:59内启动了多少个进程？请统计进程数量和主要执行的程序。",
+    "dimension": "进程行为统计",
+    "attack_stage": "Execution",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.pid",
+        "audit_events.exe"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 0,
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q25_inst0",
+    "question_id": 25,
+    "question": "用户0在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内是否进行过权限提升操作？请检查是否有sudo或su相关命令执行。",
+    "dimension": "权限提升检测",
+    "attack_stage": "Privilege Escalation",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.command",
+        "audit_events.euid",
+        "audit_events.success"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 0,
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q25_inst1",
+    "question_id": 25,
+    "question": "用户1000在时间段2024-01-06到2024-01-06T23:59:59内是否进行过权限提升操作？请检查是否有sudo或su相关命令执行。",
+    "dimension": "权限提升检测",
+    "attack_stage": "Privilege Escalation",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.command",
+        "audit_events.euid",
+        "audit_events.success"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 1000,
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q25_inst2",
+    "question_id": 25,
+    "question": "用户128在时间段2024-01-05到2024-01-05T23:59:59内是否进行过权限提升操作？请检查是否有sudo或su相关命令执行。",
+    "dimension": "权限提升检测",
+    "attack_stage": "Privilege Escalation",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.command",
+        "audit_events.euid",
+        "audit_events.success"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 128,
+      "start_time": "2024-01-05",
+      "end_time": "2024-01-05T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q25_inst3",
+    "question_id": 25,
+    "question": "用户0在时间段2024-01-04到2024-01-04T23:59:59内是否进行过权限提升操作？请检查是否有sudo或su相关命令执行。",
+    "dimension": "权限提升检测",
+    "attack_stage": "Privilege Escalation",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.command",
+        "audit_events.euid",
+        "audit_events.success"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 0,
+      "start_time": "2024-01-04",
+      "end_time": "2024-01-04T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q25_inst4",
+    "question_id": 25,
+    "question": "用户1000在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内是否进行过权限提升操作？请检查是否有sudo或su相关命令执行。",
+    "dimension": "权限提升检测",
+    "attack_stage": "Privilege Escalation",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.command",
+        "audit_events.euid",
+        "audit_events.success"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 1000,
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q25_inst5",
+    "question_id": 25,
+    "question": "用户128在时间段2024-01-06到2024-01-06T23:59:59内是否进行过权限提升操作？请检查是否有sudo或su相关命令执行。",
+    "dimension": "权限提升检测",
+    "attack_stage": "Privilege Escalation",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.command",
+        "audit_events.euid",
+        "audit_events.success"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 128,
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q25_inst6",
+    "question_id": 25,
+    "question": "用户0在时间段2024-01-05到2024-01-05T23:59:59内是否进行过权限提升操作？请检查是否有sudo或su相关命令执行。",
+    "dimension": "权限提升检测",
+    "attack_stage": "Privilege Escalation",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.command",
+        "audit_events.euid",
+        "audit_events.success"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 0,
+      "start_time": "2024-01-05",
+      "end_time": "2024-01-05T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q25_inst7",
+    "question_id": 25,
+    "question": "用户1000在时间段2024-01-04到2024-01-04T23:59:59内是否进行过权限提升操作？请检查是否有sudo或su相关命令执行。",
+    "dimension": "权限提升检测",
+    "attack_stage": "Privilege Escalation",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.command",
+        "audit_events.euid",
+        "audit_events.success"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 1000,
+      "start_time": "2024-01-04",
+      "end_time": "2024-01-04T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q25_inst8",
+    "question_id": 25,
+    "question": "用户128在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内是否进行过权限提升操作？请检查是否有sudo或su相关命令执行。",
+    "dimension": "权限提升检测",
+    "attack_stage": "Privilege Escalation",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.command",
+        "audit_events.euid",
+        "audit_events.success"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 128,
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q25_inst9",
+    "question_id": 25,
+    "question": "用户0在时间段2024-01-06到2024-01-06T23:59:59内是否进行过权限提升操作？请检查是否有sudo或su相关命令执行。",
+    "dimension": "权限提升检测",
+    "attack_stage": "Privilege Escalation",
+    "metadata": {
+      "target": [
+        "audit_events.uid",
+        "audit_events.timestamp"
+      ],
+      "related_fields": [
+        "audit_events.command",
+        "audit_events.euid",
+        "audit_events.success"
+      ]
+    },
+    "recall_function": "recall_by_uid",
+    "recall_params": {
+      "uid": 0,
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q26_inst0",
+    "question_id": 26,
+    "question": "sohaib在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内发起过多少次网络连接？",
+    "dimension": "网络活动审计",
+    "attack_stage": "Command and Control",
+    "metadata": {
+      "target": [
+        "network_activities.src_user",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.dst_user",
+        "network_activities.src_ip"
+      ]
+    },
+    "recall_function": "recall_by_src_user",
+    "recall_params": {
+      "src_user": "sohaib",
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q26_inst1",
+    "question_id": 26,
+    "question": "root在时间段2024-01-06到2024-01-06T23:59:59内发起过多少次网络连接？",
+    "dimension": "网络活动审计",
+    "attack_stage": "Command and Control",
+    "metadata": {
+      "target": [
+        "network_activities.src_user",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.dst_user",
+        "network_activities.src_ip"
+      ]
+    },
+    "recall_function": "recall_by_src_user",
+    "recall_params": {
+      "src_user": "root",
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q26_inst2",
+    "question_id": 26,
+    "question": "sohaib在时间段2024-01-05到2024-01-05T23:59:59内发起过多少次网络连接？",
+    "dimension": "网络活动审计",
+    "attack_stage": "Command and Control",
+    "metadata": {
+      "target": [
+        "network_activities.src_user",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.dst_user",
+        "network_activities.src_ip"
+      ]
+    },
+    "recall_function": "recall_by_src_user",
+    "recall_params": {
+      "src_user": "sohaib",
+      "start_time": "2024-01-05",
+      "end_time": "2024-01-05T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q26_inst3",
+    "question_id": 26,
+    "question": "root在时间段2024-01-04到2024-01-04T23:59:59内发起过多少次网络连接？",
+    "dimension": "网络活动审计",
+    "attack_stage": "Command and Control",
+    "metadata": {
+      "target": [
+        "network_activities.src_user",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.dst_user",
+        "network_activities.src_ip"
+      ]
+    },
+    "recall_function": "recall_by_src_user",
+    "recall_params": {
+      "src_user": "root",
+      "start_time": "2024-01-04",
+      "end_time": "2024-01-04T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q26_inst4",
+    "question_id": 26,
+    "question": "sohaib在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内发起过多少次网络连接？",
+    "dimension": "网络活动审计",
+    "attack_stage": "Command and Control",
+    "metadata": {
+      "target": [
+        "network_activities.src_user",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.dst_user",
+        "network_activities.src_ip"
+      ]
+    },
+    "recall_function": "recall_by_src_user",
+    "recall_params": {
+      "src_user": "sohaib",
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q26_inst5",
+    "question_id": 26,
+    "question": "root在时间段2024-01-06到2024-01-06T23:59:59内发起过多少次网络连接？",
+    "dimension": "网络活动审计",
+    "attack_stage": "Command and Control",
+    "metadata": {
+      "target": [
+        "network_activities.src_user",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.dst_user",
+        "network_activities.src_ip"
+      ]
+    },
+    "recall_function": "recall_by_src_user",
+    "recall_params": {
+      "src_user": "root",
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q26_inst6",
+    "question_id": 26,
+    "question": "sohaib在时间段2024-01-05到2024-01-05T23:59:59内发起过多少次网络连接？",
+    "dimension": "网络活动审计",
+    "attack_stage": "Command and Control",
+    "metadata": {
+      "target": [
+        "network_activities.src_user",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.dst_user",
+        "network_activities.src_ip"
+      ]
+    },
+    "recall_function": "recall_by_src_user",
+    "recall_params": {
+      "src_user": "sohaib",
+      "start_time": "2024-01-05",
+      "end_time": "2024-01-05T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q26_inst7",
+    "question_id": 26,
+    "question": "root在时间段2024-01-04到2024-01-04T23:59:59内发起过多少次网络连接？",
+    "dimension": "网络活动审计",
+    "attack_stage": "Command and Control",
+    "metadata": {
+      "target": [
+        "network_activities.src_user",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.dst_user",
+        "network_activities.src_ip"
+      ]
+    },
+    "recall_function": "recall_by_src_user",
+    "recall_params": {
+      "src_user": "root",
+      "start_time": "2024-01-04",
+      "end_time": "2024-01-04T23:59:59"
+    }
+  },
+  {
+    "instance_id": "q26_inst8",
+    "question_id": 26,
+    "question": "sohaib在时间段2024-01-04 17:30:03.224到2024-01-06 10:03:58.529内发起过多少次网络连接？",
+    "dimension": "网络活动审计",
+    "attack_stage": "Command and Control",
+    "metadata": {
+      "target": [
+        "network_activities.src_user",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.dst_user",
+        "network_activities.src_ip"
+      ]
+    },
+    "recall_function": "recall_by_src_user",
+    "recall_params": {
+      "src_user": "sohaib",
+      "start_time": "2024-01-04 17:30:03.224",
+      "end_time": "2024-01-06 10:03:58.529"
+    }
+  },
+  {
+    "instance_id": "q26_inst9",
+    "question_id": 26,
+    "question": "root在时间段2024-01-06到2024-01-06T23:59:59内发起过多少次网络连接？",
+    "dimension": "网络活动审计",
+    "attack_stage": "Command and Control",
+    "metadata": {
+      "target": [
+        "network_activities.src_user",
+        "network_activities.timestamp"
+      ],
+      "related_fields": [
+        "network_activities.dst_user",
+        "network_activities.src_ip"
+      ]
+    },
+    "recall_function": "recall_by_src_user",
+    "recall_params": {
+      "src_user": "root",
+      "start_time": "2024-01-06",
+      "end_time": "2024-01-06T23:59:59"
+    }
+  }
+]

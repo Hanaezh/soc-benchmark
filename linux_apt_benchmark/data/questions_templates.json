@@ -1,0 +1,464 @@
+[
+    {
+      "id": 1,
+      "question": "主机<host_id>的敏感文件/etc/shadow被访问，请分析是哪个进程在什么时间访问的？该进程是否具有正常的业务需求？",
+      "dimension": "凭据访问",
+      "attack_stage": "Credential Access",
+      "metadata": {
+        "target": [
+          "audit_events.host_id",
+          "audit_events.file_name"
+        ],
+        "related_fields": [
+          "audit_events.pid",
+          "audit_events.command",
+          "audit_events.uid",
+          "audit_events.timestamp",
+          "audit_events.exe",
+          "audit_events.success"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "question": "主机<host_id>是否与外部IP地址建立了异常网络连接？如果是，请列出所有涉及的目标IP和通信时间，判断是否为C2通信？",
+      "dimension": "命令与控制",
+      "attack_stage": "Command and Control",
+      "metadata": {
+        "target": [
+          "network_activities.host_id"
+        ],
+        "related_fields": [
+          "network_activities.src_ip",
+          "network_activities.src_port",
+          "network_activities.timestamp",
+          "network_activities.dst_user",
+          "audit_events.command",
+          "audit_events.pid"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "question": "主机<host_id>是否触发了高危告警（alert_level≥<alert_level>）？请分析该告警关联的MITRE ATT&CK战术和技术，以及完整的攻击时间线。",
+      "dimension": "威胁检测",
+      "attack_stage": "Detection",
+      "metadata": {
+        "target": [
+          "security_alerts.host_id",
+          "security_alerts.alert_level",
+          "security_alerts.rule_id"
+        ],
+        "related_fields": [
+          "security_alerts.timestamp",
+          "security_alerts.description",
+          "security_rules.mitre_technique",
+          "security_rules.mitre_tactic",
+          "audit_events.command",
+          "audit_events.uid"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "question": "主机<host_id>的SSH密钥文件（~/.ssh/authorized_keys）被修改。请分析修改时间、修改内容和修改者，判断是否为后门植入？",
+      "dimension": "持久化 + 凭据访问",
+      "attack_stage": "Persistence",
+      "metadata": {
+        "target": [
+          "file_integrity_events.host_id",
+          "file_integrity_events.file_path"
+        ],
+        "related_fields": [
+          "file_integrity_events.event_type",
+          "file_integrity_events.timestamp",
+          "file_integrity_events.uid_after",
+          "file_integrity_events.uname_after",
+          "file_integrity_events.size_before",
+          "file_integrity_events.size_after"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "question": "主机<host_id>的用户<uid>在时间段<start_time>到<end_time>内是否在短时间内尝试访问多个敏感文件（/etc/passwd、/etc/shadow、密钥文件等）？请分析是否为凭据窃取行为？",
+      "dimension": "凭据访问 + 发现",
+      "attack_stage": "Credential Access",
+      "metadata": {
+        "target": [
+          "audit_events.host_id",
+          "audit_events.uid",
+          "audit_events.timestamp"
+        ],
+        "related_fields": [
+          "audit_events.file_name",
+          "audit_events.command",
+          "audit_events.success",
+          "audit_events.exe",
+          "audit_events.pid"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "question": "主机<host_id>是否执行了环境侦察命令？是否为攻击侦察阶段？",
+      "dimension": "发现",
+      "attack_stage": "Discovery",
+      "metadata": {
+        "target": [
+          "audit_events.host_id",
+          "audit_events.command"
+        ],
+        "related_fields": [
+          "audit_events.timestamp",
+          "audit_events.uid",
+          "audit_events.exe",
+          "audit_events.session",
+          "audit_events.tty"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "question": "发现规则<rule_id>在时间段<start_time>到<end_time>内是否在短时间内被多个主机同时触发？请分析是否为蠕虫传播或批量攻击？涉及哪些主机和攻击路径？",
+      "dimension": "横向移动 + 影响",
+      "attack_stage": "Lateral Movement",
+      "metadata": {
+        "target": [
+          "security_alerts.rule_id",
+          "security_alerts.timestamp"
+        ],
+        "related_fields": [
+          "security_alerts.host_id",
+          "security_alerts.description",
+          "network_activities.src_ip",
+          "network_activities.dst_user",
+          "audit_events.command"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "question": "检测到主机<host_id>上在时间段<start_time>到<end_time>内出现大量文件访问行为，涉及用户<uid>。请分析受影响的文件范围和时间线。",
+      "dimension": "影响",
+      "attack_stage": "Impact",
+      "metadata": {
+        "target": [
+          "audit_events.host_id",
+          "audit_events.uid",
+          "audit_events.timestamp"
+        ],
+        "related_fields": [
+          "file_integrity_events.file_path",
+          "file_integrity_events.event_type",
+          "file_integrity_events.size_before",
+          "file_integrity_events.size_after",
+          "audit_events.pid",
+          "audit_events.command"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "question": "主机<host_id>上检测到mimikatz、procdump等凭据转储工具的执行特征。请分析工具的来源、执行者和窃取的凭据类型。",
+      "dimension": "凭据访问",
+      "attack_stage": "Credential Access",
+      "metadata": {
+        "target": [
+          "audit_events.host_id",
+          "audit_events.command"
+        ],
+        "related_fields": [
+          "audit_events.exe",
+          "audit_events.timestamp",
+          "audit_events.uid",
+          "audit_events.file_name",
+          "security_alerts.description",
+          "security_alerts.rule_id"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "question": "主机<host_id>上在时间段<start_time>到<end_time>内检测到批量SSH暴力破解失败记录。请分析攻击来源、尝试的用户名和最终是否成功？",
+      "dimension": "初始访问",
+      "attack_stage": "Initial Access",
+      "metadata": {
+        "target": [
+          "audit_events.host_id",
+          "network_activities.src_ip",
+          "audit_events.timestamp"
+        ],
+        "related_fields": [
+          "audit_events.success",
+          "network_activities.dst_user",
+          "audit_events.session",
+          "audit_events.tty",
+          "security_alerts.description"
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "question": "主机<host_id>是否执行了数据库凭据窃取命令？请分析窃取的时间、方法和后续数据访问行为。",
+      "dimension": "凭据访问 + 收集",
+      "attack_stage": "Credential Access",
+      "metadata": {
+        "target": [
+          "audit_events.host_id",
+          "audit_events.file_name"
+        ],
+        "related_fields": [
+          "audit_events.command",
+          "audit_events.timestamp",
+          "audit_events.uid",
+          "audit_events.success",
+          "file_integrity_events.file_path",
+          "audit_events.cwd"
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "question": "源IP地址<src_ip>在时间段<start_time>到<end_time>内发起了多少次网络连接？请统计连接次数和涉及的不同目标端口。",
+      "dimension": "网络行为统计",
+      "attack_stage": "Discovery",
+      "metadata": {
+        "target": [
+          "network_activities.src_ip",
+          "network_activities.timestamp"
+        ],
+        "related_fields": [
+          "network_activities.src_port",
+          "network_activities.dst_user"
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "question": "哪些用户从IP地址<src_ip>发起过网络连接？请列出用户名和首次连接时间。",
+      "dimension": "用户行为关联",
+      "attack_stage": "Initial Access",
+      "metadata": {
+        "target": [
+          "network_activities.src_ip"
+        ],
+        "related_fields": [
+          "network_activities.src_user",
+          "network_activities.dst_user",
+          "network_activities.timestamp"
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "question": "IP地址<src_ip>在时间段<start_time>到<end_time>内的网络活动模式是什么？请分析连接频率和活跃时段。",
+      "dimension": "时序行为分析",
+      "attack_stage": "Command and Control",
+      "metadata": {
+        "target": [
+          "network_activities.src_ip",
+          "network_activities.timestamp"
+        ],
+        "related_fields": [
+          "network_activities.src_port",
+          "network_activities.dst_user",
+          "network_activities.src_user"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "question": "IP地址<src_ip>是否与多个不同的目标用户建立过连接？请列出涉及的所有用户。",
+      "dimension": "横向扩散检测",
+      "attack_stage": "Lateral Movement",
+      "metadata": {
+        "target": [
+          "network_activities.src_ip"
+        ],
+        "related_fields": [
+          "network_activities.dst_user",
+          "network_activities.src_user",
+          "network_activities.timestamp"
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "question": "从IP<src_ip>在时间段<start_time>到<end_time>内发起的连接中，使用了哪些源端口？是否存在端口扫描特征？",
+      "dimension": "扫描行为识别",
+      "attack_stage": "Reconnaissance",
+      "metadata": {
+        "target": [
+          "network_activities.src_ip",
+          "network_activities.timestamp"
+        ],
+        "related_fields": [
+          "network_activities.src_port"
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "question": "文件哈希<md5_after>在系统中出现在哪些路径下？请列出所有文件路径和事件类型。",
+      "dimension": "恶意文件传播分析",
+      "attack_stage": "Execution",
+      "metadata": {
+        "target": [
+          "file_integrity_events.md5_after"
+        ],
+        "related_fields": [
+          "file_integrity_events.file_path",
+          "file_integrity_events.event_type",
+          "file_integrity_events.timestamp"
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "question": "文件哈希<md5_after>首次出现是在什么时间？最近一次修改是什么时候？",
+      "dimension": "文件生命周期追踪",
+      "attack_stage": "Impact",
+      "metadata": {
+        "target": [
+          "file_integrity_events.md5_after"
+        ],
+        "related_fields": [
+          "file_integrity_events.timestamp",
+          "file_integrity_events.event_type",
+          "file_integrity_events.file_path"
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "question": "文件哈希<md5_after>对应的文件权限发生过哪些变化？请列出权限变更记录。",
+      "dimension": "权限篡改检测",
+      "attack_stage": "Defense Evasion",
+      "metadata": {
+        "target": [
+          "file_integrity_events.md5_after"
+        ],
+        "related_fields": [
+          "file_integrity_events.perm_before",
+          "file_integrity_events.perm_after",
+          "file_integrity_events.file_path",
+          "file_integrity_events.timestamp"
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "question": "哪些文件的哈希值从<md5_before>变更为<md5_after>？请分析是否为篡改行为。",
+      "dimension": "文件完整性监控",
+      "attack_stage": "Impact",
+      "metadata": {
+        "target": [
+          "file_integrity_events.md5_before",
+          "file_integrity_events.md5_after"
+        ],
+        "related_fields": [
+          "file_integrity_events.file_path",
+          "file_integrity_events.event_type",
+          "file_integrity_events.timestamp"
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "question": "文件哈希<md5_after>关联的事件类型有哪些？请统计created、modified、deleted等操作的次数。",
+      "dimension": "文件操作模式分析",
+      "attack_stage": "Collection",
+      "metadata": {
+        "target": [
+          "file_integrity_events.md5_after"
+        ],
+        "related_fields": [
+          "file_integrity_events.event_type",
+          "file_integrity_events.timestamp"
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "question": "用户ID<uid>在时间段<start_time>到<end_time>内执行了哪些命令？请列出所有执行的命令及其时间。",
+      "dimension": "用户行为审计",
+      "attack_stage": "Execution",
+      "metadata": {
+        "target": [
+          "audit_events.uid",
+          "audit_events.timestamp"
+        ],
+        "related_fields": [
+          "audit_events.command",
+          "audit_events.exe"
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "question": "用户<uid>在时间段<start_time>到<end_time>内是否访问过敏感文件？请列出文件路径。",
+      "dimension": "敏感数据访问监控",
+      "attack_stage": "Collection",
+      "metadata": {
+        "target": [
+          "audit_events.uid",
+          "audit_events.timestamp"
+        ],
+        "related_fields": [
+          "audit_events.file_name",
+          "audit_events.command",
+          "audit_events.success"
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "question": "用户ID<uid>在时间段<start_time>到<end_time>内启动了多少个进程？请统计进程数量和主要执行的程序。",
+      "dimension": "进程行为统计",
+      "attack_stage": "Execution",
+      "metadata": {
+        "target": [
+          "audit_events.uid",
+          "audit_events.timestamp"
+        ],
+        "related_fields": [
+          "audit_events.pid",
+          "audit_events.exe"
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "question": "用户<uid>在时间段<start_time>到<end_time>内是否进行过权限提升操作？请检查是否有sudo或su相关命令执行。",
+      "dimension": "权限提升检测",
+      "attack_stage": "Privilege Escalation",
+      "metadata": {
+        "target": [
+          "audit_events.uid",
+          "audit_events.timestamp"
+        ],
+        "related_fields": [
+          "audit_events.command",
+          "audit_events.euid",
+          "audit_events.success"
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "question": "<src_user>在时间段<start_time>到<end_time>内发起过多少次网络连接？",
+      "dimension": "网络活动审计",
+      "attack_stage": "Command and Control",
+      "metadata": {
+        "target": [
+          "network_activities.src_user",
+          "network_activities.timestamp"
+        ],
+        "related_fields": [
+          "network_activities.dst_user",
+          "network_activities.src_ip"
+        ]
+      }
+    }
+]
