@@ -1,0 +1,448 @@
+Honeypot Event Query:
+  description: "踩蜜记录是攻击者触发蜜罢时被记录下的攻击行为数据。"
+  fields:
+    - name: time
+      description: "踩蜜日志产生时间。"
+      type: "string (datetime)"
+      example: "2025-02-11 09:15:50"
+
+    - name: src
+      description: "源IP, 是攻击者IP。"
+      type: "string (ip)"
+      example: "39.185.215.74"
+
+    - name: dst
+      description: "目的IP，是受害者IP。"
+      type: "string (ip)"
+      example: "172.26.8.85"
+
+    - name: sport
+      description: "源端口。"
+      type: "string (port)"
+      example: "14847"
+
+    - name: dport
+      description: "目的端口。"
+      type: "string (port)"
+      example: "8091"
+
+    - name: protocol
+      description: "使用的网络协议，共计 4 种唯一值，包括 HTTP、TCP、http、ICMP。"
+      type: "string (enum)"
+      example: "TCP"
+
+    - name: url
+      description: "URL 地址，反映攻击者或用户请求的具体资源。"
+      type: "string (nullable)"
+      example: "/index.php"
+
+    - name: behavior_type
+      description: "踩蜜行为类型，共计 6 种唯一值，包括 普通访问行为、扫描、其他行为、疑似恶意操作、爬虫。"
+      type: "string (enum)"
+      example: "疑似恶意操作"
+
+    - name: payload
+      description: "攻击载荷。"
+      type: "string"
+      example: "X_Forwarded_For: 183.129.153.151"
+
+    - name: behavior
+      description: "记录踩蜜行为名称。"
+      type: "string"
+      example: "尝试web访问"
+
+    - name: domain
+      description: "域名，用于分析攻击者或用户访问的目标服务器。"
+      type: "string (domain)"
+      example: "dns.harbin2025.com"
+
+
+Security Alert Analysis:
+  description: "攻击日志（安全告警）字段结构。"
+  fields:
+    - name: cve
+      description: "相关的CVE漏洞编号列表。"
+      type: "string (array in JSON format)"
+      example: ""
+
+    - name: description
+      description: "攻击事件的描述信息。"
+      type: "string"
+      example: "检测到系统命令注入攻击. 来源：180.141.39.130/38396, 目的：172.26.129.7/40001"
+
+    - name: dmac
+      description: "目标设备的MAC地址。"
+      type: "string"
+      example: "00-00-5E-00-01-10"
+
+    - name: dport
+      description: "目标端口。"
+      type: "string"
+      example: "40001"
+
+    - name: dst
+      description: "目标IP地址。"
+      type: "string (ip)"
+      example: "172.26.129.7"
+
+    - name: event_time
+      description: "攻击事件发生的时间。"
+      type: "string (datetime)"
+      example: "2025-01-11 09:01:15"
+
+    - name: name
+      description: "攻击名称，可能为空。"
+      type: "string or null"
+      example: "远程命令执行"
+
+    - name: protocol
+      description: "攻击使用的网络协议。"
+      type: "string"
+      example: "http"
+
+    - name: smac
+      description: "源设备的MAC地址。"
+      type: "string"
+      example: "28-FB-AE-66-EB-01"
+
+    - name: sport
+      description: "源端口。"
+      type: "string"
+      example: "38396"
+
+    - name: src
+      description: "来源IP地址，攻击者的IP。"
+      type: "string (ip)"
+      example: "180.141.39.130"
+
+    - name: status
+      description: "攻击事件的状态。try or success"
+      type: "string"
+      example: "try"
+
+    - name: ua_agent
+      description: "用户代理信息。"
+      type: "string"
+      example: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+    - name: url
+      description: "攻击目标的URL。"
+      type: "string"
+      example: "/manager/radius/server_ping.php"
+
+    - name: vlan
+      description: "攻击事件涉及的VLAN ID。"
+      type: "string"
+      example: "2110"
+
+
+Threat Intelligence Matching:
+  description: "威胁情报匹配结果字段结构。"
+  fields:
+    - name: ip
+      description: ""
+      type: "str"
+      example: "34.76.212.241"
+
+    - name: malicious_anheng
+      description: "安恒对IP/域名的安全评估信息"
+      type: "json"
+      example: |
+        {
+          "reputation": "安全",
+          "update_time": "2025-01-26 08:19:58"
+        }
+
+    - name: malicious_threatbook
+      description: "微步对IP/域名的安全评估信息"
+      type: "json"
+      example: |
+        {
+          "reputation": "恶意",
+          "update_time": "2024-12-10 01:00:15"
+        }
+
+    - name: malicious_qax
+      description: "奇安信对IP/域名的安全评估信息"
+      type: "json"
+      example: |
+        {
+          "reputation": "未知",
+          "update_time": "2025-02-06 09:06:29"
+        }
+
+    - name: malicious_tencent
+      description: "腾讯对IP/域名的安全评估信息"
+      type: "json"
+      example: |
+        {
+          "reputation": "恶意",
+          "update_time": "2025-01-26 16:05:32"
+        }
+
+    - name: malicious_topsec
+      description: "天融信对IP/域名的安全评估信息"
+      type: "json"
+      example: |
+        {
+          "reputation": "恶意",
+          "update_time": "2025-01-14 20:07:55"
+        }
+
+    - name: malicious_antiy
+      description: "安天对IP/域名的安全评估信息"
+      type: "json"
+      example: |
+        {
+          "reputation": "恶意",
+          "update_time": ""
+        }
+
+    - name: malicious_h3c
+      description: "H3C对IP/域名的安全评估信息"
+      type: "json"
+      example: |
+        {
+          "reputation": "",
+          "update_time": ""
+        }
+
+    - name: malicious_abuseipdb
+      description: "AbuseIPDB对IP/域名的安全评估信息"
+      type: "json"
+      example: |
+        {
+          "reputation": 100,
+          "update_time": "2025-02-05 20:02:01"
+        }
+
+    - name: threat_type_anheng
+      description: "安恒对威胁类型的判定详情"
+      type: "json"
+      example: |
+        {
+          "judgments": ["白名单"]
+        }
+
+    - name: threat_type_threatbook
+      description: "微步对威胁类型的判定详情"
+      type: "json"
+      example: |
+        {
+          "judgments": ["垃圾信息", "漏洞利用"]
+        }
+
+    - name: threat_type_qax
+      description: "奇安信对威胁类型的判定详情"
+      type: "json"
+      example: |
+        {
+          "judgments": ["BRUTE_FORCER", "WEB攻击", "被劫持", "DDOS攻击", "恶意扫描", "垃圾信息"]
+        }
+
+    - name: threat_type_tencent
+      description: "腾讯对威胁类型的判定详情"
+      type: "json"
+      example: |
+        {
+          "judgments": ["网络扫描", "常规网络扫描", "开源情报", "开源情报"]
+        }
+
+    - name: threat_type_topsec
+      description: "天融信对威胁类型的判定详情"
+      type: "json"
+      example: |
+        {
+          "judgments": ["恶意扫描"]
+        }
+
+    - name: threat_type_antiy
+      description: "安天对威胁类型的判定详情"
+      type: "json"
+      example: |
+        {
+          "judgments": ["暴力破解", "黑客", "恶意扫描", "基础设施"]
+        }
+
+    - name: threat_type_h3c
+      description: "H3C对威胁类型的判定详情"
+      type: "json"
+      example: |
+        {
+          "judgments": []
+        }
+
+    - name: carrier
+      description: "运营商或托管商信息"
+      type: "string"
+      example: "Zenlayer Inc"
+
+    - name: country
+      description: "国家信息，包含国家名称和ISO国家代码"
+      type: "json"
+      example: |
+        {
+          "name": "荷兰",
+          "code": "NL"
+        }
+
+    - name: province
+      description: "省份或州信息"
+      type: "string"
+      example: "北荷兰省"
+
+    - name: city
+      description: "城市信息"
+      type: "string"
+      example: "阿姆斯特丹"
+
+    - name: geo_location
+      description: "地理位置经纬度坐标"
+      type: "json"
+      example: |
+        {
+          "longitude": 4.893581,
+          "latitude": 52.379227
+        }
+
+    - name: type_threatbook
+      description: "微步对IP/域名所属场景的判定"
+      type: "json"
+      example: |
+        {
+          "scene": []
+        }
+
+    - name: type_qax
+      description: "奇安信对IP/域名所属场景的判定"
+      type: "json"
+      example: |
+        {
+          "scene": ["DHT", "BOT", "VoIP"]
+        }
+
+    - name: type_tencent
+      description: "腾讯对IP/域名所属场景的判定"
+      type: "json"
+      example: |
+        {
+          "scene": ["IDC-IP"]
+        }
+
+    - name: type_antiy
+      description: "安天对IP/域名所属场景的判定"
+      type: "json"
+      example: |
+        {
+          "scene": []
+        }
+
+    - name: type_abuseipdb
+      description: "AbuseIPDB对IP/域名所属场景的判定"
+      type: "json"
+      example: |
+        {
+          "scene": ["Data Center", "Web Hosting", "Transit"]
+        }
+
+    - name: malware_qax
+      description: "奇安信对IP/域名相关的恶意软件信息"
+      type: "json"
+      example: |
+        {
+          "malware_name": [],
+          "malware_level": 0
+        }
+
+    - name: malware_antiy
+      description: "安天对IP/域名相关的恶意软件信息"
+      type: "json"
+      example: |
+        {
+          "malware_name": ["Scan/Ioc.Generic.b8b81998"],
+          "malware_level": 0
+        }
+
+
+Access Behavior Audit:
+  description: "访问行为审计日志字段结构。"
+  fields:
+    - name: description
+      description: "访问事件详细描述，包含协议类型、源/目的IP端口等信息。"
+      type: "string"
+      example: "HTTP请求访问. 来源：172.26.255.48/2175, 目的：172.26.130.95/9100"
+
+    - name: dmac
+      description: "目标MAC地址。"
+      type: "string (MAC)"
+      example: "28-FB-AE-66-EB-01"
+
+    - name: dport
+      description: "目标端口，53(DNS)占比74.9%，80(HTTP)/443(HTTPS)次之。"
+      type: "integer"
+      example: 53
+
+    - name: dst
+      description: "目标IP地址，主要指向内网地址。"
+      type: "string (ip)"
+      example: "192.172.2.46"
+
+    - name: protocol
+      description: "网络协议类型。"
+      type: "string"
+      example: "dns, mysql, ftp 等"
+
+    - name: request_header
+      description: "HTTP请求头，含Telegraf、浏览器等客户端特征。"
+      type: "string"
+      example: "Authorization: Basic telegraf:G%8qXi$2*@MWpl..."
+
+    - name: request_length
+      description: "请求内容长度，主要分布在292-312字节范围。"
+      type: "integer"
+      example: 292
+
+    - name: request_method
+      description: "HTTP请求方法，取值例如GET， CWD等。"
+      type: "string"
+      example: "GET"
+
+    - name: response_length
+      description: "响应内容长度，取值在0-1730之间。"
+      type: "integer"
+      example: 0
+
+    - name: response_status
+      description: "响应状态码，SERVFAIL占33.4%，200占9.3%，其它取值还有404、502等。"
+      type: "string"
+      example: "SERVFAIL"
+
+    - name: smac
+      description: "源MAC地址。"
+      type: "string (MAC)"
+      example: "94-90-10-DB-67-01"
+
+    - name: sport
+      description: "源端口，高数值临时端口(49664/49665)出现频率较高。"
+      type: "integer"
+      example: 49664
+
+    - name: src
+      description: "源IP地址。"
+      type: "string (ip)"
+      example: "192.172.2.46"
+
+    - name: time
+      description: "日志生成时间，精确到秒级。"
+      type: "string (datetime)"
+      example: "2025-01-13 16:26:09"
+
+    - name: url
+      description: "请求URL路径，/metrics(监控指标接口)占比3.8%。"
+      type: "string"
+      example: "/metrics"
+
+    - name: vlan
+      description: "虚拟局域网标识。"
+      type: "integer"
+      example: 1914

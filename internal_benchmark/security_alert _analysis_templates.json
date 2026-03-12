@@ -1,0 +1,3657 @@
+[
+    {
+        "id": 1,
+        "question": "攻击者IP为{src}的攻击事件有多少次是成功的？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "question": "记录中显示{src}的攻击行为有多少次是成功的？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "question": "{src} 发起的攻击事件有多少是成功的？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "question": "来源IP {src} 的攻击有多少次是成功的？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "question": "攻击者IP为{src}的攻击事件中，有多少次攻击是成功的？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 6,
+        "question": "有哪些攻击事件中攻击者IP为{src}的攻击尝试最终状态是成功的？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 7,
+        "question": "攻击者IP为{src}的历史攻击记录中，有哪些攻击是成功的？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 8,
+        "question": "攻击者IP为 {src} 的攻击事件中，成功率如何？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 9,
+        "question": "源IP为{src}的攻击事件中，哪些事件被标记为成功？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 10,
+        "question": "有哪些攻击尝试是由{src}发起并成功的？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 11,
+        "question": "攻击者IP为{src}的事件中，哪些攻击最终被认为是成功的？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "question": "来源IP {src} 发起的攻击中，有多少次是成功的？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 13,
+        "question": "针对{src}的攻击者，有多少攻击事件的状态是成功的？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 14,
+        "question": "攻击成功的事件中，攻击者IP为{src}的事件有多少？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 15,
+        "question": "攻击者{src}涉及的攻击事件中，有哪些攻击是成功的？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 16,
+        "question": "攻击者IP为{src}的攻击事件中，哪些事件被标记为成功？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 17,
+        "question": "来自{src}的攻击中，成功的事件有多少？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 18,
+        "question": "源IP为{src}的攻击成功率如何？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 19,
+        "question": "攻击者IP为{src}的攻击事件中，哪些事件是成功的？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 20,
+        "question": "源IP为{src}的攻击中，成功的攻击事件有哪些？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 21,
+        "question": "从源IP {src} 发起的攻击中，最常见的攻击状态是什么？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 22,
+        "question": "攻击者IP为{src}的攻击事件成功率如何？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 23,
+        "question": "攻击者IP为{src}的事件中，攻击成功的比例是多少？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 24,
+        "question": "在攻击状态为成功的事件中，攻击者IP为{src}的事件有哪些？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 25,
+        "question": "攻击事件中，来源IP为{src}的攻击成功率是多少？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 26,
+        "question": "目标IP为{dst}的设备主要受到来自哪些源IP的攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "src"
+            ]
+        }
+    },
+    {
+        "id": 27,
+        "question": "{dst} 最近遭受的攻击中，攻击者的IP地址有哪些？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "src"
+            ]
+        }
+    },
+    {
+        "id": 28,
+        "question": "IP为{dst}的设备最常遭受来自哪个源IP的攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "src"
+            ]
+        }
+    },
+    {
+        "id": 29,
+        "question": "目标IP为{dst}的设备上有哪些不同攻击者的IP地址？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "src"
+            ]
+        }
+    },
+    {
+        "id": 30,
+        "question": "{dst}这个目标设备曾遭受过哪些攻击来源的攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "src"
+            ]
+        }
+    },
+    {
+        "id": 31,
+        "question": "针对目标IP {dst} 的攻击者有哪些不同的来源IP？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "src"
+            ]
+        }
+    },
+    {
+        "id": 32,
+        "question": "目标IP为{dst}的设备被哪些攻击者IP针对过？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "src"
+            ]
+        }
+    },
+    {
+        "id": 33,
+        "question": "哪些攻击者IP地址曾尝试攻击目标IP为{dst}？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "src"
+            ]
+        }
+    },
+    {
+        "id": 34,
+        "question": "目标IP {dst} 在最近一个月内的攻击来源IP有哪些？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "src"
+            ]
+        }
+    },
+    {
+        "id": 35,
+        "question": "目标IP {dst} 经常遭受来自哪些IP地址的攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "src"
+            ]
+        }
+    },
+    {
+        "id": 36,
+        "question": "目标IP地址为{dst}的设备上，攻击通常来自哪些源IP？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "src"
+            ]
+        }
+    },
+    {
+        "id": 37,
+        "question": "攻击事件中，目标IP为{dst}的攻击来源IP有哪些？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "src"
+            ]
+        }
+    },
+    {
+        "id": 38,
+        "question": "目标IP为{dst}的系统遭受了多少次来自不同攻击者的攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "src"
+            ]
+        }
+    },
+    {
+        "id": 39,
+        "question": "攻击者的源IP是{src}时，常见的攻击协议是什么？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 40,
+        "question": "{src} 在攻击中使用过哪些协议？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 41,
+        "question": "攻击者IP {src} 主要使用了哪些网络协议进行攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 42,
+        "question": "攻击者IP {src} 在攻击中使用了哪些网络协议？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 43,
+        "question": "攻击者IP为{src}的攻击事件中，最常用的协议是什么？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 44,
+        "question": "在记录中，{src}使用了哪些不同的攻击协议？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 45,
+        "question": "从IP地址为{src}的攻击者发起的攻击中，哪些协议最常被使用？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 46,
+        "question": "攻击者的IP为{src}，他们通常使用哪些网络协议进行攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 47,
+        "question": "攻击者IP为{src}的活动中，常用的攻击协议是什么？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 48,
+        "question": "源IP为{src}的攻击者在哪些协议下进行了攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 49,
+        "question": "{src}在攻击中使用了哪些不同的协议？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 50,
+        "question": "攻击者 {src} 使用了哪些网络协议进行攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 51,
+        "question": "攻击者IP为{src}的攻击事件中，常用的攻击协议有哪些？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 52,
+        "question": "{src}这个攻击者最常用的攻击协议是什么？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 53,
+        "question": "攻击者IP为{src}在使用哪种协议进行攻击的频率最高？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 54,
+        "question": "源IP为{src}的攻击者使用了哪些协议进行攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 55,
+        "question": "源IP为{src}的攻击事件中，使用了哪些网络协议？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 56,
+        "question": "攻击者IP为{src}的设备在攻击过程中使用了哪些协议？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 57,
+        "question": "攻击者IP为{src}的事件中，主要使用了哪些网络协议？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 58,
+        "question": "攻击者IP地址为{src}的设备使用了哪些网络协议进行攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 59,
+        "question": "IP为 {src} 的攻击者主要使用了哪些攻击协议？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 60,
+        "question": "在过去的攻击记录中，IP地址为{src}的攻击者主要使用了哪些网络协议？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 61,
+        "question": "攻击者IP为{src}的攻击事件中，使用了哪些协议？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 62,
+        "question": "源IP为{src}的攻击者主要使用了哪些协议？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 63,
+        "question": "攻击者IP为{src}的攻击事件中，使用了哪些协议？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 64,
+        "question": "攻击者IP为{src}的设备使用了哪些协议来进行攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 65,
+        "question": "攻击者IP为{src}的攻击事件中，通常使用了哪些协议？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 66,
+        "question": "攻击者IP {src} 使用了哪些网络协议进行攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 67,
+        "question": "攻击者IP为{src}的用户常用的攻击协议是什么？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 68,
+        "question": "来源IP为{src}的攻击，主要使用了哪些协议？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 69,
+        "question": "攻击者IP为{src}的设备在过去的攻击中使用了哪些协议？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 70,
+        "question": "攻击者IP为{src}的设备常用的攻击协议有哪些？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 71,
+        "question": "源IP为{src}的攻击者主要使用了哪些攻击协议？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 72,
+        "question": "{src}这个攻击者的攻击事件中，通常使用哪种协议？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 73,
+        "question": "攻击者IP {src} 曾尝试的攻击协议有哪些？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 74,
+        "question": "{src}在攻击中使用了哪些网络协议？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 75,
+        "question": "来源IP {src} 的攻击主要使用了哪些网络协议？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 76,
+        "question": "IP地址为{src}的攻击者主要使用了哪些攻击协议？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 77,
+        "question": "攻击者IP为{src}的设备通常使用哪些网络协议进行攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 78,
+        "question": "攻击者IP为{src}的事件中，最常见的攻击协议是什么？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 79,
+        "question": "攻击者IP为{src}的设备在使用何种协议进行攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 80,
+        "question": "从{src}这个IP发起的攻击都有哪些目标IP？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dst",
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 81,
+        "question": "攻击者{src}在何时对哪些目标IP进行了攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dst",
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 82,
+        "question": "在{dst}这个目标IP上发生了哪些类型的攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "name",
+                "description",
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 83,
+        "question": "有哪些源IP地址曾经成功攻击过目标IP为{dst}的设备？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "src",
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 84,
+        "question": "哪个源IP对{dst}的攻击成功率最高？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "src",
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 85,
+        "question": "来自{src}的攻击事件中，涉及到哪些CVE漏洞编号？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "cve"
+            ]
+        }
+    },
+    {
+        "id": 86,
+        "question": "攻击者IP为{src}的攻击事件中，有哪些是涉及CVE漏洞的？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "cve"
+            ]
+        }
+    },
+    {
+        "id": 87,
+        "question": "攻击者IP为{src}的攻击涉及了哪些CVE漏洞？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "cve"
+            ]
+        }
+    },
+    {
+        "id": 88,
+        "question": "源IP为{src}的攻击事件中，涉及的CVE编号有哪些？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "cve"
+            ]
+        }
+    },
+    {
+        "id": 89,
+        "question": "{src}的攻击中，涉及到的CVE漏洞编号有哪些？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "cve"
+            ]
+        }
+    },
+    {
+        "id": 90,
+        "question": "来自攻击者IP为{src}的攻击事件中，涉及了哪些CVE漏洞编号？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "cve"
+            ]
+        }
+    },
+    {
+        "id": 91,
+        "question": "涉及攻击者IP {src} 的事件中，哪些CVE漏洞编号最常被利用？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "cve"
+            ]
+        }
+    },
+    {
+        "id": 92,
+        "question": "{src}这个IP是否与CVE漏洞编号相关联？如果是，涉及哪些CVE编号？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "cve"
+            ]
+        }
+    },
+    {
+        "id": 93,
+        "question": "攻击者IP为{src}的攻击事件涉及了哪些CVE漏洞编号？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "cve"
+            ]
+        }
+    },
+    {
+        "id": 94,
+        "question": "攻击者IP为{src}的设备涉及到的CVE漏洞编号有哪些？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "cve"
+            ]
+        }
+    },
+    {
+        "id": 95,
+        "question": "在攻击者IP为{src}的事件中，使用了哪些CVE漏洞？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "cve"
+            ]
+        }
+    },
+    {
+        "id": 96,
+        "question": "攻击者 {src} 使用了哪些漏洞（CVE）进行攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "cve"
+            ]
+        }
+    },
+    {
+        "id": 97,
+        "question": "攻击者IP为{src}的攻击事件中，涉及了哪些CVE漏洞？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "cve"
+            ]
+        }
+    },
+    {
+        "id": 98,
+        "question": "有哪些CVE漏洞编号与攻击者IP {src} 相关？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "cve"
+            ]
+        }
+    },
+    {
+        "id": 99,
+        "question": "在攻击目标IP为{dst}的事件中，使用了哪些网络协议？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 100,
+        "question": "目标IP为{dst}的设备遭受了哪些不同协议的攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 101,
+        "question": "涉及目标IP为{dst}的攻击事件中，攻击者主要使用了哪些协议？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 102,
+        "question": "针对{dst}的攻击中，最常见的攻击协议是什么？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 103,
+        "question": "目标IP为{dst}的设备遭受的攻击中，使用了哪些协议？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 104,
+        "question": "目的IP地址为{dst}的设备最常被攻击的协议是什么？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 105,
+        "question": "目标IP {dst} 受到了哪些协议的攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 106,
+        "question": "哪些设备是从 {src} 发起攻击的常见目标？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dst"
+            ]
+        }
+    },
+    {
+        "id": 107,
+        "question": "攻击者IP {src} 针对哪些目标IP进行了攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dst"
+            ]
+        }
+    },
+    {
+        "id": 108,
+        "question": "源IP为{src}的攻击者在历史记录中使用过哪些目标IP？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dst"
+            ]
+        }
+    },
+    {
+        "id": 109,
+        "question": "IP地址为{src}的攻击者在历史记录中频繁攻击哪些目标IP？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dst"
+            ]
+        }
+    },
+    {
+        "id": 110,
+        "question": "攻击者IP为{src}的有哪些攻击事件？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "event_time",
+                "name",
+                "description"
+            ]
+        }
+    },
+    {
+        "id": 111,
+        "question": "最近一次来源IP为{src}的攻击是什么时候发生的？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 112,
+        "question": "攻击者IP {src} 在什么时间发起了攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 113,
+        "question": "{src}在过去一周内的攻击次数是多少？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 114,
+        "question": "有多少攻击事件是从来源IP为{src}的攻击者发起的？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 115,
+        "question": "IP地址为{src}的攻击者在什么时间进行了攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 116,
+        "question": "攻击者IP为{src}的来源，最近一次攻击发生在什么时候？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 117,
+        "question": "攻击者IP {src} 在过去一个月内的攻击次数有多少？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 118,
+        "question": "IP地址为{src}的攻击者在过去的一个月中发起了多少次攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 119,
+        "question": "攻击者 {src} 在哪些时间段内发起了攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 120,
+        "question": "在源IP为{src}的攻击事件中，哪个时间段最为频繁？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 121,
+        "question": "攻击者IP {src} 的攻击事件发生在什么时间？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 122,
+        "question": "攻击者IP为{src}的常用用户代理是什么？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "ua_agent"
+            ]
+        }
+    },
+    {
+        "id": 123,
+        "question": "攻击者{src}是否利用过特定的用户代理进行攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "ua_agent"
+            ]
+        }
+    },
+    {
+        "id": 124,
+        "question": "攻击源IP为{src}的攻击者使用了哪些不同的用户代理？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "ua_agent"
+            ]
+        }
+    },
+    {
+        "id": 125,
+        "question": "IP地址为{src}的攻击者在使用哪些用户代理进行攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "ua_agent"
+            ]
+        }
+    },
+    {
+        "id": 126,
+        "question": "攻击事件涉及的攻击者IP {src}使用了哪些用户代理信息？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "ua_agent"
+            ]
+        }
+    },
+    {
+        "id": 127,
+        "question": "攻击者IP {src} 在攻击事件中常用的用户代理信息有哪些？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "ua_agent"
+            ]
+        }
+    },
+    {
+        "id": 128,
+        "question": "攻击者IP {src} 在攻击中用过哪些用户代理信息？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "ua_agent"
+            ]
+        }
+    },
+    {
+        "id": 129,
+        "question": "攻击者IP为{src}的用户代理信息有哪些？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "ua_agent"
+            ]
+        }
+    },
+    {
+        "id": 130,
+        "question": "IP地址为{src}的攻击者使用了哪些用户代理来进行攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "ua_agent"
+            ]
+        }
+    },
+    {
+        "id": 131,
+        "question": "攻击者IP为{src}的用户代理信息常见有哪些？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "ua_agent"
+            ]
+        }
+    },
+    {
+        "id": 132,
+        "question": "攻击者IP {src} 使用了哪些用户代理信息进行攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "ua_agent"
+            ]
+        }
+    },
+    {
+        "id": 133,
+        "question": "IP地址为{src}的攻击者常使用哪些用户代理进行攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "ua_agent"
+            ]
+        }
+    },
+    {
+        "id": 134,
+        "question": "源IP为{src}的攻击事件中，使用了哪些用户代理信息？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "ua_agent"
+            ]
+        }
+    },
+    {
+        "id": 135,
+        "question": "在攻击者IP为{src}的事件中，是否有特定的用户代理信息？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "ua_agent"
+            ]
+        }
+    },
+    {
+        "id": 136,
+        "question": "在最近的攻击中，来自{src}的攻击者常用的用户代理信息是什么？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "ua_agent"
+            ]
+        }
+    },
+    {
+        "id": 137,
+        "question": "攻击来源IP为{src}的攻击者，常用的用户代理是什么？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "ua_agent"
+            ]
+        }
+    },
+    {
+        "id": 138,
+        "question": "攻击者 {src} 使用了哪些用户代理信息？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "ua_agent"
+            ]
+        }
+    },
+    {
+        "id": 139,
+        "question": "攻击者的来源IP为{src}时，其常用的用户代理信息是什么？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "ua_agent"
+            ]
+        }
+    },
+    {
+        "id": 140,
+        "question": "攻击源IP {src} 使用了哪些用户代理进行攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "ua_agent"
+            ]
+        }
+    },
+    {
+        "id": 141,
+        "question": "在过去24小时内，IP为{src}的攻击者是否成功攻击过任何设备？",
+        "metadata": {
+            "target": [
+                "src",
+                "event_time"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 142,
+        "question": "被攻击者{dst}在过去一周内遇到过哪些类型的攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "name",
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 143,
+        "question": "{dst}的设备在过去一周内遭受了哪些类型的攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "name",
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 144,
+        "question": "攻击者IP为{src}的设备在攻击中使用了哪些端口？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "sport"
+            ]
+        }
+    },
+    {
+        "id": 145,
+        "question": "IP为{src}的攻击者主要使用了哪些端口进行攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "sport"
+            ]
+        }
+    },
+    {
+        "id": 146,
+        "question": "攻击者IP为{src}的设备发起攻击时使用了哪些源端口？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "sport"
+            ]
+        }
+    },
+    {
+        "id": 147,
+        "question": "攻击者IP为{src}的设备在攻击中通常会使用哪些端口？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "sport"
+            ]
+        }
+    },
+    {
+        "id": 148,
+        "question": "源IP为{src}的攻击者在攻击过程中使用了哪些端口？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "sport"
+            ]
+        }
+    },
+    {
+        "id": 149,
+        "question": "来源IP为{src}的设备在攻击事件中使用过哪些端口？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "sport"
+            ]
+        }
+    },
+    {
+        "id": 150,
+        "question": "IP地址为{src}的攻击者常用哪些端口进行攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "sport"
+            ]
+        }
+    },
+    {
+        "id": 151,
+        "question": "IP地址为{src}的攻击者最常使用哪些端口进行攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "sport"
+            ]
+        }
+    },
+    {
+        "id": 152,
+        "question": "攻击者IP为{src}的设备在攻击中通常会使用哪些端口？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "sport"
+            ]
+        }
+    },
+    {
+        "id": 153,
+        "question": "攻击源IP {src} 曾使用过哪些源端口？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "sport"
+            ]
+        }
+    },
+    {
+        "id": 154,
+        "question": "攻击者IP为{src}的设备在攻击过程中使用了哪些源端口？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "sport"
+            ]
+        }
+    },
+    {
+        "id": 155,
+        "question": "目标IP为{dst}的设备在过去的攻击中涉及了哪些CVE漏洞？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "cve"
+            ]
+        }
+    },
+    {
+        "id": 156,
+        "question": "IP地址为{dst}的设备遭受的攻击中，涉及的CVE编号有哪些？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "cve"
+            ]
+        }
+    },
+    {
+        "id": 157,
+        "question": "目标IP为{dst}的攻击中，涉及哪些CVE漏洞编号？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "cve"
+            ]
+        }
+    },
+    {
+        "id": 158,
+        "question": "目标设备IP为{dst}的攻击事件中，通常使用的CVE编号有哪些？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "cve"
+            ]
+        }
+    },
+    {
+        "id": 159,
+        "question": "{dst}设备遭受的攻击中有哪些涉及到已知CVE编号？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "cve"
+            ]
+        }
+    },
+    {
+        "id": 160,
+        "question": "攻击目标IP {dst} 主要受到哪些CVE漏洞利用的攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "cve"
+            ]
+        }
+    },
+    {
+        "id": 161,
+        "question": "目标IP为{dst}的设备遭受了哪些CVE漏洞的攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "cve"
+            ]
+        }
+    },
+    {
+        "id": 162,
+        "question": "目标IP为{dst}的攻击事件中，涉及的CVE漏洞编号有哪些？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "cve"
+            ]
+        }
+    },
+    {
+        "id": 163,
+        "question": "目标IP地址为{dst}的设备曾遭受哪些类型的攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "name"
+            ]
+        }
+    },
+    {
+        "id": 164,
+        "question": "IP为{dst}的设备遭遇过哪些类型的攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "name"
+            ]
+        }
+    },
+    {
+        "id": 165,
+        "question": "在攻击事件中，目标IP为{dst}的设备遭受了哪些类型的攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "name"
+            ]
+        }
+    },
+    {
+        "id": 166,
+        "question": "IP地址为{dst}的设备最常遭到哪种类型的攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "name"
+            ]
+        }
+    },
+    {
+        "id": 167,
+        "question": "目标IP {dst} 遭受了哪些类型的攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "name"
+            ]
+        }
+    },
+    {
+        "id": 168,
+        "question": "在攻击事件中，目标IP为{dst}的设备遭受了哪些类型的攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "name"
+            ]
+        }
+    },
+    {
+        "id": 169,
+        "question": "目标IP为{dst}的设备最常受到哪些类型的攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "name"
+            ]
+        }
+    },
+    {
+        "id": 170,
+        "question": "{dst}这个IP地址曾遭受过哪几种攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "name"
+            ]
+        }
+    },
+    {
+        "id": 171,
+        "question": "目标IP为{dst}的系统最近遭受了哪些类型的攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "name"
+            ]
+        }
+    },
+    {
+        "id": 172,
+        "question": "目标IP为{dst}的设备遭遇了哪些不同类型的攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "name"
+            ]
+        }
+    },
+    {
+        "id": 173,
+        "question": "目标IP {dst} 被哪些攻击名称攻击过？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "name"
+            ]
+        }
+    },
+    {
+        "id": 174,
+        "question": "目标IP为 {dst} 的设备遭受过哪些不同类型的攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "name"
+            ]
+        }
+    },
+    {
+        "id": 175,
+        "question": "目标IP {dst} 曾遭受过哪些类型的攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "name"
+            ]
+        }
+    },
+    {
+        "id": 176,
+        "question": "目标IP为{dst}的设备主要遭受哪些类型的攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "name"
+            ]
+        }
+    },
+    {
+        "id": 177,
+        "question": "目标IP为 {dst} 的设备遭受过哪些不同类型的攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "name"
+            ]
+        }
+    },
+    {
+        "id": 178,
+        "question": "目标IP {dst} 在被攻击时，通常涉及哪些端口？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "dport"
+            ]
+        }
+    },
+    {
+        "id": 179,
+        "question": "在攻击事件中，{dst}设备的目标端口号有哪些？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "dport"
+            ]
+        }
+    },
+    {
+        "id": 180,
+        "question": "目标IP为{dst}的设备在遭受攻击时使用了哪些端口？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "dport"
+            ]
+        }
+    },
+    {
+        "id": 181,
+        "question": "目标IP为{dst}的设备在攻击事件中通常使用哪些端口？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "dport"
+            ]
+        }
+    },
+    {
+        "id": 182,
+        "question": "目标IP为{dst}的设备在攻击中有哪些被使用过的目标端口？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "dport"
+            ]
+        }
+    },
+    {
+        "id": 183,
+        "question": "目标IP {dst} 在攻击中使用的目标端口有哪些？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "dport"
+            ]
+        }
+    },
+    {
+        "id": 184,
+        "question": "{src}在攻击哪些特定的端口？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dport"
+            ]
+        }
+    },
+    {
+        "id": 185,
+        "question": "{src}这个IP主要针对哪些端口进行攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dport"
+            ]
+        }
+    },
+    {
+        "id": 186,
+        "question": "攻击者IP为{src}的攻击事件中，通常使用哪些目标端口？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dport"
+            ]
+        }
+    },
+    {
+        "id": 187,
+        "question": "源IP为{src}的攻击中，目标端口有哪些？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dport"
+            ]
+        }
+    },
+    {
+        "id": 188,
+        "question": "源IP为{src}的攻击者使用了哪些目标端口进行攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dport"
+            ]
+        }
+    },
+    {
+        "id": 189,
+        "question": "攻击者IP为{src}的攻击中，使用了哪些目标端口？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dport"
+            ]
+        }
+    },
+    {
+        "id": 190,
+        "question": "在来源IP为{src}的攻击中，目标端口被攻击的频次如何？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dport"
+            ]
+        }
+    },
+    {
+        "id": 191,
+        "question": "源IP为{src}的攻击者最频繁使用的目标端口是什么？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dport"
+            ]
+        }
+    },
+    {
+        "id": 192,
+        "question": "源IP为{src}的攻击者通常攻击哪个端口？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dport"
+            ]
+        }
+    },
+    {
+        "id": 193,
+        "question": "攻击者IP为{src}的攻击中，使用了哪些目标端口？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dport"
+            ]
+        }
+    },
+    {
+        "id": 194,
+        "question": "攻击者源IP为{src}的攻击事件中，使用了哪些目标端口？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dport"
+            ]
+        }
+    },
+    {
+        "id": 195,
+        "question": "在涉及目标IP为{dst}的攻击中，使用了哪些不同的VLAN ID？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "vlan"
+            ]
+        }
+    },
+    {
+        "id": 196,
+        "question": "目标设备IP为{dst}的在攻击期间涉及的VLAN ID有哪些？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "vlan"
+            ]
+        }
+    },
+    {
+        "id": 197,
+        "question": "目标IP为{dst}的设备在攻击中使用的VLAN ID有哪些？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "vlan"
+            ]
+        }
+    },
+    {
+        "id": 198,
+        "question": "目标IP为{dst}的设备曾在何时遭受过攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 199,
+        "question": "在攻击中，目标IP为{dst}的设备最近一次被攻击的时间是什么时候？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 200,
+        "question": "目标IP为{dst}的设备在什么时间段遭受过最多的攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 201,
+        "question": "攻击事件中目标IP为{dst}的设备遭受了多少次攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 202,
+        "question": "目标IP地址为{dst}在什么时间段内遭受最多的攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 203,
+        "question": "攻击目标IP为 {dst} 的事件中，出现的最早和最晚的攻击时间分别是什么？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 204,
+        "question": "IP地址为{dst}的设备在哪些时间段遭遇了攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 205,
+        "question": "目标IP为{dst}的设备在过去一周内遭受了多少次攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 206,
+        "question": "目标IP为{dst}的设备遭受攻击的时间点有哪些？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 207,
+        "question": "IP {dst} 的设备在过去一周内遭受了多少次攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 208,
+        "question": "目标IP地址为{dst}的设备主要在什么时间段遭受攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 209,
+        "question": "目标IP为{dst}的设备最近一次遭受攻击的时间是什么时候？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 210,
+        "question": "目标IP地址为{dst}的设备在过去一周内经历了多少次攻击事件？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 211,
+        "question": "在过去的一个月中，目标IP为{dst}的设备遭受的攻击次数有多少？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 212,
+        "question": "目标IP {dst} 在哪个时间段内受到攻击最频繁？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 213,
+        "question": "被攻击目标IP为{dst}的设备在最近7天内遭受了多少次攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 214,
+        "question": "目标IP为{dst}的设备在过去一个月中遭受了多少次攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 215,
+        "question": "源IP为{src}的攻击事件中，常见的目标MAC地址有哪些？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dmac"
+            ]
+        }
+    },
+    {
+        "id": 216,
+        "question": "在{src}发起的攻击中，涉及的目标MAC地址有哪些？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dmac"
+            ]
+        }
+    },
+    {
+        "id": 217,
+        "question": "是否存在来自{src}的攻击事件涉及特定的VLAN？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "vlan"
+            ]
+        }
+    },
+    {
+        "id": 218,
+        "question": "{src}这个攻击者的活动是否与某个特定的VLAN ID有关？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "vlan"
+            ]
+        }
+    },
+    {
+        "id": 219,
+        "question": "攻击者{src}在攻击时，常用的VLAN ID是什么？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "vlan"
+            ]
+        }
+    },
+    {
+        "id": 220,
+        "question": "哪些VLAN ID涉及到攻击者IP为 {src} 的事件？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "vlan"
+            ]
+        }
+    },
+    {
+        "id": 221,
+        "question": "针对{dst}的攻击中，常见的攻击事件状态有哪些？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 222,
+        "question": "攻击目标为{dst}的事件中，攻击成功的次数是多少？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 223,
+        "question": "哪些攻击事件中，目标IP为{dst}，并且攻击尝试的状态为'成功'？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 224,
+        "question": "目标IP {dst} 遭受的攻击中有哪些是成功的？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 225,
+        "question": "{dst}受到的攻击事件中，哪些是成功的？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 226,
+        "question": "目标IP地址为{dst}的设备在过去受到了多少次攻击尝试？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 227,
+        "question": "攻击目标为{dst}的设备中，哪些攻击是成功的？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 228,
+        "question": "目标IP地址为{dst}的设备，最近一次攻击的状态是什么？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 229,
+        "question": "源IP为{src}的攻击主要使用了哪些攻击名称？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "name"
+            ]
+        }
+    },
+    {
+        "id": 230,
+        "question": "来自{src}的攻击者使用了哪些攻击名称？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "name"
+            ]
+        }
+    },
+    {
+        "id": 231,
+        "question": "攻击者IP地址为{src}的设备曾使用哪些攻击名称进行入侵？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "name"
+            ]
+        }
+    },
+    {
+        "id": 232,
+        "question": "IP地址为{src}的攻击者进行了哪些不同类型的攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "name"
+            ]
+        }
+    },
+    {
+        "id": 233,
+        "question": "在过去24小时内，IP为{dst}的目标设备遭到了哪些攻击，攻击者的IP分别是什么？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "src",
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 234,
+        "question": "被攻击的目标IP为{dst}的事件中，攻击者使用了哪些MAC地址？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "smac"
+            ]
+        }
+    },
+    {
+        "id": 235,
+        "question": "哪些攻击事件的目标IP地址为{dst}，并且攻击者使用的MAC地址是什么？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "smac"
+            ]
+        }
+    },
+    {
+        "id": 236,
+        "question": "哪些攻击事件的目标是IP地址为{dst}的设备？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "description",
+                "src"
+            ]
+        }
+    },
+    {
+        "id": 237,
+        "question": "在攻击事件中，目标IP为{dst}的设备使用了哪些用户代理信息？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "ua_agent"
+            ]
+        }
+    },
+    {
+        "id": 238,
+        "question": "目的IP为{dst}的攻击事件中，用户代理信息有哪些？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "ua_agent"
+            ]
+        }
+    },
+    {
+        "id": 239,
+        "question": "目标IP为{dst}的设备在最近的攻击中使用了哪些用户代理？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "ua_agent"
+            ]
+        }
+    },
+    {
+        "id": 240,
+        "question": "针对目标IP {dst} 的攻击中，常用的用户代理信息有哪些？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "ua_agent"
+            ]
+        }
+    },
+    {
+        "id": 241,
+        "question": "目标IP为{dst}的攻击事件中，攻击者的常用用户代理信息是什么？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "ua_agent"
+            ]
+        }
+    },
+    {
+        "id": 242,
+        "question": "目标IP为{dst}的设备遭受的攻击事件中，哪些事件涉及的用户代理信息是Mozilla系列？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "ua_agent"
+            ]
+        }
+    },
+    {
+        "id": 243,
+        "question": "在攻击目标为{dst}的事件中，哪些事件的描述提到过系统命令注入？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "description"
+            ]
+        }
+    },
+    {
+        "id": 244,
+        "question": "目标IP为 {dst} 的设备遭受了哪些攻击事件描述？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "description"
+            ]
+        }
+    },
+    {
+        "id": 245,
+        "question": "攻击事件中，目标IP为{dst}的设备使用的MAC地址有哪些？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "dmac"
+            ]
+        }
+    },
+    {
+        "id": 246,
+        "question": "攻击目标IP为{dst}的事件中，攻击者的源端口有哪些？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "sport"
+            ]
+        }
+    },
+    {
+        "id": 247,
+        "question": "目标IP为{dst}的攻击中，攻击者使用了哪些源端口？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "sport"
+            ]
+        }
+    },
+    {
+        "id": 248,
+        "question": "目标IP为{dst}的设备在被攻击时，攻击者使用了哪些源端口？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "sport"
+            ]
+        }
+    },
+    {
+        "id": 249,
+        "question": "针对{dst}的攻击中，攻击者常用的源端口有哪些？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "sport"
+            ]
+        }
+    },
+    {
+        "id": 250,
+        "question": "攻击者IP {src} 在过去一周内尝试了哪些攻击类型？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "name",
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 251,
+        "question": "目的IP {dst} 在最近一次攻击事件中，用户代理信息是什么？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "ua_agent",
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 252,
+        "question": "目标IP为{dst}的设备遭受的攻击中，有多少次是通过HTTP协议进行的？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "protocol",
+                "name"
+            ]
+        }
+    },
+    {
+        "id": 253,
+        "question": "目标IP为{dst}的设备在最近一次攻击中访问的URL是什么？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "url",
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 254,
+        "question": "IP地址为{src}的攻击者主要使用了哪些设备（通过MAC地址）进行攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "smac"
+            ]
+        }
+    },
+    {
+        "id": 255,
+        "question": "攻击者IP为{src}的设备使用过哪些MAC地址？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "smac"
+            ]
+        }
+    },
+    {
+        "id": 256,
+        "question": "攻击者IP为{src}的设备使用了哪些MAC地址进行攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "smac"
+            ]
+        }
+    },
+    {
+        "id": 257,
+        "question": "攻击者IP为{src}的攻击事件中，有哪些是成功的？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "status",
+                "event_time",
+                "name"
+            ]
+        }
+    },
+    {
+        "id": 258,
+        "question": "目标IP {dst}最近一次受到了哪些已知CVE漏洞的攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "cve",
+                "event_time"
+            ]
+        }
+    },
+    {
+        "id": 259,
+        "question": "攻击者IP {src} 发起过多少次攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "description"
+            ]
+        }
+    },
+    {
+        "id": 260,
+        "question": "攻击者IP为{src}的攻击事件中，访问了哪些URL？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "url"
+            ]
+        }
+    },
+    {
+        "id": 261,
+        "question": "源IP为{src}的攻击者在攻击过程中请求了哪些URL地址？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "url"
+            ]
+        }
+    },
+    {
+        "id": 262,
+        "question": "攻击者 {src} 在攻击过程中访问了哪些URL地址？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "url"
+            ]
+        }
+    },
+    {
+        "id": 263,
+        "question": "在攻击者IP为{src}的攻击记录中，出现过哪些目标URL？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "url"
+            ]
+        }
+    },
+    {
+        "id": 264,
+        "question": "来源IP为{src}的攻击事件中，常见的攻击URL路径有哪些？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "url"
+            ]
+        }
+    },
+    {
+        "id": 265,
+        "question": "IP为{src}的攻击者主要针对哪些URL发起了攻击？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "url"
+            ]
+        }
+    },
+    {
+        "id": 266,
+        "question": "攻击者IP为{src}对哪些目标IP的攻击是成功的？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dst",
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 267,
+        "question": "源IP为{src}的攻击者成功入侵了哪些目标设备？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dst",
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 268,
+        "question": "来自{src}的攻击中，哪些目标IP被成功攻击过？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dst",
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 269,
+        "question": "攻击者IP {src} 成功攻击过哪些目标IP地址？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dst",
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 270,
+        "question": "{src}这个攻击者成功渗透了哪些目标设备？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dst",
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 271,
+        "question": "攻击者IP为{src}的攻击事件中，哪些目标IP的攻击状态为成功？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dst",
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 272,
+        "question": "IP地址为{src}的攻击者对哪些目标设备的攻击尝试是成功的？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dst",
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 273,
+        "question": "源IP为{src}的攻击者成功攻击了哪些目标IP？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dst",
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 274,
+        "question": "攻击者 {src} 成功入侵的目标IP有哪些？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dst",
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 275,
+        "question": "在攻击者IP为{src}的事件中，哪些目标设备被成功攻破？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dst",
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 276,
+        "question": "目标IP为{dst}的设备遭受的各类攻击中，哪些攻击类型是成功的？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "name",
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 277,
+        "question": "针对{dst}的攻击事件中，哪些攻击名称对应的状态为成功？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "name",
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 278,
+        "question": "目标IP {dst} 遭受的攻击中，成功的攻击类型有哪些？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "name",
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 279,
+        "question": "在目标IP为{dst}的攻击事件中，哪些类型的攻击最终成功了？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "name",
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 280,
+        "question": "{dst}设备遭受的攻击中，哪些攻击名称的攻击状态是成功的？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "name",
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 281,
+        "question": "目标IP {dst} 被哪些类型的攻击成功入侵过？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "name",
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 282,
+        "question": "在目标IP为{dst}的事件中，哪些攻击类型的状态为成功？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "name",
+                "status"
+            ]
+        }
+    },
+    {
+        "id": 283,
+        "question": "目标IP为{dst}的设备遭受攻击时，攻击者使用了哪些协议和源端口？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "protocol",
+                "sport"
+            ]
+        }
+    },
+    {
+        "id": 284,
+        "question": "针对{dst}的攻击事件中，攻击者使用的协议和源端口组合有哪些？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "protocol",
+                "sport"
+            ]
+        }
+    },
+    {
+        "id": 285,
+        "question": "目标IP {dst} 被攻击时，常见的协议与源端口的组合是什么？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "protocol",
+                "sport"
+            ]
+        }
+    },
+    {
+        "id": 286,
+        "question": "在目标IP为{dst}的攻击事件中，攻击流量使用了哪些协议和源端口？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "protocol",
+                "sport"
+            ]
+        }
+    },
+    {
+        "id": 287,
+        "question": "{dst}设备遭受的攻击中，攻击者通过哪些协议和源端口发起攻击？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "protocol",
+                "sport"
+            ]
+        }
+    },
+    {
+        "id": 288,
+        "question": "攻击目标IP为{dst}的事件中，攻击者的协议和源端口分别是什么？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "protocol",
+                "sport"
+            ]
+        }
+    },
+    {
+        "id": 289,
+        "question": "目标IP为{dst}的设备在被攻击过程中，涉及了哪些协议和源端口？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "protocol",
+                "sport"
+            ]
+        }
+    },
+    {
+        "id": 290,
+        "question": "针对目标IP {dst} 的攻击中，攻击流量的协议和源端口有哪些？",
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "protocol",
+                "sport"
+            ]
+        }
+    },
+    {
+        "id": 291,
+        "question": "攻击者IP为{src}的攻击事件中，涉及了哪些CVE漏洞和目标IP？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "cve",
+                "dst"
+            ]
+        }
+    },
+    {
+        "id": 292,
+        "question": "源IP为{src}的攻击者利用了哪些CVE漏洞攻击了哪些目标？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "cve",
+                "dst"
+            ]
+        }
+    },
+    {
+        "id": 293,
+        "question": "来自{src}的攻击中，各目标IP分别涉及了哪些CVE漏洞？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "cve",
+                "dst"
+            ]
+        }
+    },
+    {
+        "id": 294,
+        "question": "攻击者IP {src} 利用CVE漏洞攻击的目标设备有哪些？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "cve",
+                "dst"
+            ]
+        }
+    },
+    {
+        "id": 295,
+        "question": "{src}这个攻击者针对不同目标IP分别利用了哪些CVE漏洞？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "cve",
+                "dst"
+            ]
+        }
+    },
+    {
+        "id": 296,
+        "question": "攻击者IP为{src}的事件中，CVE漏洞与目标IP的对应关系是什么？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "cve",
+                "dst"
+            ]
+        }
+    },
+    {
+        "id": 297,
+        "question": "IP地址为{src}的攻击者利用了哪些CVE漏洞，分别针对了哪些目标IP？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "cve",
+                "dst"
+            ]
+        }
+    },
+    {
+        "id": 298,
+        "question": "源IP为{src}的攻击者在攻击不同目标时，分别利用了哪些CVE漏洞？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "cve",
+                "dst"
+            ]
+        }
+    },
+    {
+        "id": 299,
+        "question": "攻击者 {src} 利用CVE漏洞攻击了哪些目标IP？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "cve",
+                "dst"
+            ]
+        }
+    },
+    {
+        "id": 300,
+        "question": "在攻击者IP为{src}的记录中，各CVE漏洞分别对应了哪些被攻击的目标IP？",
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "cve",
+                "dst"
+            ]
+        }
+    }
+]

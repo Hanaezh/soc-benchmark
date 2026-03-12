@@ -1,0 +1,1297 @@
+[
+    {
+        "id": 1,
+        "question": [
+            "{src}发起了多少次HTTP请求？",
+            "{src}发起的HTTP请求占其总请求量的比例是多少？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol",
+                "request_method"
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "question": [
+            "{dst}接收到的请求中，最常见的源IP地址是哪些？",
+            "目标IP {dst} 收到的请求中，哪些源IP最频繁？",
+            "目标IP {dst} 的访问中，哪个源IP地址出现的频率最高？",
+            "目标IP为{dst}的主机最常遭受哪些源IP的攻击？",
+            "在目标IP {dst} 被访问的记录中，哪个源IP的访问次数最多？",
+            "目标IP {dst} 收到的请求中，访问量排名前三的源IP是哪些？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "src"
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "question": [
+            "{dst}在不同协议下的流量分布情况如何？",
+            "{dst}在各协议下的请求与响应流量占比分别是多少？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "protocol",
+                "request_length",
+                "response_length"
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "question": [
+            "{src}的HTTP请求中，常用的User-Agent头信息是什么？",
+            "{src}的请求中，哪些请求头信息最常见？",
+            "来自{src}的请求中，哪些请求头中包含了可疑的特征？",
+            "来源IP{src}的访问中，哪些请求头特征最为常见？",
+            "与源IP {src} 相关的请求中，是否有常见的HTTP请求头特征？",
+            "源IP为{src}的请求中，哪些请求头信息最常见？",
+            "是否存在从源IP {src} 发起的访问中使用了未授权的HTTP请求头？",
+            "在网络活动中，源IP {src} 是否有异常的请求头特征？",
+            "源IP {src} 发起的请求中，哪些请求头特征最为明显？",
+            "源IP {src} 发起的HTTP请求中，最常见的请求头组合是什么？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "request_header"
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "question": [
+            "IP {src} 在多长时间内进行了多少次访问？",
+            "有哪些时间段内，来自 {src} 的请求数量异常高？",
+            "哪些源IP {src} 对我们的网络进行了异常高频率的访问？",
+            "{src} 在过去一周内的访问频率如何变化？",
+            "最近一次从源IP {src} 发起的访问是什么时候？",
+            "{src}是否在特定的时间段内发起了异常数量的请求？",
+            "源IP {src} 在什么时间段内的访问量最大？",
+            "源IP {src} 在过去24小时内是否有异常高的请求频率？",
+            "源IP {src} 在一天内的访问请求量呈现怎样的时间分布？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "time"
+            ]
+        }
+    },
+    {
+        "id": 6,
+        "question": [
+            "目的IP {dst} 是否频繁收到异常的HTTP请求？",
+            "与{dst}通信的过程中，哪些请求方法返回了500错误？",
+            "目的IP {dst} 收到的请求中，异常请求占总请求的比例是多少？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "request_method",
+                "response_status"
+            ]
+        }
+    },
+    {
+        "id": 7,
+        "question": [
+            "哪些请求头信息在访问{dst}时包含了特定的客户端特征？",
+            "目的IP {dst} 上的HTTP请求中，哪些请求头特征较为常见？",
+            "目标IP {dst} 在被访问时，哪些请求头信息最常见？",
+            "目标IP {dst} 的请求中是否出现过未经授权的访问尝试？",
+            "访问目标IP {dst} 的请求中，高频出现的请求头关键字有哪些？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "request_header"
+            ]
+        }
+    },
+    {
+        "id": 8,
+        "question": [
+            "源IP {src} 使用的最多的协议是什么？",
+            "IP {src} 在攻击过程中使用了哪些不同的协议？",
+            "源IP {src} 通过哪些协议进行了通信？",
+            "分析源IP {src} 发起的所有访问中，哪种协议类型使用最频繁？",
+            "源IP地址为{src}的访问中，主要使用了哪些网络协议？",
+            "在最近的安全事件中，源IP为{src}的请求中，哪种协议最常被使用？",
+            "源IP为{src}的请求中，有多少次使用了HTTP协议进行访问？",
+            "源IP为{src}的访问中，参与的协议类型有哪些？",
+            "源IP {src} 发起的请求中，哪个协议类型使用最多？",
+            "{src} 作为源IP时，最常使用的协议是什么？",
+            "源IP地址为{src}的访问中，最常用的网络协议是什么？",
+            "源IP {src} 的访问中是否包含不常见的网络协议？",
+            "源IP {src} 使用每种网络协议的请求次数分别是多少？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 9,
+        "question": [
+            "访问URL包含/metrics的请求，主要来自于哪些源IP {src}？",
+            "访问URL路径为/metrics的请求中，来自各个源IP{src}的次数分别是多少？"
+        ],
+        "metadata": {
+            "target": [
+                "url"
+            ],
+            "related_fields": [
+                "src"
+            ]
+        }
+    },
+    {
+        "id": 10,
+        "question": [
+            "{src}是否在不同的时间段内访问了多个高危端口？",
+            "在时间范围内，源IP {src} 发起的攻击中，常见的目标端口是什么？",
+            "源IP地址{src}在一段时间内是否大量请求了不同的目标端口？",
+            "源IP{src}是否在短时间内访问了多个不同的目标端口？",
+            "源IP为{src}的地址在多长时间内访问了多少个不同的目标端口？",
+            "源IP {src} 是否在特定时间段内访问了目标端口为80的IP地址？",
+            "源IP {src} 在单位时间内扫描目标端口的数量是否存在异常？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dport",
+                "time"
+            ]
+        }
+    },
+    {
+        "id": 11,
+        "question": [
+            "{dst}的哪些HTTP响应状态码最常见？",
+            "IP地址{dst}在HTTP请求中，经常返回的响应状态码是什么？",
+            "哪些目标IP {dst}的请求返回了404错误次数最多？",
+            "目标IP {dst} 在被访问时，最常出现的响应状态码是什么？",
+            "有哪些目标IP地址{dst}在响应中返回了500内部服务器错误？",
+            "目的IP地址{dst}的响应状态中，哪些是非200的状态码？",
+            "目标IP {dst} 最近一次HTTP请求的响应状态是什么？",
+            "是否有目标IP地址{dst}遭受了异常高的SERVFAIL响应？",
+            "目标IP为{dst}的访问中，哪些请求返回了502状态码？",
+            "目标IP {dst} 在被访问时，哪种响应状态码出现的频率最高？",
+            "目标IP{dst}在被访问时返回了多少次非200的响应状态？",
+            "目标IP {dst} 的访问中，响应状态码的分布情况如何？",
+            "{dst}的访问请求中，响应状态码的分布情况是怎样的？",
+            "目标IP {dst} 的主机最常遇到的响应状态码有哪些？",
+            "目标IP {dst} 的响应状态码中，哪种错误状态最频繁？",
+            "目标IP {dst} 最近一次的请求是否返回了404错误状态？",
+            "目标IP {dst} 的响应状态码分布情况如何？",
+            "最近的记录中，目标IP {dst} 的响应状态码为错误（如404, 502）的比例是多少？",
+            "目标IP {dst} 最近是否收到大量的HTTP 404错误响应？",
+            "目标IP {dst} 接收到的请求中，响应状态码分布情况如何？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "response_status"
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "question": [
+            "源IP地址{src}是否在过去的记录中多次请求了相同的URL路径？",
+            "来自IP地址{src}的请求中，哪些URL路径访问频率最高？",
+            "源IP {src} 最频繁访问的URL路径是什么？",
+            "源IP {src} 发起的请求中，哪些URL路径被访问次数最多？",
+            "源IP地址{src}在近期是否频繁访问了特定的URL路径？",
+            "在涉及源IP {src} 的访问中，哪些URL路径最常被请求？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "url"
+            ]
+        }
+    },
+    {
+        "id": 13,
+        "question": [
+            "目标IP为{dst}的请求中，哪些时间段响应状态为404？",
+            "在什么情况下目标IP {dst} 会返回502状态码？",
+            "哪些时间段内目标IP为{dst}的请求状态码为502？",
+            "在过去的一周内，目标IP为{dst}是否出现过异常的访问行为？",
+            "在最后一次访问中，目标IP为{dst}的设备响应状态是什么？",
+            "目标IP {dst} 在哪些时间段内收到的请求响应状态码为404？",
+            "目标IP {dst} 在一段时间内响应失败的请求占比是多少？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "response_status",
+                "time"
+            ]
+        }
+    },
+    {
+        "id": 14,
+        "question": [
+            "{src}在访问时使用了哪些不同的HTTP请求方法？",
+            "源IP为{src}的访问记录中，使用了哪些HTTP请求方法？",
+            "通过{src}源IP进行的访问中，使用的HTTP请求方法都有哪些？",
+            "源IP {src} 主要使用哪些HTTP请求方法进行访问？",
+            "源IP {src} 是否在访问中使用了异常的HTTP请求方法？",
+            "源IP {src} 发起的请求中，哪种HTTP请求方法使用频率最高？",
+            "源IP {src} 发起的请求中，使用的HTTP请求方法有哪些？",
+            "源IP为{src}的请求中，哪种HTTP请求方法使用频率最高？",
+            "源IP {src} 在请求中使用的常见HTTP方法有哪些？",
+            "源IP {src} 在发送请求时，常用的请求方法有哪些？",
+            "源IP {src} 发起的请求中，哪些HTTP方法被频繁使用？",
+            "源IP {src} 发送的请求中，哪种HTTP请求方法使用最频繁？",
+            "从源IP {src} 发出的请求中，哪些请求方法最常被使用？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "request_method"
+            ]
+        }
+    },
+    {
+        "id": 15,
+        "question": [
+            "源IP地址为{src}的访问中，是否存在多个不同的目标端口？",
+            "从{src}发出的请求中，哪些目的端口最常被访问？",
+            "{src}发起的请求中，最常见的目标端口是什么？",
+            "源IP地址为{src}的访问中，最常见的目标端口号是什么？",
+            "从源IP {src} 发出的请求中，哪些目的端口最常被使用？",
+            "源IP地址为{src}的请求中，访问了哪些目的端口最多？",
+            " {src} 最常使用的目标端口是什么？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dport"
+            ]
+        }
+    },
+    {
+        "id": 16,
+        "question": [
+            "目标IP {dst} 在不同的时间段收到的请求中，哪些源端口最为活跃？",
+            "目标IP {dst} 最近一次响应的请求中，源端口号为多少？",
+            "目标IP {dst} 在过去一小时内的请求中，哪个源端口的请求次数最多？",
+            "在过去的一小时内，目标IP {dst} 收到的请求中，哪个源端口出现次数最多？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "sport",
+                "time"
+            ]
+        }
+    },
+    {
+        "id": 17,
+        "question": [
+            "哪些请求方法在访问{dst}时返回的响应长度超过1000字节？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "request_method",
+                "response_length"
+            ]
+        }
+    },
+    {
+        "id": 18,
+        "question": [
+            "目标IP{dst}在不同时间段的流量变化趋势如何？",
+            "目的IP {dst} 在特定时间段内的请求峰值是什么时候？",
+            "目标IP {dst} 在过去24小时内的流量峰值出现在什么时间段？",
+            "{dst} 接收到的请求中，哪个时段的请求长度波动最大？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "time",
+                "request_length"
+            ]
+        }
+    },
+    {
+        "id": 19,
+        "question": [
+            "{dst}在最近的访问中，来自哪些源IP地址的请求长度较异常？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "src",
+                "request_length"
+            ]
+        }
+    },
+    {
+        "id": 20,
+        "question": [
+            "{src}在多长时间内使用了多少个不同的源端口进行连接？",
+            "源IP {src} 在过去一小时内使用了哪些源端口访问外部网络？",
+            "源IP {src} 在一天内使用了多少个不同的源端口进行通信？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "sport",
+                "time"
+            ]
+        }
+    },
+    {
+        "id": 21,
+        "question": [
+            "针对{dst}的访问中，哪些HTTP请求方法被使用得最多？",
+            "哪个目标IP {dst} 在接收到的请求中，主要使用了哪些HTTP请求方法？",
+            "在目标IP {dst} 的访问中，哪些请求方法出现的频率最高？",
+            "目标IP {dst} 的访问中，哪些请求方法出现频率最高？",
+            "目标IP {dst} 的访问中，哪种HTTP请求方法最常用？",
+            "目标IP {dst} 的请求中，哪种HTTP方法被使用最多？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "request_method"
+            ]
+        }
+    },
+    {
+        "id": 22,
+        "question": [
+            "在网络中，源IP {src} 使用的源MAC地址有哪些变化？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "smac"
+            ]
+        }
+    },
+    {
+        "id": 23,
+        "question": [
+            "目标IP为{dst}的访问中，是否存在异常大的响应内容长度？",
+            "目标IP {dst} 在最近的访问中，响应的内容长度分布是怎样的？",
+            "目标IP为{dst}的访问中，响应内容长度的分布有何异常？",
+            "目标IP为{dst}的主机，其响应内容长度的分布情况如何？",
+            "目标IP {dst} 在被访问时，响应内容长度的分布情况如何？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "response_length"
+            ]
+        }
+    },
+    {
+        "id": 24,
+        "question": [
+            "源IP为{src}的请求中，哪些目的IP出现了最多的异常响应状态？",
+            "源IP {src} 发起的请求中，响应状态码为404的目标IP有哪些？",
+            "源IP {src} 发起的请求中，哪些目标IP遭遇了最多的HTTP 500错误？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dst",
+                "response_status"
+            ]
+        }
+    },
+    {
+        "id": 25,
+        "question": [
+            "在目标IP为{dst}的请求中，哪些源端口最频繁出现？",
+            "对于目标IP {dst} 的访问中，哪些源端口的使用频率最高？",
+            "在访问目标IP为{dst}的过程中，哪些源端口最频繁被使用？",
+            "在针对目标IP {dst} 的访问中，哪个源端口的请求数量最多？",
+            "目标IP为{dst}的访问中，哪个源端口号最常出现？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "sport"
+            ]
+        }
+    },
+    {
+        "id": 26,
+        "question": [
+            "源IP地址为{src}的访问中，响应状态码为404的访问次数是多少？",
+            "从特定源IP {src} 发出的请求中，响应状态码为404的频率如何？",
+            "{src}在访问时返回了哪些不同的响应状态码？",
+            "源IP {src} 的哪些访问请求返回了404状态？",
+            "检测到源IP {src} 的请求中，响应状态为404的请求占比多少？",
+            "源IP {src} 在最近的攻击事件中，响应状态码主要是什么？",
+            "源IP {src} 发送请求返回的状态码中是否有较高比例的错误代码？",
+            "源IP {src} 发起的HTTP请求中，哪种响应状态返回的频率最高？",
+            "{src}的设备访问中，响应状态码为404的请求占比是多少？",
+            "源IP {src} 发起的请求中，哪些响应状态码出现次数最多？",
+            "源IP {src} 是否有大量访问失败的记录？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "response_status"
+            ]
+        }
+    },
+    {
+        "id": 27,
+        "question": [
+            "通过源IP{src}访问的目的端口中，哪个端口的响应状态码为200的次数最多？",
+            "源IP {src} 的请求中，哪些目标端口返回了非200的响应？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dport",
+                "response_status"
+            ]
+        }
+    },
+    {
+        "id": 28,
+        "question": [
+            "源IP {src} 在指定时间段内访问的目标IP最多的是哪些？",
+            "哪些目的IP地址在一段时间内频繁受到来自源IP地址{src}的访问？",
+            "{src} 在什么时间段内访问了最多的目标IP？",
+            "在过去的7天里，源IP {src} 访问过哪些不同的目标IP地址？",
+            "在过去的24小时内，源IP地址{src}是否与外部IP地址进行了通信？",
+            "{src}是否在短时间内访问了多个不同的目标IP地址？",
+            "源IP {src} 在过去24小时内访问了哪些不同的目标IP (dst)？",
+            "源IP地址 {src} 是否在短时间内多次访问了不同的目标IP地址？",
+            "源IP {src} 在过去24小时内访问了哪些目标IP？",
+            "{src} 在一段时间内访问了多少个不同的目标IP地址？",
+            "某源IP {src} 是否在短时间内对同一目标IP发送了大量请求？",
+            "源IP {src} 在过去一小时内访问了哪些目标IP？",
+            "源IP {src} 在过去一周中主要试图访问哪些目标IP？",
+            "最近一段时间内，源IP地址{src}是否对多个不同的目标IP进行了访问？",
+            "源IP {src} 在一小时内是否对同一目标IP发起了多次请求？",
+            "源IP {src} 在过去一小时内尝试访问了多少个不同的目标IP？",
+            "哪些目标IP在过去24小时内从源IP {src} 收到了异常多的请求？",
+            "源IP {src} 在过去一周内是否曾多次访问同一目标IP？",
+            "源IP {src} 最近一次访问了哪些目标IP地址？",
+            "源IP {src} 在过去一周中访问了哪些目标IP地址？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dst",
+                "time"
+            ]
+        }
+    },
+    {
+        "id": 29,
+        "question": [
+            "对于目标IP {dst}，其接收到的请求中哪些URL路径最为频繁？",
+            "目标IP {dst} 收到的请求中，哪些请求路径最为频繁？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "url"
+            ]
+        }
+    },
+    {
+        "id": 30,
+        "question": [
+            "目标IP {dst} 最常见的请求协议是什么？",
+            "目标IP {dst} 在过去的24小时内接收了多少不同协议类型的请求？",
+            "目标IP {dst} 的访问请求中，协议类型的分布情况是怎样的？",
+            "当目标IP为{dst}时，最常用的网络协议类型是什么？",
+            "对于目标IP {dst}，其接收到的请求中哪些协议使用最多？",
+            "目标IP {dst} 最近的访问记录中，哪种协议使用最多？",
+            "目标IP {dst} 经常遭受哪些协议类型的攻击？",
+            "目标IP {dst} 受到的请求中，哪类协议的流量占比最高？",
+            "目标IP {dst} 收到的请求中，哪种网络协议被使用得最多？",
+            "目标IP {dst} 在被访问时，主要使用了哪些网络协议？",
+            "目标IP {dst} 经常被访问的协议类型是什么？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 31,
+        "question": [
+            " {src} 使用了哪些不同的源端口进行攻击？",
+            "源IP {src} 是否多次使用相同的源端口进行访问？",
+            "{src} 从哪些端口起始的请求最多？",
+            "在过去的一个月中，源IP {src} 主要使用了哪些源端口进行通信？",
+            "源IP {src} 发出的请求中，是否有过多使用高数值临时端口的情况？",
+            "源IP {src} 的访问请求中，是否有使用了异常的端口号？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "sport"
+            ]
+        }
+    },
+    {
+        "id": 32,
+        "question": [
+            "目的IP地址{dst}的流量中，哪种协议类型的访问请求失败率最高？",
+            "目标IP地址{dst}在被访问时，遭遇的主要HTTP响应状态码有哪些？",
+            "目的IP地址{dst}的设备接收的HTTP请求中，响应状态为404的比例是多少？",
+            "针对目标IP {dst} 的访问中，哪些协议的响应状态码为404的比例较高？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "protocol",
+                "response_status"
+            ]
+        }
+    },
+    {
+        "id": 33,
+        "question": [
+            "{src}尝试访问了哪些内网目标IP地址？",
+            "源IP {src} 是否在短时间内多次访问了不同的目标IP？",
+            "从源IP {src} 发起的请求中，目的IP地址主要集中在哪些网段？",
+            "源IP {src} 针对哪些目标IP地址进行了最多的访问请求？",
+            "从源IP {src} 发起的请求中，哪个目标IP被访问次数最多？",
+            "源IP {src} 的访问记录中，哪个目的IP出现的频率最高？",
+            "源IP {src} 最近是否尝试访问多个不同的目的IP？",
+            "源IP {src} 是否在短时间内访问了多个不同的目标IP？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dst"
+            ]
+        }
+    },
+    {
+        "id": 34,
+        "question": [
+            "目标IP地址{dst}在什么时间段内遭受了最多的访问？",
+            "目标IP {dst} 在哪段时间段内响应的请求数量最高？",
+            "目标IP {dst} 在什么时间段遭受的访问最多？",
+            "目标IP {dst} 在哪个时间段受到的请求最多？",
+            "目标IP地址为{dst}的设备在什么时间段内接收到最多的请求？",
+            "目标IP {dst} 最近一次被访问的时间是什么时候？",
+            "目标IP {dst} 的访问记录中，哪个时间段的访问量异常？",
+            "{dst} 在哪个时间段的请求最频繁？",
+            "目标IP {dst} 在一天中哪个时间段受到的请求最多？",
+            "目标IP {dst} 是否在某些时间段内遭受了频繁的访问？",
+            "在目标IP {dst} 的访问记录中，哪些时间段的请求频率最高？",
+            "目标IP {dst} 在哪些时间段内收到了异常高的请求数量？",
+            "目标IP {dst} 在被访问时，是否有异常高的请求频率？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "time"
+            ]
+        }
+    },
+    {
+        "id": 35,
+        "question": [
+            "地址{src}在何时使用了最多的网络协议？",
+            "源IP {src} 在过去7天内访问了哪些不同的协议类型？",
+            "在特定时间段内，源IP {src} 是否频繁访问过使用 HTTPS 的服务？",
+            "源IP地址{src}是否在特定时间段内频繁请求了HTTP协议？",
+            "在监控时间段内，源IP为{src}的请求中，使用最多的协议类型是什么？",
+            "源IP为{src}的主机在一段时间内主要使用了哪些网络协议进行通信？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol",
+                "time"
+            ]
+        }
+    },
+    {
+        "id": 36,
+        "question": [
+            "源IP地址 {src} 在过去24小时内有哪些异常的请求行为？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "request_length",
+                "response_status",
+                "time"
+            ]
+        }
+    },
+    {
+        "id": 37,
+        "question": [
+            "从源IP {src} 发出的HTTP请求中，是否有异常大的请求内容长度？",
+            "在HTTP请求中，哪些源IP {src} 使用了最高的请求内容长度？",
+            "源IP为{src}的访问中，平均请求内容长度是多少？",
+            "源IP {src} 最近的访问中，是否出现了异常大的请求内容长度？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "request_length"
+            ]
+        }
+    },
+    {
+        "id": 38,
+        "question": [
+            "目标IP地址为{dst}的系统中，哪些源IP频繁引发了HTTP 404错误？",
+            "目标IP {dst} 最近一次遭遇的HTTP 404错误请求的来源IP有哪些？",
+            "目的IP {dst} 是否遭受多个源IP (src) 的异常请求？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "src",
+                "response_status"
+            ]
+        }
+    },
+    {
+        "id": 39,
+        "question": [
+            "源IP地址为{src}的访问中，哪些目的IP地址最常受到HTTP协议的请求？",
+            "源IP {src} 访问了哪些目标IP地址，并且这些访问中哪个协议类型出现的次数最多？",
+            "源IP {src} 使用了哪些协议类型来尝试连接目标IP？",
+            "源IP {src} 在过去一周内访问了哪些目标IP，并使用了哪些协议？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dst",
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 40,
+        "question": [
+            "在过去的24小时内，源IP为{src}的请求中，哪些请求方法最常导致404状态码？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "request_method",
+                "response_status",
+                "time"
+            ]
+        }
+    },
+    {
+        "id": 41,
+        "question": [
+            "目标IP地址为{dst}的设备在什么时候响应内容长度为0的请求最多？",
+            "目标IP {dst} 在哪些时间段的响应长度出现过异常高值？",
+            "在特定时间段内，目标IP {dst} 的响应内容长度是否有异常波动？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "response_length",
+                "time"
+            ]
+        }
+    },
+    {
+        "id": 42,
+        "question": [
+            "目标IP {dst} 在不同的VLAN中被访问的频率如何？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "vlan",
+                "time"
+            ]
+        }
+    },
+    {
+        "id": 43,
+        "question": [
+            "源IP地址{src}的设备是否曾经请求过未授权的URL路径？",
+            "源IP {src} 在访问哪些URL时经常遭遇403禁止访问错误？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "url",
+                "response_status"
+            ]
+        }
+    },
+    {
+        "id": 44,
+        "question": [
+            "源IP地址为{src}的访问中，哪些请求的响应长度超过1000字节？",
+            "源IP {src} 的请求中，响应长度的平均值是多少？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "response_length"
+            ]
+        }
+    },
+    {
+        "id": 45,
+        "question": [
+            "在HTTP请求头中包含特定关键字的访问请求中，哪些目标IP地址{dst}被访问最多？"
+        ],
+        "metadata": {
+            "target": [
+                "request_header"
+            ],
+            "related_fields": [
+                "dst"
+            ]
+        }
+    },
+    {
+        "id": 46,
+        "question": [
+            "目标IP地址为{dst}的系统中，哪个源IP地址最频繁请求HTTP服务？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "src",
+                "request_method"
+            ]
+        }
+    },
+    {
+        "id": 47,
+        "question": [
+            "目标IP地址{dst}在一天内收到的请求中，哪种协议的访问占比最高？",
+            "目标IP地址 {dst} 在过去一天内是否收到了大量的HTTP请求？",
+            "目标IP {dst} 在最近的请求中有哪些不同的协议被使用？",
+            "目标IP {dst} 在过去一周内，最常见的网络协议是什么？",
+            "在过去的一个月中，目标IP {dst} 收到的请求中有多少次是通过HTTP协议发起的？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "time",
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 48,
+        "question": [
+            "目的地为{dst}的流量中，请求方法为POST的请求长度平均是多少？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "request_method",
+                "request_length"
+            ]
+        }
+    },
+    {
+        "id": 49,
+        "question": [
+            "访问事件描述中包含特定字样时，源IP {src} 的请求有多少次？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "description"
+            ]
+        }
+    },
+    {
+        "id": 50,
+        "question": [
+            "目的IP {dst} 接收到的请求中，是否有异常高的请求内容长度？",
+            "目标IP地址{dst}在接收到的请求中，平均请求内容长度是多少？",
+            "目标IP {dst} 是否收到过异常大的请求内容长度？",
+            "目标IP {dst} 的设备在请求内容长度分布上有什么特别之处？",
+            "目标IP {dst} 在被访问时，是否存在异常大的请求长度？",
+            "目标IP {dst} 最近一次访问的请求内容长度是多少？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "request_length"
+            ]
+        }
+    },
+    {
+        "id": 51,
+        "question": [
+            "目标IP {dst} 上的哪个端口(dport)被访问次数最多？",
+            "在最近的安全事件记录中，目标IP为{dst}的设备使用了哪些目标端口？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "dport"
+            ]
+        }
+    },
+    {
+        "id": 52,
+        "question": [
+            "源IP {src} 在最近一次访问中使用了什么HTTP请求方法？",
+            "源IP {src} 发起的请求中，哪种HTTP请求方法使用频率最高？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "request_method",
+                "time"
+            ]
+        }
+    },
+    {
+        "id": 53,
+        "question": [
+            "源IP{src}是否在不同的VLAN中发起了访问请求？",
+            "从源IP {src} 发起的请求中，哪些VLAN ID频繁出现？",
+            "源IP {src} 发起的访问中，哪种VLAN ID最常被使用？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "vlan"
+            ]
+        }
+    },
+    {
+        "id": 54,
+        "question": [
+            "在一天内，哪些源IP{src}的请求长度显著偏离正常范围？",
+            "源IP {src} 在一天中哪个时间段产生的请求内容长度最大？",
+            "源IP {src} 是否存在异常请求长度的通信记录？",
+            "源IP {src} 在哪些时间段内发出的请求数据长度异常高？",
+            "在特定时间段内，源IP {src} 的请求内容长度分布情况如何？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "request_length",
+                "time"
+            ]
+        }
+    },
+    {
+        "id": 55,
+        "question": [
+            "源IP {src} 在最近的访问中，哪个目标端口的请求内容长度超过平均值？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dport",
+                "request_length"
+            ]
+        }
+    },
+    {
+        "id": 56,
+        "question": [
+            "源IP {src} 发起的请求中，哪些请求方法最常用，并且对应的响应状态码分布如何？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "request_method",
+                "response_status"
+            ]
+        }
+    },
+    {
+        "id": 57,
+        "question": [
+            "目标IP {dst} 在过去的24小时内最常见的请求方法是什么？",
+            "目的IP {dst} 最近的访问中哪些请求方法最常见？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "request_method",
+                "time"
+            ]
+        }
+    },
+    {
+        "id": 58,
+        "question": [
+            "源IP地址{src}在与目标IP进行通信时，通常使用哪些源端口？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "sport",
+                "dst"
+            ]
+        }
+    },
+    {
+        "id": 59,
+        "question": [
+            "目标IP {dst} 在某个时间段是否经常收到来自同一源IP的请求？",
+            "目标IP为{dst}的设备在特定时间段内使用了哪些源IP地址？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "src",
+                "time"
+            ]
+        }
+    },
+    {
+        "id": 60,
+        "question": [
+            "从源IP {src} 到不同目标IP的请求中，数据包的平均长度是多少？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dst",
+                "request_length",
+                "response_length"
+            ]
+        }
+    },
+    {
+        "id": 61,
+        "question": [
+            "目标IP {dst} 的访问历史中，是否有出现过未授权的访问尝试？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "response_status",
+                "request_header"
+            ]
+        }
+    },
+    {
+        "id": 62,
+        "question": [
+            "源IP {src} 是否曾通过高风险端口向目标IP发起连接？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "sport",
+                "dport"
+            ]
+        }
+    },
+    {
+        "id": 63,
+        "question": [
+            "有哪些源IP地址频繁向目标IP {dst} 发起HTTP请求？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "src",
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 64,
+        "question": [
+            "源IP {src} 发起的请求中，响应时间最长的前十个请求是哪些？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "response_length",
+                "time"
+            ]
+        }
+    },
+    {
+        "id": 65,
+        "question": [
+            "源IP {src} 是否曾经使用高频端口进行过攻击尝试？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "sport",
+                "protocol"
+            ]
+        }
+    },
+    {
+        "id": 66,
+        "question": [
+            "在目标IP {dst} 的通信中，源MAC地址最常见的是哪个？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "smac"
+            ]
+        }
+    },
+    {
+        "id": 67,
+        "question": [
+            "目标IP {dst} 在过去24小时内接收的HTTP请求中，有多少次返回了404状态码？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "response_status",
+                "protocol",
+                "time"
+            ]
+        }
+    },
+    {
+        "id": 68,
+        "question": [
+            "源IP {src} 在使用HTTP协议的请求中，平均请求长度是多少？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "protocol",
+                "request_length"
+            ]
+        }
+    },
+    {
+        "id": 69,
+        "question": [
+            "目标IP {dst} 在过去一周内是否有异常的流量峰值？"
+        ],
+        "metadata": {
+            "target": [
+                "dst"
+            ],
+            "related_fields": [
+                "time",
+                "request_length",
+                "response_length"
+            ]
+        }
+    },
+    {
+        "id": 70,
+        "question": [
+            "源IP {src} 是否频繁访问一些特定的URL路径？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "url",
+                "time"
+            ]
+        }
+    },
+    {
+        "id": 71,
+        "question": [
+            "源IP {src} 发送请求的时间段内，哪些目标IP的响应长度最大？"
+        ],
+        "metadata": {
+            "target": [
+                "src"
+            ],
+            "related_fields": [
+                "dst",
+                "response_length",
+                "time"
+            ]
+        }
+    },
+    {
+        "id": 72,
+        "question": [
+            "{src}发起的请求中，不同VLAN下的目标端口(dport)分布有何特征？",
+            "目标IP {dst} 在特定VLAN内接收到的请求中，哪种协议的响应失败率最高？",
+            "源IP {src} 在不同时间段访问{dst}时，请求头特征是否存在明显差异？",
+            "针对{dst}的访问中，源MAC地址(smac)与响应状态码是否存在关联规律？",
+            "源IP {src} 访问/metrics路径时，请求长度(request_length)是否显著高于平均水平？"
+        ],
+        "metadata": {
+            "target": [
+                "src",
+                "dst"
+            ],
+            "related_fields": [
+                "vlan",
+                "dport",
+                "protocol",
+                "response_status",
+                "time",
+                "request_header",
+                "smac",
+                "url",
+                "request_length"
+            ]
+        }
+    }
+]
