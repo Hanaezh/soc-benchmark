@@ -36,7 +36,7 @@ Researchers interested in accessing the raw operational data under appropriate c
 - Signed non-disclosure agreement
 - Compliance with organizational security policies
 
-📧 **Contact**: [Your Email] for data access inquiries
+📧 **Contact**: [XX@XX.edu.cn] for data access inquiries
 
 ---
 
@@ -44,13 +44,22 @@ Researchers interested in accessing the raw operational data under appropriate c
 
 **✅ Fully Open Source**
 
-This directory contains a **complete open-source benchmark** built on the publicly available [Linux-APT-2024](https://github.com/) dataset, enabling reproducible research and community evaluation.
+This directory contains a **complete open-source benchmark** built on the publicly available [Linux-APT-2024](https://github.com/) dataset [Karim et al., 2024], simulating APT attack chains (e.g., APT41, APT28) targeting Linux systems.
 
-**Dataset Source:**
-- **Base Dataset**: Linux-APT-2024 [Karim et al., 2024]
-- **Citation**: Karim, S.S., Afzal, M., Iqbal, W., & Al Abri, D. (2024). Advanced Persistent Threat (APT) and intrusion detection evaluation dataset for linux systems 2024. *Data in Brief*, 54, 110290.
+**Dataset Scale:**
+- **Schema**: 7 tables with 126 fields, 21 expert knowledge entries
+- **Records**: 10,619 converted records from subset Linux-APT-2024-04-06 (January)
+- **Templates**: 26 question templates manually constructed
+- **QA Pairs**: 260 expanded question-answer pairs
+  - 60 for few-shot examples (stratified by task type)
+  - 200 for test evaluation
 
-
+**Provided Resources:**
+- Original dataset (CSV and DuckDB database)
+- Processed tables with foreign key relationships
+- Question templates and verified QA pairs
+- Database schema documentation
+- Generation and evaluation scripts
 
 ## License
 
